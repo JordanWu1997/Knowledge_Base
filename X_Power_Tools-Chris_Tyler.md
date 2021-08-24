@@ -11,6 +11,8 @@
       * [6.6 Modify keyboard repeat rate (xset)](#66-modify-keyboard-repeat-rate-xset)
       * [6.7 Modify mouse move speed acceleration (xset)](#67-modify-mouse-move-speed-acceleration-xset)
 
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
 ## Context
 
 ### 1.1 Basics of X window system
