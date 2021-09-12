@@ -2,26 +2,32 @@
 
 ## Table of Content
 
-* [My Frequently Used Program Shortcut](My_Frequently_Used_Program_Shortcut.md#my-frequently-used-program-shortcut)
-   * [Table of Content](My_Frequently_Used_Program_Shortcut.md#table-of-content)
-   * [Context](My_Frequently_Used_Program_Shortcut.md#context)
-      * [Jupyter-lab (python notebook)](My_Frequently_Used_Program_Shortcut.md#jupyter-lab-python-notebook)
-         * [Built-in](My_Frequently_Used_Program_Shortcut.md#built-in)
-         * [Jupyter-lab - Reference](My_Frequently_Used_Program_Shortcut.md#jupyter-lab---reference)
-      * [Brave-browser (Chromium-based web-browser)](My_Frequently_Used_Program_Shortcut.md#brave-browser-chromium-based-web-browser)
-         * [Built-in](My_Frequently_Used_Program_Shortcut.md#built-in-1)
-         * [Plugins - Miscellaneous](My_Frequently_Used_Program_Shortcut.md#plugins---miscellaneous)
-         * [Plugins - Vimium](My_Frequently_Used_Program_Shortcut.md#plugins---vimium)
-            * [Page/History navigation](My_Frequently_Used_Program_Shortcut.md#pagehistory-navigation)
-            * [Tabs manipulation](My_Frequently_Used_Program_Shortcut.md#tabs-manipulation)
-            * [Miscellaneous](My_Frequently_Used_Program_Shortcut.md#miscellaneous)
-         * [Website - Youtube](My_Frequently_Used_Program_Shortcut.md#website---youtube)
+* [My Frequently Used Program Shortcut](#my-frequently-used-program-shortcut)
+   * [Table of Content](#table-of-content)
+   * [Context](#context)
+      * [Vim/Neovim (Text editor)](#vimneovim-text-editor)
+      * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
+      * [Jupyter-lab (Python notebook)](#jupyter-lab-python-notebook)
+         * [Built-in](#built-in)
+         * [Jupyter-lab - Reference](#jupyter-lab---reference)
+      * [Brave-browser (Chromium-based web-browser)](#brave-browser-chromium-based-web-browser)
+         * [Built-in](#built-in-1)
+         * [Plugins - Miscellaneous](#plugins---miscellaneous)
+         * [Plugins - Vimium](#plugins---vimium)
+            * [Page/History navigation](#pagehistory-navigation)
+            * [Tabs manipulation](#tabs-manipulation)
+            * [Miscellaneous](#miscellaneous)
+         * [Website - Youtube](#website---youtube)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Context
 
-### Jupyter-lab (python notebook)
+### Vim/Neovim (Text editor)
+
+### Tmux (Terminal Multiplexer)
+
+### Jupyter-lab (Python notebook)
 
 #### Built-in
 - [Alt]+[w]: Close current tab
@@ -38,13 +44,18 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - https://morioh.com/p/19eb8d900dc1
 
 ### Brave-browser (Chromium-based web-browser)
+Brave browser only support either Ctrl or Alt as component of shortcut
 
 #### Built-in
 Brave built-in shortcut. Most of them used __Ctrl__ as prefix
+- [F5]: Reload current page
+- [F6]: Go to URL insert line
+- [F11]: Full screen tab
 - [Ctrl/Alt]+[#Number]: Go to tab number #
 - [Ctrl]+([Shift])+[Tab]: Move to (prev)/next tab
 - [Ctrl]+[w]: Kill current tab
 - [Ctrl]+[t]: Open new tab
+- [Ctrl]+[Shift]+[t]: Open last tab
 - [Ctrl]+[n]: Open new window
 - [Ctrl]+[Shift]+[n]: Open new private window
 - [Ctrl]+[d]: Add to bookmark
@@ -52,15 +63,17 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[j]: Downloads
 
 #### Plugins - Miscellaneous
-To modify plugin shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
+Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
 - [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
 - [Alt]+[Shift]+[c]: Activate Cluster (Cluster - Window & Tab Manager)
 - [Alt]+[Shift]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
 - [Alt]+[Shift]+[t]: Activate Google Translate (Google Translate)
+- [Alt]+[Shift]+[x]: Merge all split tab into current window (Merge Windows)
 - [Alt]+[x]: Split tab to new window (Tab to Window/Popup - Keyboard Shortcut)
 - [Alt]+[j/k]: Merge tab to next/prev window (Tab to Window/Popup - Keyboard Shortcut)
 - [Alt]+[s]: Suspend/Unsuspend active tab (The Marvellous Suspender)
 - [Alt]+[p]: Pause/Unpause suspension of active tab (The Marvellous Suspender)
+- [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
 - [Alt]+[Shift]+[s]: Suspend all other tabs in active window (The Marvellous Suspender)
 - [Alt]+[Shift]+[u]: Unsuspend al tabs in active window (The Marvellous Suspender)
 - [Alt]+[Shift]+[v]: Activate Vimium (Vimium)
