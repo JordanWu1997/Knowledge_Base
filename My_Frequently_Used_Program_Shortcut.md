@@ -27,6 +27,39 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ### Tmux (Terminal Multiplexer)
 
+### Zathura (PDF Viewer)
+
+#### General mode
+- ([Shift])+[j/k]: Scroll (page)/line down/up
+- ([Shift])+[h/l]: Scroll left/right
+- [Ctrl]+[d/u]: PageDown/PageUp
+- [Space]: Scroll page down
+- [a]: Adjust window in best-fit mode
+- [s]: Adjust window in width mode
+- [d]: Adjust window in two-page mode
+- [f]: Open URL in default web-browser (xdg-open)
+- [Ctrl]+[r]: Recolor (greyscale and invert colors)
+- [Shift]+[r]: Reload document
+- [-]: Zoom out
+- [Shift]+[=]: Zoom in
+- [/]: Search mode
+- [Shift]+[;]: Enter command
+- [Ctrl]+[m]: Toggle inputbar
+- [Ctrl]+[n]: Toggle statusbar
+- [F11]: Fullscreen
+
+#### Index mode
+- [Tab]: Switch to index mode
+- [j/k]: Move to next/prev entry
+- ([Shift])+[h]: Collapse (all) entries
+- ([Shift])+[l]: Expand (all) entries
+- [Space]: Open select entry
+
+#### Presentation mode
+- [F5]: Switch to normal mode
+- [Space]: Next page
+- [Backspace]: Previous page
+
 ### Jupyter-lab (Python notebook)
 
 #### Built-in
