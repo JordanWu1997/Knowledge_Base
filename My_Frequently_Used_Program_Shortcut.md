@@ -30,6 +30,43 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Context
 
+### Gnome (Desktop Environment)
+
+#### Navigation
+- [Ctrl]+[Alt]+[Left/Right]: Move to left/right workspace
+- [Win]+[Shift]+[Left/Right]: Move window to left/right workspace
+- [Ctrl]+[Alt]+[Shift]+[Left/Right]: Move window to left/right workspace
+- [Win]+[Alt]+[Number#]: In overview mode, switch to window number #
+- [Win]+[Ctrl]+[Number#]: In overview mode, switch to workspace number #
+
+#### Window
+- [Win]+[Shift]+[q]: Close window
+- [Win]+[-]: Minimize window
+- [Win]+[Up/Down]: Maximize/Minimize window
+- [Win]+[Left/Right]: Make window align to left/right
+- [Ctrl]+[Alt]+[r]+[Mouse]: Resize window
+- [Win]+[f]: Fullscreen mode
+- [Win]+[Mouse]: Move current window
+
+#### Application
+- [Alt]+[Tab]: Switch applications
+- [Ctll]+[Alt]+[0]: Open file manager
+- [Ctrl]+[Alt]+[-]: Open web-browser
+- [Win]+[Enter]: Open terminal
+
+#### Miscellaneous
+- [Win]+[/]: Search in overview mode
+- [Win]+[Shift]+[Escape]: Power off
+- [Win]+[Shift]+[i]: Enter command prompt
+- [Ctrl]+[Alt]+[Shift]+[l]: Lock screen
+- [Win]+([Shift])+[Space]: (Prev)/Next input method
+- [Alt]+[Space]: Show menu option
+- [Win]+[d]: Show all applications
+- [Win]: Enter overview mode
+
+### I3 (Window Manager)
+- https://github.com/JordanWu1997/I3_Sway_Config
+
 ### Vim/Neovim (Text editor)
 - https://github.com/JordanWu1997/Vim_Tmux_Config
 
@@ -130,6 +167,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[d]: Add to bookmark
 - [Ctrl]+[h]: History
 - [Ctrl]+[j]: Downloads
+- [Alt]+[Left/Right]: Prev/Next page in history
 
 #### Plugins - Miscellaneous
 Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
@@ -194,3 +232,19 @@ Vim-like navigator in web page
 - [Up/Down]: Inc/Dec play player sound
 - [Left/Right]: Fast backward/forward playing content
 - [Space]: Pause playing content
+
+### Spotify-TUI (Spotify TUI)
+- \[q\]: Quit/Back
+- \[/\]: Search
+- [d]: Manage play device
+- [Space]: Toggle play/pause
+- [-]: Decrease volume (-)
+- [Shift]+[=]: Increase volume (+)
+- [n/p]: Next/Prev track
+- [Shift]+[,/.]: fast backwards/forwards
+- [s]: Save current playback to favorite
+- [Shift]+[s]: Shuffle play
+- [Shift]+[r]: Repeat track/all
+- ([Shift])+[a]: Jump to (artist)/album
+- ([Shift])+[c]: Copy current (album)/song URL
+- [Shift]+[b]: Basic mode
