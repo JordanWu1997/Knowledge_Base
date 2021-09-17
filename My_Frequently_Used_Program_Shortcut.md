@@ -2,7 +2,14 @@
 
 ## Table of Contents
 * [My Frequently Used Program Shortcut](#my-frequently-used-program-shortcut)
+   * [Table of Contents](#table-of-contents)
    * [Context](#context)
+      * [Gnome (Desktop Environment)](#gnome-desktop-environment)
+         * [Navigation](#navigation)
+         * [Window](#window)
+         * [Application](#application)
+         * [Miscellaneous](#miscellaneous)
+      * [I3 (Window Manager)](#i3-window-manager)
       * [Vim/Neovim (Text editor)](#vimneovim-text-editor)
       * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
       * [Fish (Shell)](#fish-shell)
@@ -23,8 +30,10 @@
          * [Plugins - Vimium](#plugins---vimium)
             * [Page/History navigation](#pagehistory-navigation)
             * [Tabs manipulation](#tabs-manipulation)
-            * [Miscellaneous](#miscellaneous)
+            * [Miscellaneous](#miscellaneous-1)
          * [Website - Youtube](#website---youtube)
+         * [Website - Notion](#website---notion)
+      * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -232,6 +241,10 @@ Vim-like navigator in web page
 - [Up/Down]: Inc/Dec play player sound
 - [Left/Right]: Fast backward/forward playing content
 - [Space]: Pause playing content
+
+#### Website - Notion
+- https://usethekeyboard.com/notion/
+- https://www.notion.so/Learn-the-shortcuts-66e28cec810548c3a4061513126766b0
 
 ### Spotify-TUI (Spotify TUI)
 - \[q\]: Quit/Back
