@@ -85,7 +85,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Fish (Shell)
 
 #### Command line input
-- [Alt]+[Left/Right]: Move word
+- [Ctrl]+[a/e]: Move to the beginning/end of line
+- [Alt]+[Left/Right]: Move to prev/next word
+- [Ctrl]+[b/f]: Move to prev/next character
 - [Alt]+[Up/Down]: Prev/Next arguments
 - [Ctrl]+[u/k]: Delete to the beginning/end of line
 - [Ctrl]+[d/h]: Delete next/prev character
@@ -105,6 +107,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 #### Reference
 - https://devhints.io/fish-shell
+- https://cheatography.com/myounkin/cheat-sheets/fish-shell/
 
 ### Zathura (PDF Viewer)
 
