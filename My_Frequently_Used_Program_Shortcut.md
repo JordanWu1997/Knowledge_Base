@@ -16,6 +16,13 @@
          * [Command line input](#command-line-input)
          * [Miscellaneous function](#miscellaneous-function)
          * [Reference](#reference)
+      * [Ranger (File manager)](#ranger-file-manager)
+         * [Normal mode](#normal-mode)
+            * [Pane navigation](#pane-navigation)
+            * [Tab navigation](#tab-navigation)
+            * [Combination key action](#combination-key-action)
+            * [Miscellaneous](#miscellaneous-1)
+         * [Console mode](#console-mode)
       * [Zathura (PDF Viewer)](#zathura-pdf-viewer)
          * [General mode](#general-mode)
          * [Index mode](#index-mode)
@@ -30,7 +37,7 @@
          * [Plugins - Vimium](#plugins---vimium)
             * [Page/History navigation](#pagehistory-navigation)
             * [Tabs manipulation](#tabs-manipulation)
-            * [Miscellaneous](#miscellaneous-1)
+            * [Miscellaneous](#miscellaneous-2)
          * [Website - Youtube](#website---youtube)
          * [Website - Notion](#website---notion)
       * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
@@ -108,6 +115,50 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### Reference
 - https://devhints.io/fish-shell
 - https://cheatography.com/myounkin/cheat-sheets/fish-shell/
+
+### Ranger (File manager)
+
+#### Normal mode
+
+##### Pane navigation
+- [Shift]+[\`]: Toggle view mode (current column only)
+- [j/k]: Move down/up in current directory
+- [h/l]: Move to parent/child directory
+- [Shift]+[h/l]: Move to prev/next directory in history
+- [Alt]+[j/k]: Scroll down/up preview pane
+- [f]: Find in current pane
+
+##### Tab navigation
+= [Ctrl]+[w]: Close current tab
+- [Alt]+[h/l]: Move to prev/next tab
+- ([Shift])+[Tab]: Move to (prev)/next tab
+- [Alt]+[#Number]: Move to tab number #
+
+##### Combination key action
+- [Shift]+[m]+[...]: Modify line mode ...
+- [g]+[...]: Go to ...
+- [y]+[...]: Yank ...
+- [p]+[...]: Paste ...
+- [d]+[...]: Delete ...
+- [c]+[...]: Search ...
+- [o]+[...]: Sort ...
+- [z]+[...]: Setting ...
+- [.]+[...]: Filter stack ...
+- [r]+[...]: Open selection with ...
+
+##### Miscellaneous
+- [i]: Show file
+- [a]: Rename file
+- [\/\]: Search
+- [Shift]+[\/]: Show help
+- [Shift]+[s]: Open shell within ranger
+- [c]+[d]: Change directory
+- [Shift]+[r]: Refresh current working directory
+- [Ctrl]+[r]: Reset
+
+#### Console mode
+- ([Shift])+[q]: Quit (all) tab
+- [Ctrl]+[n/p]: Next/Prev command in console mode
 
 ### Zathura (PDF Viewer)
 
