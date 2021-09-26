@@ -1,2 +1,2 @@
-# Knowlodge_Base
+# Knowledge_Base
 Place that stores my knowledge and shares it to everyone else
