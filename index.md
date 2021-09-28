@@ -2,15 +2,15 @@
 - [README](README)
 
 ## Workflow Notes
-- [My Frequently Used Program Shortcuts](My Frequently Used Program Shortcuts)
+- [workflow/My_Frequently_Used_Program_Shortcuts](workflow/My_Frequently_Used_Program_Shortcuts)
 
 ## Lecture Notes
 - Missing Semester Lectures - MIT
-    - [Lecture 05 - Command-line Environment](Lecture 05 - Command-line Environment)
-    - [Lecture 06 - Version Control](Lecture 06 - Version Control)
-    - [Lecture 07 - Debugging and Profiling](Lecture 07 - Debugging and Profiling)
-    - [Lecture 08 - Meta programming](Lecture 08 - Meta programming)
+    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment)
+    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
+    - [lecture MIT_Missing_Semester_Lecture Missing_Semester_Lecture_07_Debugging_and_Profiling](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
+    - [lecture MIT_Missing_Semester_Lecture Missing_Semester_Lecture_08_Metaprogramming](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
 
 ## Book Notes
-- [Classic Shell Script - O'Reilly](Classic Shell Script - O'Reilly)
-- [X Power Tools - Chris Tyler](X Power Tools - Chris Tyler)
+- [book/Classic_Shell_Script-O'Reilly](book/Classic_Shell_Script-O'Reilly)
+- [book/X_Power_Tools-Chris_Tyler](book/X_Power_Tools-Chris_Tyler)

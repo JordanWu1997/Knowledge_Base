@@ -17,7 +17,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Context
 
 ### What is Git
-- Tools that create a series of snapshots and branches for developement
+- Tools that create a series of snapshots and branches for development
 
 ### Terminology
 - Tree (folder)
@@ -35,7 +35,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     ```
 - Basic manipulation
     ```bash
-    # Help for git command (like man in unix-like system)
+    # Help for git command (like man in UNIX-like system)
     git help <command>
 
     # Add file to stage area
@@ -56,7 +56,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Branch manipulation of git
     ```bash
     # Point repository to certain commit (snapshot)
-    # WARNING: This operation will remove all local changes (not-commited changes)
+    # WARNING: This operation will remove all local changes (not-committed changes)
     git checkout <git_commit_index (SHA-1)>
 
     # Remove all changes to certain file (go back to last commit)
