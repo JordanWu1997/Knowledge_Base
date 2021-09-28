@@ -77,7 +77,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[Alt]+[Shift]+[l]: Lock screen
 - [Win]+([Shift])+[Space]: (Prev)/Next input method
 - [Alt]+[Space]: Show menu option
-- [Win]+[d]: Show all applications
+- [Win]+[a]: Show all applications
 - [Win]: Enter overview mode
 
 ### I3 (Window Manager)

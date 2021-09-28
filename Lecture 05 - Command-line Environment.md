@@ -128,8 +128,7 @@ System, shell, application configuration files (file starts with dot .)
         - Private Key
             - Key to keep safe in local machine
         - ssh-keygen
-            - Generate public and private ssh keypair
+            - Generate public and private ssh key pair
     - scp
         - Copy file from remote/local machine through SSH
     - rsync
-        - Sync file from remote/local machine through SSH
