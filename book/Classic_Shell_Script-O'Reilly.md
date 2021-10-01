@@ -1,4 +1,4 @@
-# Classic Shell Script - O'REILLY
+# Classic Shell Script - O'Reilly
 
 ## Table of content
 
