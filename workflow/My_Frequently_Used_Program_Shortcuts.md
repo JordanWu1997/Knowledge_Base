@@ -49,19 +49,17 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Gnome (Desktop Environment)
 
 #### Navigation
-- [Ctrl]+[Alt]+[Left/Right]: Move to left/right workspace
-- [Win]+[Shift]+[Left/Right]: Move window to left/right workspace
-- [Ctrl]+[Alt]+[Shift]+[Left/Right]: Move window to left/right workspace
-- [Win]+[Alt]+[Number#]: In overview mode, switch to window number #
-- [Win]+[Ctrl]+[Number#]: In overview mode, switch to workspace number #
+- [Ctrl]+[Alt]+[h/l]: Move to left/right workspace
+- [Win]+[Shift]+[h/l]: Move window to left/right workspace
+- [Ctrl]+[Alt]+[Shift]+[h/l]: Move window to left/right workspace
 
 #### Window
 - [Win]+[Shift]+[q]: Close window
 - [Win]+[-]: Minimize window
-- [Win]+[Up/Down]: Maximize/Minimize window
-- [Win]+[Left/Right]: Make window align to left/right
-- [Ctrl]+[Alt]+[r]+[Mouse]: Resize window
-- [Win]+[f]: Fullscreen mode
+- [Win]+[k/j]: Maximize/Minimize window
+- [Win]+[h/l]: Make window align to h/l
+- [Ctrl]+[Alt]+[r]: Resize window with mouse
+- [Win]+[f]: Toggle full screen mode
 - [Win]+[Mouse]: Move current window
 
 #### Application
@@ -71,10 +69,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Win]+[Enter]: Open terminal
 
 #### Miscellaneous
-- [Win]+[/]: Search in overview mode
-- [Win]+[Shift]+[Escape]: Power off
+- [Win]+[d]: Search in overview mode
+- [Win]+[Shift]+[Escape]: Lock screen
 - [Win]+[Shift]+[i]: Enter command prompt
-- [Ctrl]+[Alt]+[Shift]+[l]: Lock screen
 - [Win]+([Shift])+[Space]: (Prev)/Next input method
 - [Alt]+[Space]: Show menu option
 - [Win]+[a]: Show all applications
@@ -252,24 +249,29 @@ Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to us
 Vim-like navigator in web page
 
 ##### Page/History navigation
-- [h/j/k/l]: Scroll left/down/up/right
+- ([z])+[h/j/k/l]: Scroll (all page) left/down/up/right
 - [Shift/g]+[g]: Move to top/bottom of tab
 - [d/u]: Scroll down/up in tab
 - [r]: Reload page
 - [y]+[y]: Copy current tab URL
 - ([Shift])+[p]: Open copy URL in (new) tab
 - [g]+(Shift)+[u]: Go up to (root of) URL hierarchy
+- ([Shift])+[v]: Enter visual (line) mode
 - [g]+[i]: Go to text input on the page
 - ([Shift])+[f/;]: Open link in (new) tab
 - [Alt]+[f/;]: Open multiple links in new tab
+- [g]+[p/n]: Go to prev/next page
+- [g]+([Shift])+[f]: Select (top of) next frame on page
+- [m]: Create mark
+- [`]: Go to mark
 - [Shift]+[h/l]: Go back/forward history
 
 ##### Tabs manipulation
-- [t]: Create new tab
-- [Shift]+[j/k]: Move down/up
-- [g]+[0/$]: Go to first/last tab of current window
-- [y]+[t]: Copy current tab URL and open in tab
-- [Alt]+[m]: Mute/Unmute current tab
+- [Shift]+[j/k]: Move to right/left tab
+- [g]+[0/$]: Go to first/last tab
+- [Shift]+[']: Go to previously visited tab
+- [y]+[t]: Copy current tab URL and open in new tab
+- [Alt]+[m]: Toggle mute current tab
 - [x/X]: Kill/Restore tab
 - [Shift]+[w]: Split tab to new window
 - [Alt]+[Shift]+[,/.]: Move tab to left/right
@@ -279,7 +281,7 @@ Vim-like navigator in web page
 - [n/N]: Go to prev/next match
 - ([Shift])+[o]: Open input URL in (new) tab
 - ([Shift])+[b]: Open bookmark in (new) tab
-- [Shift]+[t]: Search open tabs and move to selected tab
+- [t]: Search open tabs and move to selected tab
 - [g]+(Shift)+[e]: Edit current URL and open in (new) tab
 - [Shift]+[/]: Show Vimium help
 
