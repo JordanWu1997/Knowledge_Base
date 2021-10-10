@@ -103,6 +103,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### Miscellaneous function
 - [Ctrl]+[l]: Clear screen
 - [Ctrl]+[r]: History fuzzy finder (FZF)
+- [Ctrl]+[o]: FZF fuzzy finder (FZF)
 - [Alt]+[e/v]: Open external editor ($EDITOR)
 - [Alt]+[p]: Page output (add &| less in the end of line)
 - [Alt]+[c]: FZF fuzzy finder (FZF)
@@ -252,10 +253,12 @@ Vim-like navigator in web page
 - ([z])+[h/j/k/l]: Scroll (all page) left/down/up/right
 - [Shift/g]+[g]: Move to top/bottom of tab
 - [d/u]: Scroll down/up in tab
-- [r]: Reload page
+- [Shift]+[r]: Reload page
 - [y]+[y]: Copy current tab URL
 - ([Shift])+[p]: Open copy URL in (new) tab
 - [g]+(Shift)+[u]: Go up to (root of) URL hierarchy
+- [i]: Enter insert mode (disable vimium temporarily)
+- [Ctrl]+[[]: Leave insert mode
 - ([Shift])+[v]: Enter visual (line) mode
 - [g]+[i]: Go to text input on the page
 - ([Shift])+[f/;]: Open link in (new) tab
@@ -295,8 +298,9 @@ Vim-like navigator in web page
 - [i]: Open mini player
 - [m]: Mute player
 - [Up/Down]: Inc/Dec play player sound
-- [Left/Right]: Fast backward/forward playing content
-- [Space]: Pause playing content
+- [Left/j]: Fast backward playing content
+- [Right/l]: Fast forward playing content
+- [Space/k]: Pause playing content
 
 #### Website - Notion
 - https://usethekeyboard.com/notion/
