@@ -233,6 +233,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 #### Plugins - Miscellaneous
 Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
 - [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
+- [Alt]+[Shift]+[f]: Autofill last used login (Bitwarden - Free Password Manager)
 - [Alt]+[Shift]+[c]: Activate Cluster (Cluster - Window & Tab Manager)
 - [Alt]+[Shift]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
 - [Alt]+[Shift]+[t]: Activate Google Translate (Google Translate)

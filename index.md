@@ -5,11 +5,14 @@
 - [workflow/My_Frequently_Used_Program_Shortcuts](workflow/My_Frequently_Used_Program_Shortcuts)
 
 ## Lecture Notes
-- Missing Semester Lectures - MIT
+- [Missing Semester Lectures - MIT](https://missing.csail.mit.edu/)
     - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment)
     - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
-    - [lecture MIT_Missing_Semester_Lecture Missing_Semester_Lecture_07_Debugging_and_Profiling](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
-    - [lecture MIT_Missing_Semester_Lecture Missing_Semester_Lecture_08_Metaprogramming](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
+    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
+    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
+- [FREE CCNA 200-301 - NetworkChuck](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
+    - [lecture/NetworkChuck_FREE_CCNA_200-301/Day_00_What_is_a_Network](lecture/NetworkChuck_FREE_CCNA_200-301/Day_00_What_is_a_Network)
+    - [lecture/NetworkChuck_FREE_CCNA_200-301/Day_01_What_is_a_Switch](lecture/NetworkChuck_FREE_CCNA_200-301/Day_01_What_is_a_Switch)
 
 ## Book Notes
 - [book/Classic_Shell_Script-O'Reilly](book/Classic_Shell_Script-O'Reilly)
