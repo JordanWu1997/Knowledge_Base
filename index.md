@@ -1,6 +1,9 @@
 # My Knowledge Base
 - [README](README)
 
+## Templates
+- [template My_Note_Template](template/My_Note_Template)
+
 ## Workflow Notes
 - [workflow/My_Frequently_Used_Program_Shortcuts](workflow/My_Frequently_Used_Program_Shortcuts)
 
@@ -17,3 +20,9 @@
 ## Book Notes
 - [book/Classic_Shell_Script-O'Reilly](book/Classic_Shell_Script-O'Reilly)
 - [book/X_Power_Tools-Chris_Tyler](book/X_Power_Tools-Chris_Tyler)
+
+## Shell Notes
+- [shell/Shell_And_Profile](shell/Shell_And_Profile)
+
+## Misc Notes
+- [misc/notes](misc/notes)
