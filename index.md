@@ -23,6 +23,7 @@
 
 ## Shell Notes
 - [shell/Shell_And_Profile](shell/Shell_And_Profile)
+- [shell/Shell_Command](shell/Shell_Command)
 
 ## Misc Notes
 - [misc/notes](misc/notes)

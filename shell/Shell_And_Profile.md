@@ -3,6 +3,7 @@
     - http://howtolamp.com/articles/difference-between-login-and-non-login-shell/
     - https://ithelp.ithome.com.tw/articles/10232226
     - https://tecadmin.net/difference-between-login-and-non-login-shell/
+    - https://einverne.github.io/post/2017/03/bashrc-profile.html
 
 ## Table of Contents
 
