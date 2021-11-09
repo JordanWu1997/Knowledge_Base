@@ -1,7 +1,7 @@
 # Shell Commands
 - https://www.freecodecamp.org/news/the-linux-commands-handbook/
 - https://crontab-generator.org/
-- Man
+- Man (Linux system reference manuals)
 
 Table of Contents
 =================
@@ -16,12 +16,15 @@ Table of Contents
          * [crontab](#crontab)
          * [env](#env)
          * [printenv](#printenv)
+         * [test](#test)
 
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)s
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Context
 
 ### Useful commands
+Note for some useful shell commands
+
 #### `basename`
 - Strip directory and suffix from filenames
 
@@ -39,3 +42,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)s
 
 #### `printenv`
 - Print all environment variables
+
+#### `test`
+- Check if variable exists
+
+#### `time`
+- Time program execution time and resources
