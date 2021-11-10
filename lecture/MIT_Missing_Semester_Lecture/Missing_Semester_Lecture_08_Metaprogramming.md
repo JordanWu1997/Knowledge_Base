@@ -2,7 +2,9 @@
 - [Course_youtube_link](https://www.youtube.com/watch?v=_Ms1Z4xfqv4)
 - [Course_webpage_resources](https://missing.csail.mit.edu/2020/metaprogramming/)
 
-## Table of content
+Table of Contents
+=================
+
 * [Missing Semester - Lecture 08 - Metaprogramming](#missing-semester---lecture-08---metaprogramming)
    * [Table of content](#table-of-content)
    * [Context](#context)
@@ -10,9 +12,9 @@
       * [Testing](#testing)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-## Context
+# Context
 
-### Build system
+## Build system
 - Make
     - Find Makefile in current directory
 - Makefile
@@ -30,7 +32,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
             - Patch: API not changed but some bugs are fixed
     - Lockfile
         - Core dependency of program
-### Testing
+## Testing
 - Unit test
     - Test specific feature
 - Integration test

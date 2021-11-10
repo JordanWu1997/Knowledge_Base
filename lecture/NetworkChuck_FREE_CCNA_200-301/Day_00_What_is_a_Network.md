@@ -13,9 +13,9 @@ Table of Contents
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### Connection from PC to Internet service
+## Connection from PC to Internet service
 1. PC
 2. Switch
 3. Router
@@ -25,7 +25,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 7. Internet (i.e. A lot of routers)
 8. Server (Web service)
 
-### Terminology
+## Terminology
 - __Switch__
     - Device To connect more than one computer locally (basic network)
 - __Router__
@@ -33,5 +33,5 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - __Firewall__
     - Device To Protect your connection
 
-### How about wireless
+## How about wireless
 - [Wireless Application Protocol (WAP)](https://en.wikipedia.org/wiki/Wireless_Application_Protocol)

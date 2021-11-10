@@ -20,31 +20,31 @@ Table of Contents
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### Useful commands
+## Useful commands
 Note for some useful shell commands
 
-#### `basename`
+### `basename`
 - Strip directory and suffix from filenames
 
-#### `type`
+### `type`
 - Print out definition of bash alias, command, built-in functions, and etc.
 
-#### `traceroute`
+### `traceroute`
 - Print the route packets trace to net work host
 
-#### `crontab`
+### `crontab`
 - Maintain crontab files
 
-#### `env`
+### `env`
 - Run a program in a modified environment
 
-#### `printenv`
+### `printenv`
 - Print all environment variables
 
-#### `test`
+### `test`
 - Check if variable exists
 
-#### `time`
+### `time`
 - Time program execution time and resources

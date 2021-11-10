@@ -2,7 +2,9 @@
 - [Course_youtube_link](https://www.youtube.com/watch?v=2sjqTHE0zok)
 - [Course_webpage_resources](https://missing.csail.mit.edu/2020/version-control/)
 
-## Table of content
+Table of Contents
+=================
+
 * [Missing Semester - Lecture 06 - Version Control (git)](#missing-semester---lecture-06---version-control-git)
    * [Table of content](#table-of-content)
    * [Context](#context)
@@ -14,12 +16,12 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### What is Git
+## What is Git
 - Tools that create a series of snapshots and branches for development
 
-### Terminology
+## Terminology
 - Tree (folder)
 - Blob (file)
 - Commit (snapshot)
@@ -27,7 +29,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Secure Hash Algorithm 1 (SHA-1)
     - Algorithm that turn input into long string (max 160 characters)
 
-### Git on local machine
+## Git on local machine
 - Initialization
     ```bash
     # Initialize directory to root of git (on local machine)
@@ -84,7 +86,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     git merge --continue
     ```
 
-### Git on remote repository (Github)
+## Git on remote repository (Github)
 - Manipulation of remote git (Github)
     ```bash
     # Add current local directory to remote github repository (HTTPS)
@@ -121,7 +123,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     git bisect
     ```
 
-### Miscellaneous
+## Miscellaneous
 - Text file that store all files that git ignores (.gitignore)
     ```text
     # Local_Git_Repository/.gitignore

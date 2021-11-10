@@ -2,7 +2,9 @@
 - [Course_youtube_link](https://www.youtube.com/watch?v=l812pUnKxME)
 - [Course_webpage_resources](https://missing.csail.mit.edu/2020/debugging-profiling/)
 
-## Table of content
+Table of Contents
+=================
+
 * [Missing Semester - Lecture 07 - Debugging and Profiling](#missing-semester---lecture-07---debugging-and-profiling)
    * [Table of content](#table-of-content)
    * [Context](#context)
@@ -12,9 +14,9 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### Log
+## Log
 Track command/function that has has run
 - System log in unix-like System
     ```bash
@@ -22,7 +24,7 @@ Track command/function that has has run
     journalctl
     ```
 
-### Debugger
+## Debugger
 Print out detailed error message for debugging
 - Python debugger
     - Ipython debugger (interactive debugger)
@@ -50,7 +52,7 @@ Print out detailed error message for debugging
     - To check syntax error quickly
     - For python code
 
-### Profiling
+## Profiling
 Profile time/CPU/memory usage used to execute functions to optimize your code efficiency
 - Shell profiler
     - Time profiler

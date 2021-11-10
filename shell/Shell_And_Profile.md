@@ -5,7 +5,8 @@
     - https://tecadmin.net/difference-between-login-and-non-login-shell/
     - https://einverne.github.io/post/2017/03/bashrc-profile.html
 
-## Table of Contents
+Table of Contents
+=================
 
 * [Shell_And_Profile](#shell_and_profile)
    * [Table of Contents](#table-of-contents)
@@ -16,9 +17,9 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### Login shell and non-login shell
+## Login shell and non-login shell
 - Login shell
     - Shell activated after successful login, including user switching
 - Non-login shell
@@ -29,13 +30,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
         - `bash`: login-shell
         - `-bash`: non-login-shell
 
-### Interactive shell and non-interactive shell
+## Interactive shell and non-interactive shell
 - Interactive shell
     - User can use command to interact with shell. For example: shell CLI in terminal
 - Non-interactive shell
     - Run script to interact with shell. For example: `bash -C script` command in terminal
 
-### Shell profile
+## Shell profile
 - Shell profile
     - Configuration file that stores shell environment variables, function, and etc.
 - Sequence of reading shell profile (here use bash as example)

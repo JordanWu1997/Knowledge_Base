@@ -1,6 +1,8 @@
 # X Power Tools - Chris Tyler
 
-## Table of content
+Table of Contents
+=================
+
 * [X Power Tools - Chris Tyler](#x-power-tools---chris-tyler)
    * [Table of content)](#table-of-content)
    * [Context](#context)
@@ -13,12 +15,12 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### 1.1 Basics of X window system
+## 1.1 Basics of X window system
 - Portable, network-based display system working on almost all operating system (OS)
 
-### 1.5 X GUI 7 Layer Structure
+## 1.5 X GUI 7 Layer Structure
 - 7 layer from client to server
     - Client
         - Packed by toolkit (GTK) to simply communication between client and server, including
@@ -38,11 +40,11 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
         - Network transmission (e.g. TCP/IP)
             - Transmission between layers
 
-### 6.3 Get window information (xwininfo)
+## 6.3 Get window information (xwininfo)
 - Interactively select window to get window information
     - Including window size, location, and etc.
 
-### 6.4 Check X server configuration (xset)
+## 6.4 Check X server configuration (xset)
 - Read and modify X server configuration
     - Get current configuration (in terminal)
         ```bash
@@ -79,7 +81,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
           Monitor is On
         ```
 
-### 6.6 Modify keyboard repeat rate (xset)
+## 6.6 Modify keyboard repeat rate (xset)
 - Modify keyboard repeat rate
     - In terminal,
         ```bash
@@ -87,7 +89,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
         xset      r rate              300                     40
         ```
 
-### 6.7 Modify mouse move speed acceleration (xset)
+## 6.7 Modify mouse move speed acceleration (xset)
 - Modify mouse move speed acceleration
     - Acceleration factor
         - When moving over acceleration threshold, mouse speed becomes acceleration factor times

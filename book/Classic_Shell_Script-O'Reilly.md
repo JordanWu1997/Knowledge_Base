@@ -1,10 +1,11 @@
 # Classic Shell Script - O'Reilly
 
-## Table of content
+Table of Contents
+=================
 
-## Context
+# Context
 
-### Chapter 02 - Basic of shell
+## Chapter 02 - Basic of shell
 - Command and argument
     - Shell command type
         - Built-in command (e.g. echo)
@@ -31,7 +32,7 @@
     - /dev/tty
         - Output will be redirected to a virtual terminal
 
-### Chapter 03 - Search and substitution
+## Chapter 03 - Search and substitution
 - Regular expression
     - POSIX expression
 - Shell tool for search and substitution
@@ -40,13 +41,13 @@
     - join
     - awk
 
-### Chapter 04 - Text tool
+## Chapter 04 - Text tool
 - Shell tool for text file
     - sort
     - uniq
     - wc
 
-### Chapter 06 - Variables, conditional expression, and loop
+## Chapter 06 - Variables, conditional expression, and loop
 - Set variable
     - export
         - Create shell variable

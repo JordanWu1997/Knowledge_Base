@@ -2,7 +2,9 @@
 - [Course youtube link](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbW1IVEtzaFZmRVk3T3lrMWg1bGt2UjFnUGtld3xBQ3Jtc0ttWTM0a3VieTQwOWhIUWx3bHB2ME42aXpRdU9HNkd6Ml9ScEp5QkZJQU5HVGhOQ1NXZjdJNHphREsxYmRHQS1rVE9ZMVdhaEkzdVlWMjNMUldpWVFRSUtkak1Nd1RLMWxKbzRYY29ZQmRhSmcyb3Rxbw&q=https%3A%2F%2Fmissing.csail.mit.edu%2F2020%2Fcommand-line%3F)
 - [Course webpage resources](https://missing.csail.mit.edu/2020/command-line/)
 
-## Table of content
+Table of Contents
+=================
+
 * [Missing Semester - Lecture 05 - Command-line Environment](#missing-semester---lecture-05---command-line-environment)
    * [Table of content](#table-of-content)
    * [Context](#context)
@@ -13,9 +15,9 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### Job Control Command
+## Job Control Command
 - sleep
     - Wait for given time
     ```bash
@@ -45,7 +47,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     fg %1            # Bring background JOB %1 to foreground
     ```
 
-### Terminal Multiplexers (TMUX)
+## Terminal Multiplexers (TMUX)
 - TMUX component
     - Session
         - TMUX Process
@@ -87,7 +89,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
         PREFIX+?                    # Show all TMUX commands
         ```
 
-### Dotfiles
+## Dotfiles
 System, shell, application configuration files (file starts with dot .)
 - dotfile file tree
     ```bash
@@ -116,7 +118,7 @@ System, shell, application configuration files (file starts with dot .)
         alias mv="mv -i"
         ```
 
-### Remote Machine
+## Remote Machine
 - SSH (connect to remote machine)
     ```
     # Connect to remote machine as user

@@ -1,6 +1,9 @@
 # My Frequently Used Program Shortcut
+Keyboard-driven workflow setup
 
-## Table of Contents
+Table of Contents
+=================
+
 * [My Frequently Used Program Shortcut](#my-frequently-used-program-shortcut)
    * [Table of Contents](#table-of-contents)
    * [Context](#context)
@@ -44,16 +47,16 @@
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
-## Context
+# Context
 
-### Gnome (Desktop Environment)
+## Gnome (Desktop Environment)
 
-#### Navigation
+### Navigation
 - [Ctrl]+[Alt]+[h/l]: Move to left/right workspace
 - [Win]+[Shift]+[h/l]: Move window to left/right workspace
 - [Ctrl]+[Alt]+[Shift]+[h/l]: Move window to left/right workspace
 
-#### Window
+### Window
 - [Win]+[Shift]+[q]: Close window
 - [Win]+[-]: Minimize window
 - [Win]+[k/j]: Maximize/Minimize window
@@ -62,13 +65,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Win]+[f]: Toggle full screen mode
 - [Win]+[Mouse]: Move current window
 
-#### Application
+### Application
 - [Alt]+[Tab]: Switch applications
 - [Ctll]+[Alt]+[0]: Open file manager
 - [Ctrl]+[Alt]+[-]: Open web-browser
 - [Win]+[Enter]: Open terminal
 
-#### Miscellaneous
+### Miscellaneous
 - [Win]+[d]: Search in overview mode
 - [Win]+[Shift]+[Escape]: Lock screen
 - [Win]+[Shift]+[i]: Enter command prompt
@@ -77,18 +80,18 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Win]+[a]: Show all applications
 - [Win]: Enter overview mode
 
-### I3 (Window Manager)
+## I3 (Window Manager)
 - https://github.com/JordanWu1997/I3_Sway_Config
 
-### Vim/Neovim (Text editor)
+## Vim/Neovim (Text editor)
 - https://github.com/JordanWu1997/Vim_Tmux_Config
 
-### Tmux (Terminal Multiplexer)
+## Tmux (Terminal Multiplexer)
 - https://github.com/JordanWu1997/Vim_Tmux_Config
 
-### Fish (Shell)
+## Fish (Shell)
 
-#### Command line input
+### Command line input
 - [Ctrl]+[a/e]: Move to the beginning/end of line
 - [Alt]+[Left/Right]: Move to prev/next word
 - [Ctrl]+[b/f]: Move to prev/next character
@@ -100,7 +103,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[d]: If there is nothing in command, it will close entire terminal
 - [Ctrl]+[c]: Cancel entire line input
 
-#### Miscellaneous function
+### Miscellaneous function
 - [Ctrl]+[l]: Clear screen
 - [Ctrl]+[r]: History fuzzy finder (FZF)
 - [Ctrl]+[o]: FZF fuzzy finder (FZF)
@@ -110,15 +113,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Alt]+[l]: List all directories (ls -D in command line)
 - [Alt]+[w]: Short help on current word
 
-#### Reference
+### Reference
 - https://devhints.io/fish-shell
 - https://cheatography.com/myounkin/cheat-sheets/fish-shell/
 
-### Ranger (File manager)
+## Ranger (File manager)
 
-#### Normal mode
+### Normal mode
 
-##### Pane navigation
+#### Pane navigation
 - [Shift]+[\`]: Toggle view mode (current column only)
 - [j/k]: Move down/up in current directory
 - [h/l]: Move to parent/child directory
@@ -126,13 +129,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Alt]+[j/k]: Scroll down/up preview pane
 - [f]: Find in current pane
 
-##### Tab navigation
+#### Tab navigation
 = [Ctrl]+[w]: Close current tab
 - [Alt]+[h/l]: Move to prev/next tab
 - ([Shift])+[Tab]: Move to (prev)/next tab
 - [Alt]+[#Number]: Move to tab number #
 
-##### Combination key action
+#### Combination key action
 - [Shift]+[m]+[...]: Modify line mode ...
 - [g]+[...]: Go to ...
 - [y]+[...]: Yank ...
@@ -144,7 +147,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [.]+[...]: Filter stack ...
 - [r]+[...]: Open selection with ...
 
-##### Miscellaneous
+#### Miscellaneous
 - [i]: Show file
 - [a]: Rename file
 - [\/\]: Search
@@ -154,13 +157,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Shift]+[r]: Refresh current working directory
 - [Ctrl]+[r]: Reset
 
-#### Console mode
+### Console mode
 - ([Shift])+[q]: Quit (all) tab
 - [Ctrl]+[n/p]: Next/Prev command in console mode
 
-### Zathura (PDF Viewer)
+## Zathura (PDF Viewer)
 
-#### General mode
+### General mode
 - ([Shift])+[j/k]: Scroll (page)/line down/up
 - ([Shift])+[h/l]: Scroll left/right
 - [Ctrl]+[d/u]: PageDown/PageUp
@@ -179,14 +182,14 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[n]: Toggle statusbar
 - \[F11\]: Fullscreen
 
-#### Index mode
+### Index mode
 - [Tab]: Switch to index mode
 - [j/k]: Move to next/prev entry
 - ([Shift])+[h]: Collapse (all) entries
 - ([Shift])+[l]: Expand (all) entries
 - [Space]: Open select entry
 
-#### Presentation mode
+### Presentation mode
 - [F5]: Switch to normal mode
 - [Space]: Next page
 - [Backspace]: Previous page
@@ -194,9 +197,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### Reference
 - https://defkey.com/zathura-shortcuts?filter=basic
 
-### Jupyter-lab (Python notebook)
+## Jupyter-lab (Python notebook)
 
-#### Built-in function
+### Built-in function
 - [Alt]+[w]: Close current tab
 - [Ctrl]+[Enter]: Run cell
 - [Shift]+[Enter]: Run cell and create new empty cell
@@ -205,15 +208,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[b]: Toggle left panel
 - [Ctrl]+[p]: Command palette
 
-#### Reference
+### Reference
 - https://jupyterlab.readthedocs.io/en/stable/user/interface.html
 - https://blog.ja-ke.tech/2019/01/20/jupyterlab-shortcuts.html
 - https://morioh.com/p/19eb8d900dc1
 
-### Brave-browser (Chromium-based web-browser)
+## Brave-browser (Chromium-based web-browser)
 Brave browser only support either Ctrl or Alt as component of shortcut
 
-#### Built-in function
+### Built-in function
 Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [F5]: Reload current page
 - [F6]: Go to URL insert line
@@ -230,7 +233,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[j]: Downloads
 - [Alt]+[Left/Right]: Prev/Next page in history
 
-#### Plugins - Miscellaneous
+### Plugins - Miscellaneous
 Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
 - [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
 - [Alt]+[Shift]+[f]: Autofill last used login (Bitwarden - Free Password Manager)
@@ -247,10 +250,10 @@ Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to us
 - [Alt]+[Shift]+[u]: Unsuspend al tabs in active window (The Marvellous Suspender)
 - [Alt]+[Shift]+[v]: Activate Vimium (Vimium)
 
-#### Plugins - Vimium
+### Plugins - Vimium
 Vim-like navigator in web page
 
-##### Page/History navigation
+#### Page/History navigation
 - ([z])+[h/j/k/l]: Scroll (all page) left/down/up/right
 - [Shift/g]+[g]: Move to top/bottom of tab
 - [d/u]: Scroll down/up in tab
@@ -270,7 +273,7 @@ Vim-like navigator in web page
 - [`]: Go to mark
 - [Shift]+[h/l]: Go back/forward history
 
-##### Tabs manipulation
+#### Tabs manipulation
 - [Shift]+[j/k]: Move to right/left tab
 - [g]+[0/$]: Go to first/last tab
 - [Shift]+[']: Go to previously visited tab
@@ -280,7 +283,7 @@ Vim-like navigator in web page
 - [Shift]+[w]: Split tab to new window
 - [Alt]+[Shift]+[,/.]: Move tab to left/right
 
-##### Miscellaneous
+#### Miscellaneous
 - [/]: Search in current tab
 - [n/N]: Go to prev/next match
 - ([Shift])+[o]: Open input URL in (new) tab
@@ -289,7 +292,7 @@ Vim-like navigator in web page
 - [g]+(Shift)+[e]: Edit current URL and open in (new) tab
 - [Shift]+[/]: Show Vimium help
 
-#### Website - Youtube
+### Website - Youtube
 - [f]: Full screen player
 - [Shift]+[,/.]: Dec/Inc play speed
 - [,/.]: Play backward/forward frame by frame
@@ -303,11 +306,11 @@ Vim-like navigator in web page
 - [Right/l]: Fast forward playing content
 - [Space/k]: Pause playing content
 
-#### Website - Notion
+### Website - Notion
 - https://usethekeyboard.com/notion/
 - https://www.notion.so/Learn-the-shortcuts-66e28cec810548c3a4061513126766b0
 
-### Spotify-TUI (Spotify TUI)
+## Spotify-TUI (Spotify TUI)
 - \[q\]: Quit/Back
 - \[/\]: Search
 - [d]: Manage play device

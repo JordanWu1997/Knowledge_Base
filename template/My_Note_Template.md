@@ -2,13 +2,13 @@
 - Reference
 - Description
 
-## Table of Contents
-- Table of contents
+Table of Contents
+=================
 
-## Context
+# Context
 
-### Section
+## Section
 - Descriptions
 
-#### Sub-section
+### Sub-section
 - Descriptions
