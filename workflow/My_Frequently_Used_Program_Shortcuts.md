@@ -204,7 +204,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[Enter]: Run cell
 - [Shift]+[Enter]: Run cell and create new empty cell
 - [Ctrl]+[/]: Comment selected lines
-- [Ctrl]+[Shift]+[[/]]: Move to left/right tab
+- [Ctrl]+[Shift]+[/]: Move to left/right tab
 - [Ctrl]+[b]: Toggle left panel
 - [Ctrl]+[p]: Command palette
 
@@ -223,6 +223,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - \[F11\]: Full screen tab
 - [Ctrl/Alt]+[#Number]: Go to tab number #
 - [Ctrl]+([Shift])+[Tab]: Move to (prev)/next tab
+- [Ctrl]+[r]: Reload current tab
 - [Ctrl]+[w]: Kill current tab
 - [Ctrl]+[t]: Open new tab
 - [Ctrl]+[Shift]+[t]: Open last tab
@@ -233,19 +234,21 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[j]: Downloads
 - [Alt]+[Left/Right]: Prev/Next page in history
 
-### Plugins - Miscellaneous
-Brave plugin shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
+### Extensions - Miscellaneous
+Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
 - [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
 - [Alt]+[Shift]+[f]: Autofill last used login (Bitwarden - Free Password Manager)
 - [Alt]+[Shift]+[c]: Activate Cluster (Cluster - Window & Tab Manager)
+- [Alt]+[Shift]+[o]: Activate OneTab (OneTab)
 - [Alt]+[Shift]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
 - [Alt]+[Shift]+[t]: Activate Google Translate (Google Translate)
 - [Alt]+[Shift]+[x]: Merge all split tab into current window (Merge Windows)
 - [Alt]+[x]: Split tab to new window (Tab to Window/Popup - Keyboard Shortcut)
+- [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
+- [Alt]+[o]: Send current tab to OneTab (OneTab)
 - [Alt]+[j/k]: Merge tab to next/prev window (Tab to Window/Popup - Keyboard Shortcut)
 - [Alt]+[s]: Suspend/Unsuspend active tab (The Marvellous Suspender)
 - [Alt]+[p]: Pause/Unpause suspension of active tab (The Marvellous Suspender)
-- [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
 - [Alt]+[Shift]+[s]: Suspend all other tabs in active window (The Marvellous Suspender)
 - [Alt]+[Shift]+[u]: Unsuspend al tabs in active window (The Marvellous Suspender)
 - [Alt]+[Shift]+[v]: Activate Vimium (Vimium)
@@ -262,7 +265,7 @@ Vim-like navigator in web page
 - ([Shift])+[p]: Open copy URL in (new) tab
 - [g]+(Shift)+[u]: Go up to (root of) URL hierarchy
 - [i]: Enter insert mode (disable vimium temporarily)
-- [Ctrl]+[[]: Leave insert mode
+- [Ctrl]+[[]: Escape (e.g. escape insert mode)
 - ([Shift])+[v]: Enter visual (line) mode
 - [g]+[i]: Go to text input on the page
 - ([Shift])+[f/;]: Open link in (new) tab
@@ -284,12 +287,12 @@ Vim-like navigator in web page
 - [Alt]+[Shift]+[,/.]: Move tab to left/right
 
 #### Miscellaneous
-- [/]: Search in current tab
-- [n/N]: Go to prev/next match
+- [t]: Search open tabs and move to selected tab
 - ([Shift])+[o]: Open input URL in (new) tab
 - ([Shift])+[b]: Open bookmark in (new) tab
-- [t]: Search open tabs and move to selected tab
-- [g]+(Shift)+[e]: Edit current URL and open in (new) tab
+- ([Shift])+[e]: Edit current URL and open in (new) tab
+- [/]: Search in current tab
+- [n/N]: Go to prev/next match
 - [Shift]+[/]: Show Vimium help
 
 ### Website - Youtube
