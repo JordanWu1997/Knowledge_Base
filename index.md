@@ -20,6 +20,7 @@
 ## Book Notes
 - [book/Classic_Shell_Script-O'Reilly](book/Classic_Shell_Script-O'Reilly)
 - [book/X_Power_Tools-Chris_Tyler](book/X_Power_Tools-Chris_Tyler)
+- [book/How_Linux_Works_What_Every_Superuser_Should_Know Brian_Ward](book/How_Linux_Works_What_Every_Superuser_Should_Know-Brian_Ward)
 
 ## Shell Notes
 - [shell/Shell_And_Profile](shell/Shell_And_Profile)
