@@ -25,6 +25,7 @@
 ## Shell Notes
 - [shell/Shell_And_Profile](shell/Shell_And_Profile)
 - [shell/Shell_Command](shell/Shell_Command)
+- [shell/Shell_Shortcut](shell/Shell_Shortcut)
 
 ## I3 Window Manager Notes
 - [i3wm/Monochrome_Colorscheme](i3wm/Monochrome_Colorscheme)

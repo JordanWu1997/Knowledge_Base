@@ -1,6 +1,7 @@
 # Shell Commands
 - https://www.freecodecamp.org/news/the-linux-commands-handbook/
 - https://crontab-generator.org/
+- https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
 - Man (Linux system reference manuals)
 
 Table of Contents
@@ -48,3 +49,30 @@ Note for some useful shell commands
 
 ### `time`
 - Time program execution time and resources
+
+### `w`
+- List current logged in users
+
+### `lshw`
+- List hardware information
+    ```
+    lshw -short
+    ```
+
+### `traceroute`
+- Trace packets along routers
+
+### `whatis`
+### `whereis`
+### `uniq`
+### `cut`
+### `diff`
+### `comm`
+### `sdif`
+### `past`
+### `join`
+### `stat`
+### `pg`
+### `read`
+### `tee`
+### `printf`
