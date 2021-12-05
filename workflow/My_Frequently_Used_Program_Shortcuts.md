@@ -282,7 +282,9 @@ Vim-like navigator in web page
 - [Shift]+[']: Go to previously visited tab
 - [y]+[t]: Copy current tab URL and open in new tab
 - [Alt]+[m]: Toggle mute current tab
-- [x/X]: Kill/Restore tab
+- ([Shift])+[x]: (Restore)/Kill tab
+- [Ctrl]+([Shift])+[x]: Kill all tabs on the (left)/right
+- [Alt]+[Ctrl]+[Shift]+[x]: Kill all other tabs
 - [Shift]+[w]: Split tab to new window
 - [Alt]+[Shift]+[,/.]: Move tab to left/right
 

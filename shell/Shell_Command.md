@@ -37,9 +37,11 @@ Note for some useful shell commands
 
 ### `crontab`
 - Maintain crontab files
+- e.g. ```crontab -e```
+    - edit cron file
 
 ### `env`
-- Run a program in a modified environment
+- Run a program in a modified environment variable
 
 ### `printenv`
 - Print all environment variables
@@ -63,6 +65,9 @@ Note for some useful shell commands
 - Trace packets along routers
 
 ### `whatis`
+- Explain commands
+
+### `whois`
 ### `whereis`
 ### `uniq`
 ### `cut`
@@ -76,3 +81,5 @@ Note for some useful shell commands
 ### `read`
 ### `tee`
 ### `printf`
+### `dig`
+### `host`
