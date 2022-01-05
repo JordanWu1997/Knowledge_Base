@@ -68,7 +68,11 @@ Note for some useful shell commands
 - Explain commands
 
 ### `whois`
+- Search URL of database contains `.COM` `.NET` `.EDU` domain
+
 ### `whereis`
+- Locate binary, source and manual page for __a command__
+
 ### `uniq`
 ### `cut`
 ### `diff`

@@ -122,15 +122,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Normal mode
 
 #### Pane navigation
-- [Shift]+[\`]: Toggle view mode (current column only)
+- [Shift]+[`]: Toggle view mode (current column only)
 - [j/k]: Move down/up in current directory
 - [h/l]: Move to parent/child directory
 - [Shift]+[h/l]: Move to prev/next directory in history
-- [Alt]+[j/k]: Scroll down/up preview pane
+- [Alt]+[j/k]: Scroll down/up in preview pane
 - [f]: Find in current pane
 
 #### Tab navigation
-= [Ctrl]+[w]: Close current tab
+- [Ctrl]+[w]: Close current tab
 - [Alt]+[h/l]: Move to prev/next tab
 - ([Shift])+[Tab]: Move to (prev)/next tab
 - [Alt]+[#Number]: Move to tab number #
@@ -147,15 +147,40 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [.]+[...]: Filter stack ...
 - [r]+[...]: Open selection with ...
 
+#### Fn-key shortcuts
+- [F1]: Show help
+- [F2]: Rename directory/file (append)
+- [F3]: Display file
+- [F4]: Edit file
+- \[F5]: Copy
+- \[F6]: Cut
+- \[F7]: Paste
+- [F8]: Make new directory (mkdir)
+- [F9]: Move to trash
+- \[F10]: Delete (rm)
+
+#### Vim-like mark
+- \[m]: mark
+- [u]+[m]: un-mark
+- [`/']: go to mark
+
 #### Miscellaneous
+- \[q]: Quit
 - [i]: Show file
-- [a]: Rename file
+- [e]: Edit file
+- [f]: Search and go to directory
 - [\/\]: Search
+- [c]+[d]: Change directory
+- [Space/v]: Select item under cursor
+- [Shift]+[v]: Select all
+- ([Shift])+[a]: Rename file (append)
+- [Shift]+[i]: Rename file (insert)
 - [Shift]+[\/]: Show help
 - [Shift]+[s]: Open shell within ranger
-- [c]+[d]: Change directory
 - [Shift]+[r]: Refresh current working directory
 - [Ctrl]+[r]: Reset
+- [#]+[g]+[g]: Go to line #
+- [#]+[#]+[#]+[=]: Chmod user/group/other to r/w/x (4/2/1)
 
 ### Console mode
 - ([Shift])+[q]: Quit (all) tab
