@@ -5,45 +5,47 @@ Table of Contents
 =================
 
 * [My Frequently Used Program Shortcut](#my-frequently-used-program-shortcut)
-   * [Table of Contents](#table-of-contents)
-   * [Context](#context)
-      * [Gnome (Desktop Environment)](#gnome-desktop-environment)
-         * [Navigation](#navigation)
-         * [Window](#window)
-         * [Application](#application)
-         * [Miscellaneous](#miscellaneous)
-      * [I3 (Window Manager)](#i3-window-manager)
-      * [Vim/Neovim (Text editor)](#vimneovim-text-editor)
-      * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
-      * [Fish (Shell)](#fish-shell)
-         * [Command line input](#command-line-input)
-         * [Miscellaneous function](#miscellaneous-function)
-         * [Reference](#reference)
-      * [Ranger (File manager)](#ranger-file-manager)
-         * [Normal mode](#normal-mode)
-            * [Pane navigation](#pane-navigation)
-            * [Tab navigation](#tab-navigation)
-            * [Combination key action](#combination-key-action)
-            * [Miscellaneous](#miscellaneous-1)
-         * [Console mode](#console-mode)
-      * [Zathura (PDF Viewer)](#zathura-pdf-viewer)
-         * [General mode](#general-mode)
-         * [Index mode](#index-mode)
-         * [Presentation mode](#presentation-mode)
+* [Table of Contents](#table-of-contents)
+* [Context](#context)
+   * [Gnome (Desktop Environment)](#gnome-desktop-environment)
+      * [Navigation](#navigation)
+      * [Window](#window)
+      * [Application](#application)
+      * [Miscellaneous](#miscellaneous)
+   * [I3 (Window Manager)](#i3-window-manager)
+   * [Vim/Neovim (Text editor)](#vimneovim-text-editor)
+   * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
+   * [Fish (Shell)](#fish-shell)
+      * [Command line input](#command-line-input)
+      * [Miscellaneous function](#miscellaneous-function)
+      * [Reference](#reference)
+   * [Ranger (File manager)](#ranger-file-manager)
+      * [Normal mode](#normal-mode)
+         * [Pane navigation](#pane-navigation)
+         * [Tab navigation](#tab-navigation)
+         * [Combination key action](#combination-key-action)
+         * [Fn-key shortcuts](#fn-key-shortcuts)
+         * [Vim-like mark](#vim-like-mark)
+         * [Miscellaneous](#miscellaneous-1)
+      * [Console mode](#console-mode)
+   * [Zathura (PDF Viewer)](#zathura-pdf-viewer)
+      * [General mode](#general-mode)
+      * [Index mode](#index-mode)
+      * [Presentation mode](#presentation-mode)
          * [Reference](#reference-1)
-      * [Jupyter-lab (Python notebook)](#jupyter-lab-python-notebook)
-         * [Built-in function](#built-in-function)
-         * [Reference](#reference-2)
-      * [Brave-browser (Chromium-based web-browser)](#brave-browser-chromium-based-web-browser)
-         * [Built-in function](#built-in-function-1)
-         * [Plugins - Miscellaneous](#plugins---miscellaneous)
-         * [Plugins - Vimium](#plugins---vimium)
-            * [Page/History navigation](#pagehistory-navigation)
-            * [Tabs manipulation](#tabs-manipulation)
-            * [Miscellaneous](#miscellaneous-2)
-         * [Website - Youtube](#website---youtube)
-         * [Website - Notion](#website---notion)
-      * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
+   * [Jupyter-lab (Python notebook)](#jupyter-lab-python-notebook)
+      * [Built-in function](#built-in-function)
+      * [Reference](#reference-2)
+   * [Brave-browser (Chromium-based web-browser)](#brave-browser-chromium-based-web-browser)
+      * [Built-in function](#built-in-function-1)
+      * [Extensions - Miscellaneous](#extensions---miscellaneous)
+      * [Plugins - Vimium](#plugins---vimium)
+         * [Page/History navigation](#pagehistory-navigation)
+         * [Tabs manipulation](#tabs-manipulation)
+         * [Miscellaneous](#miscellaneous-2)
+      * [Website - Youtube](#website---youtube)
+      * [Website - Notion](#website---notion)
+   * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -177,8 +179,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Shift]+[i]: Rename file (insert)
 - [Shift]+[\/]: Show help
 - [Shift]+[s]: Open shell within ranger
+- [g]+[f]: Use fzf to select file within current directory and copy filename
 - [Shift]+[r]: Refresh current working directory
-- [Ctrl]+[r]: Reset
+- [Ctrl]+[r]: Reset ranger
 - [#]+[g]+[g]: Go to line #
 - [#]+[#]+[#]+[=]: Chmod user/group/other to r/w/x (4/2/1)
 
@@ -199,8 +202,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [f]: Open URL in default web-browser (xdg-open)
 - [Ctrl]+[r]: Recolor (greyscale and invert colors)
 - [Shift]+[r]: Reload document
-- [-]: Zoom out (-)
-- [Shift]+[=]: Zoom in (+)
+- [-]/[Ctrl]+[k]: Zoom out (-)
+- [Shift]+[=]/[Ctrl]+[j]: Zoom in (+)
+- [=]: Reset zoom scale
 - [/]: Search mode
 - [Shift]+[;]: Enter command
 - [Ctrl]+[m]: Toggle inputbar
@@ -353,5 +357,3 @@ Vim-like navigator in web page
 - [Shift]+[s]: Shuffle play
 - [Shift]+[r]: Repeat track/all
 - ([Shift])+[a]: Jump to (artist)/album
-- ([Shift])+[c]: Copy current (album)/song URL
-- [Shift]+[b]: Basic mode
