@@ -38,11 +38,14 @@ Table of Contents
       * [Reference](#reference-2)
    * [Brave-browser (Chromium-based web-browser)](#brave-browser-chromium-based-web-browser)
       * [Built-in function](#built-in-function-1)
-      * [Extensions - Miscellaneous](#extensions---miscellaneous)
       * [Plugins - Vimium](#plugins---vimium)
          * [Page/History navigation](#pagehistory-navigation)
          * [Tabs manipulation](#tabs-manipulation)
          * [Miscellaneous](#miscellaneous-2)
+      * [Extension - Read Aloud (Text to speech)](#extension---read-aloud-text-to-speech)
+      * [Extension - Marvellous Suspender](#extension---marvellous-suspender)
+      * [Extension - Tab to window / Merge windows](#extension---tab-to-window--merge-windows)
+      * [Extensions - Miscellaneous](#extensions---miscellaneous)
       * [Website - Youtube](#website---youtube)
       * [Website - Notion](#website---notion)
    * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
@@ -263,25 +266,6 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[j]: Downloads
 - [Alt]+[Left/Right]: Prev/Next page in history
 
-### Extensions - Miscellaneous
-Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
-- [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
-- [Alt]+[Shift]+[f]: Autofill last used login (Bitwarden - Free Password Manager)
-- [Alt]+[Shift]+[c]: Activate Cluster (Cluster - Window & Tab Manager)
-- [Alt]+[Shift]+[o]: Activate OneTab (OneTab)
-- [Alt]+[Shift]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
-- [Alt]+[Shift]+[t]: Activate Google Translate (Google Translate)
-- [Alt]+[Shift]+[x]: Merge all split tab into current window (Merge Windows)
-- [Alt]+[x]: Split tab to new window (Tab to Window/Popup - Keyboard Shortcut)
-- [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
-- [Alt]+[o]: Send current tab to OneTab (OneTab)
-- [Alt]+[j/k]: Merge tab to next/prev window (Tab to Window/Popup - Keyboard Shortcut)
-- [Alt]+[s]: Suspend/Unsuspend active tab (The Marvellous Suspender)
-- [Alt]+[p]: Pause/Unpause suspension of active tab (The Marvellous Suspender)
-- [Alt]+[Shift]+[s]: Suspend all other tabs in active window (The Marvellous Suspender)
-- [Alt]+[Shift]+[u]: Unsuspend al tabs in active window (The Marvellous Suspender)
-- [Alt]+[Shift]+[v]: Activate Vimium (Vimium)
-
 ### Plugins - Vimium
 Vim-like navigator in web page
 
@@ -326,6 +310,34 @@ Vim-like navigator in web page
 - [n/N]: Go to prev/next match
 - [Shift]+[/]: Show Vimium help
 
+### Extension - Read Aloud (Text to speech)
+- [Alt]+[Shift]+[l]: Activate Read Alout (Read Aloud: A Text to Speech Voice Reader)
+- [Alt]+[,/.]: Forward/Backward
+- [Alt]+[Space]: Play/Pause
+- [Alt]+[Shift]+[Space]: Stop
+
+### Extension - Marvellous Suspender
+- [Alt]+[s]: Suspend/Unsuspend active tab
+- [Alt]+[p]: Pause/Unpause suspension of active tab
+- [Alt]+[Shift]+[s]: Suspend all other tabs in active window
+- [Alt]+[Shift]+[u]: Unsuspend al tabs in active window
+
+### Extension - Tab to window / Merge windows
+- [Alt]+[Shift]+[x]: Merge all split tab into current window (Merge Windows)
+- [Alt]+[x]: Split tab to new window (Tab to Window/Popup - Keyboard Shortcut)
+- [Alt]+[j/k]: Merge tab to next/prev window (Tab to Window/Popup - Keyboard Shortcut)
+
+### Extensions - Miscellaneous
+Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
+- [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
+- [Alt]+[Shift]+[f]: Autofill last used login (Bitwarden - Free Password Manager)
+- [Alt]+[Shift]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
+- [Alt]+[Shift]+[t]: Activate Google Translate (Google Translate)
+- [Alt]+[Shift]+[v]: Activate Vimium (Vimium)
+- [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
+- [Alt]+[Shift]+[o]: Activate OneTab (OneTab)
+- [Alt]+[o]: Send current tab to OneTab (OneTab)
+
 ### Website - Youtube
 - [f]: Full screen player
 - [Shift]+[,/.]: Dec/Inc play speed
@@ -350,7 +362,7 @@ Vim-like navigator in web page
 - [d]: Manage play device
 - [Space]: Toggle play/pause
 - [-]: Decrease volume (-)
-- [Shift]+[=]: Increase volume (+)
+- [=]: Increase volume (+)
 - [n/p]: Next/Prev track
 - [Shift]+[,/.]: fast backwards/forwards
 - [s]: Save current playback to favorite
