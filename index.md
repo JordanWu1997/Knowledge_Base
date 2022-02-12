@@ -27,6 +27,9 @@
 - [shell/Shell_Command](shell/Shell_Command)
 - [shell/Shell_Shortcut](shell/Shell_Shortcut)
 
+## Distro Notes
+- [distro/Fedora_DNF](distro/Fedora_DNF)
+
 ## I3 Window Manager Notes
 - [i3wm/Monochrome_Colorscheme](i3wm/Monochrome_Colorscheme)
 

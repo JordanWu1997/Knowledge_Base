@@ -345,6 +345,7 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [1-9]: Move to portion of playing content
 - [Home/End]: Beginning/End of playing content
 - [c]: Open CC caption
+- [o]: Toggle CC caption opacity
 - [i]: Open mini player
 - [m]: Mute player
 - [Up/Down]: Inc/Dec play player sound
