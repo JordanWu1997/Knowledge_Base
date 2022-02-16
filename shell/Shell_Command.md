@@ -1,8 +1,9 @@
 # Shell Commands
-- https://www.freecodecamp.org/news/the-linux-commands-handbook/
-- https://crontab-generator.org/
-- https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
-- Man (Linux system reference manuals)
+- Reference
+    - https://www.freecodecamp.org/news/the-linux-commands-handbook/
+    - https://crontab-generator.org/
+    - https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
+    - Man (Linux system reference manuals)
 
 Table of Contents
 =================
