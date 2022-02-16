@@ -1,13 +1,12 @@
 # Fedora DNF
-- Description
-    - Dandified Yum (DNF) is package manager for RPM distro
+- Dandified Yum (DNF) is package manager for RPM distro
 - References
     - https://docs.fedoraproject.org/en-US/quick-docs/dnf-system-upgrade/
     - https://docs.pagure.org/copr.copr/how_to_enable_repo.html
     - https://dnf-plugins-core.readthedocs.io/en/latest/copr.html
     - https://docs.fedoraproject.org/en-US/modularity/installing-modules/
     - https://dnf.readthedocs.io/en/latest/command_ref.html#repoquery-command-label
-    = https://docs.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Managing_DNF_Repositories.html
+    - https://docs.fedoraproject.org/en-US/Fedora/23/html/System_Administrators_Guide/sec-Managing_DNF_Repositories.html
 
 Table of Contents
 =================

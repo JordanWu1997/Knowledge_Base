@@ -1,6 +1,7 @@
 # Missing Semester - Lecture 08 - Metaprogramming
-- [Course_youtube_link](https://www.youtube.com/watch?v=_Ms1Z4xfqv4)
-- [Course_webpage_resources](https://missing.csail.mit.edu/2020/metaprogramming/)
+- Reference
+    - [Course_youtube_link](https://www.youtube.com/watch?v=_Ms1Z4xfqv4)
+    - [Course_webpage_resources](https://missing.csail.mit.edu/2020/metaprogramming/)
 
 Table of Contents
 =================

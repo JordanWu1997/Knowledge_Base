@@ -1,6 +1,7 @@
 # Missing Semester - Lecture 05 - Command-line Environment
-- [Course youtube link](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbW1IVEtzaFZmRVk3T3lrMWg1bGt2UjFnUGtld3xBQ3Jtc0ttWTM0a3VieTQwOWhIUWx3bHB2ME42aXpRdU9HNkd6Ml9ScEp5QkZJQU5HVGhOQ1NXZjdJNHphREsxYmRHQS1rVE9ZMVdhaEkzdVlWMjNMUldpWVFRSUtkak1Nd1RLMWxKbzRYY29ZQmRhSmcyb3Rxbw&q=https%3A%2F%2Fmissing.csail.mit.edu%2F2020%2Fcommand-line%3F)
-- [Course webpage resources](https://missing.csail.mit.edu/2020/command-line/)
+- Reference
+    - [Course youtube link](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbW1IVEtzaFZmRVk3T3lrMWg1bGt2UjFnUGtld3xBQ3Jtc0ttWTM0a3VieTQwOWhIUWx3bHB2ME42aXpRdU9HNkd6Ml9ScEp5QkZJQU5HVGhOQ1NXZjdJNHphREsxYmRHQS1rVE9ZMVdhaEkzdVlWMjNMUldpWVFRSUtkak1Nd1RLMWxKbzRYY29ZQmRhSmcyb3Rxbw&q=https%3A%2F%2Fmissing.csail.mit.edu%2F2020%2Fcommand-line%3F)
+    - [Course webpage resources](https://missing.csail.mit.edu/2020/command-line/)
 
 Table of Contents
 =================

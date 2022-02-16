@@ -1,6 +1,7 @@
 # Missing Semester - Lecture 06 - Version Control (git)
-- [Course_youtube_link](https://www.youtube.com/watch?v=2sjqTHE0zok)
-- [Course_webpage_resources](https://missing.csail.mit.edu/2020/version-control/)
+- Reference
+    - [Course_youtube_link](https://www.youtube.com/watch?v=2sjqTHE0zok)
+    - [Course_webpage_resources](https://missing.csail.mit.edu/2020/version-control/)
 
 Table of Contents
 =================

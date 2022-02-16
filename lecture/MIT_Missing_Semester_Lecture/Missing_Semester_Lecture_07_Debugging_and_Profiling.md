@@ -1,6 +1,7 @@
 # Missing Semester - Lecture 07 - Debugging and Profiling
-- [Course_youtube_link](https://www.youtube.com/watch?v=l812pUnKxME)
-- [Course_webpage_resources](https://missing.csail.mit.edu/2020/debugging-profiling/)
+- Reference
+    - [Course_youtube_link](https://www.youtube.com/watch?v=l812pUnKxME)
+    - [Course_webpage_resources](https://missing.csail.mit.edu/2020/debugging-profiling/)
 
 Table of Contents
 =================
