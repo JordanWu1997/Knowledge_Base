@@ -1,5 +1,5 @@
 # My Frequently Used Program Shortcut
-Keyboard-driven workflow setup
+- Keyboard-driven workflow setup
 
 Table of Contents
 =================
