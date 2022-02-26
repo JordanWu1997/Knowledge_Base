@@ -17,6 +17,7 @@ Table of Contents
    * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
    * [Fish (Shell)](#fish-shell)
       * [Command line input](#command-line-input)
+      * [FZF](#fzf)
       * [Miscellaneous function](#miscellaneous-function)
       * [Reference](#reference)
    * [Ranger (File manager)](#ranger-file-manager)
@@ -108,13 +109,17 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[d]: If there is nothing in command, it will close entire terminal
 - [Ctrl]+[c]: Cancel entire line input
 
+### FZF
+- [Ctrl]+[r]: FZF for history
+- [Ctrl]+[o]: FZF for file and open with editor
+- [Ctrl]+[t]: FZF for file/directory and copy to command line
+- [Ctrl]+[g]: FZF for file and open with xdg-open
+- [Alt]+[c]: FZF for directory and change to that directory
+
 ### Miscellaneous function
 - [Ctrl]+[l]: Clear screen
-- [Ctrl]+[r]: History fuzzy finder (FZF)
-- [Ctrl]+[o]: FZF fuzzy finder (FZF)
 - [Alt]+[e/v]: Open external editor ($EDITOR)
 - [Alt]+[p]: Page output (add &| less in the end of line)
-- [Alt]+[c]: FZF fuzzy finder (FZF)
 - [Alt]+[l]: List all directories (ls -D in command line)
 - [Alt]+[w]: Short help on current word
 

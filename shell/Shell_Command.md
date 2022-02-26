@@ -9,16 +9,32 @@ Table of Contents
 =================
 
 * [Shell Commands](#shell-commands)
-   * [Table of Contents](#table-of-contents)
-   * [Context](#context)
-      * [Useful commands](#useful-commands)
-         * [basename](#basename)
-         * [type](#type)
-         * [traceroute](#traceroute)
-         * [crontab](#crontab)
-         * [env](#env)
-         * [printenv](#printenv)
-         * [test](#test)
+* [Table of Contents](#table-of-contents)
+* [Context](#context)
+   * [Useful commands](#useful-commands)
+      * [basename](#basename)
+      * [comm](#comm)
+      * [crontab](#crontab)
+      * [cut](#cut)
+      * [diff](#diff)
+      * [dig](#dig)
+      * [env](#env)
+      * [host](#host)
+      * [join](#join)
+      * [lshw](#lshw)
+      * [printenv](#printenv)
+      * [printf](#printf)
+      * [read](#read)
+      * [stat](#stat)
+      * [tee](#tee)
+      * [test](#test)
+      * [time](#time)
+      * [traceroute](#traceroute)
+      * [uniq](#uniq)
+      * [w](#w)
+      * [whatis](#whatis)
+      * [whois](#whois)
+      * [whereis](#whereis)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -30,31 +46,31 @@ Note for some useful shell commands
 ### `basename`
 - Strip directory and suffix from filenames
 
-### `type`
-- Print out definition of bash alias, command, built-in functions, and etc.
-
-### `traceroute`
-- Print the route packets trace to net work host
+### `comm`
+- Compare two sorted files line by line
 
 ### `crontab`
 - Maintain crontab files
 - e.g. ```crontab -e```
     - edit cron file
 
+### `cut`
+- Remove sections from each line of files
+
+### `diff`
+- Compare files line by line
+
+### `dig`
+- DNS lookup utility
+
 ### `env`
 - Run a program in a modified environment variable
 
-### `printenv`
-- Print all environment variables
+### `host`
+- DNS lookup utility
 
-### `test`
-- Check if variable exists
-
-### `time`
-- Time program execution time and resources
-
-### `w`
-- List current logged in users
+### `join`
+- Join lines of two files on a common field
 
 ### `lshw`
 - List hardware information
@@ -62,8 +78,35 @@ Note for some useful shell commands
     lshw -short
     ```
 
+### `printenv`
+- Print all environment variables
+
+### `printf`
+- Format and print data
+
+### `read`
+- Read user input
+
+### `stat`
+- Display file or file system status
+
+### `tee`
+- Read from standard input and write to standard output and files
+
+### `test`
+- Check if variable exists
+
+### `time`
+- Time program execution time and resources
+
 ### `traceroute`
-- Trace packets along routers
+- Print the route packets trace to net work host
+
+### `uniq`
+- Report or omit repeated lines
+
+### `w`
+- List current logged in users
 
 ### `whatis`
 - Explain commands
@@ -73,18 +116,3 @@ Note for some useful shell commands
 
 ### `whereis`
 - Locate binary, source and manual page for __a command__
-
-### `uniq`
-### `cut`
-### `diff`
-### `comm`
-### `sdif`
-### `past`
-### `join`
-### `stat`
-### `pg`
-### `read`
-### `tee`
-### `printf`
-### `dig`
-### `host`

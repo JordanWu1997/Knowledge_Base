@@ -15,6 +15,7 @@ Table of Contents
       * [History](#history)
    * [Fish Shell](#fish-shell)
       * [Fish-only command](#fish-only-command)
+      * [FZF](#fzf)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -25,50 +26,62 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Bash Shell
 
 ### Process Control
-- `Ctrl+c`
+- `[Ctrl]`+`[c]`
     - Interrupt current process by sending `SIGINT` signal to process
-- `Ctrl+z`
+- `[Ctrl]`+`[z]`
     - Suspend current process by sending `SINGTSTP` signal to process
     - Continue process by `fg` command
-- `Ctrl+d`
+- `[Ctrl]`+`[d]`
     - Close bash shell by sending `EOF` marker to shell
-- `Ctrl+[s/q]`
+- `[Ctrl]+`[s/q]`
     - Stop/Resume all output to terminal screen
 
 ### Move In Command Line
-- `Ctrl+[a/e]`
+- `[Ctrl]`+`[a/e]`
     - Move to end/beginning of the line
-- `Ctrl+[f/b]`
+- `[Ctrl]`+`[f/b]`
     - Move to next/prev character
-- `Alt+[f/b]`
+- `[Alt]`+`[f/b]`
     - Move to next/prev word
 
 ### Edit In Command Line
-- `Ctrl+h`
+- `[Ctrl]`+`[h]`
     - Delete prev character (same as backspace)
-- `Alt+d`
+- `[Ctrl]`+`[w]`
+    - Delete prev word
+- `[Alt]`+`[d]`
     - Delete till end of line
-- `Alt+t`
+- `[Alt]`+`[t]`
     - Swap current word with previous word
-- `Ctrl+[k/u]`
+- `[Ctrl]`+`[k/u]`
     - Cut till the end/beginning of the line
-- `Ctrl+y`
+- `[Ctrl]`+`[y]`
     - Yank (paste) cut contents
 
 ### History
-- `Ctrl+r`
+- `[Ctrl]`+`[r]`
     - Search history command interactively
 
 ## Fish Shell
 
 ### Fish-only Command
-- `Alt+[e/v]`
+- `[Alt]`+`[e/v]`
     - Open external editor to edit command
-- `Alt+c`
-    - FZF fuzzy finder (FZF is needed)
-- `Alt+l`
+- `[Alt]`+`[l]`
     - List all files/directories
-- `Alt+w`
+- `[Alt]`+`[w]`
     - Short help on previous command
-- `Alt+p`
-    - Append `&|less` to EOL
+- `[Alt]`+`[p]`
+    - Append `&|less` to EOL to print result
+
+### FZF
+- `[Ctrl]`+`[r]`
+    - FZF for history
+- `[Ctrl]`+`[o]`
+    - FZF for file and open with editor
+- `[Ctrl]`+`[t]`
+    - FZF for file/directory and copy to command line
+- `[Ctrl]`+`[g]`
+    - FZF for file and open with xdg-open
+- `[Alt]`+`[c]`
+    - FZF for directory and change to that directory
