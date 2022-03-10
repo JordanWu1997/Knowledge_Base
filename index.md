@@ -26,13 +26,17 @@
 - [book/How_Linux_Works_What_Every_Superuser_Should_Know Brian_Ward](book/How_Linux_Works_What_Every_Superuser_Should_Know-Brian_Ward)
 
 ## Coding Notes
-- [coding Python_Set](coding/Python_Set.md)
-- [coding Python_Dict](coding/Python_Dict.md)
-- [coding Python_Numpy_Array](coding/Python_Numpy_Array.md)
+- [coding/Python_Set](coding/Python_Set.md)
+- [coding/Python_Dict](coding/Python_Dict.md)
+- [coding/Python_Numpy_Array](coding/Python_Numpy_Array.md)
+- [coding/Regex](coding/Regex)
 
 ## Technique Notes
-- [technique Jargon](technique/Jargon)
-- [technique Fedora_Linux_Background_Applications](technique/Fedora_Linux_Background_Applications)
+- [technique/Jargon](technique/Jargon)
+- [technique/Fedora_Linux_Background_Applications](technique/Fedora_Linux_Background_Applications)
+- [technique/Linux_Journey_Grasshopper](technique/Linux_Journey_Grasshopper)
+- [technique/Linux_Journey_Journeyman](technique/Linux_Journey_Journeyman)
+- [technique/Linux_Journey_Networking_Nomad](technique/Linux_Journey_Networking_Nomad)
 
 ## Shell Notes
 - [shell/Shell_And_Profile](shell/Shell_And_Profile)
@@ -41,7 +45,7 @@
 
 ## Distro Notes
 - [distro/Fedora_DNF](distro/Fedora_DNF)
-- [distro Fedora_flatpak](distro/Fedora_flatpak)
+- [distro/Fedora_flatpak](distro/Fedora_flatpak)
 
 ## I3 Window Manager Notes
 - [i3wm/Monochrome_Colorscheme](i3wm/Monochrome_Colorscheme)
