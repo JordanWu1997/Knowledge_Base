@@ -85,3 +85,5 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     - FZF for file and open with xdg-open
 - `[Alt]`+`[c]`
     - FZF for directory and change to that directory
+- `[Alt]`+`[Shift]`+`[c]`
+    - FZF for directory (including hidden ones) and change to that directory
