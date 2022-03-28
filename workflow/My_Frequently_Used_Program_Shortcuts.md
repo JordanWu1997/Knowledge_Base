@@ -332,6 +332,11 @@ Vim-like navigator in web page
 - [Alt]+[x]: Split tab to new window (Tab to Window/Popup - Keyboard Shortcut)
 - [Alt]+[j/k]: Merge tab to next/prev window (Tab to Window/Popup - Keyboard Shortcut)
 
+### Extension - Youtube Playback Speed Control
+- [a]: Decrease playspeed (-0.25)
+- [s]: Increase playspeed (+0.25)
+- [q]: Reset playspeed (1.0)
+
 ### Extensions - Miscellaneous
 Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
 - [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
@@ -373,5 +378,6 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [Shift]+[,/.]: fast backwards/forwards
 - [s]: Save current playback to favorite
 - [Shift]+[s]: Shuffle play
+- [r]: Recommended songs
 - [Shift]+[r]: Repeat track/all
 - ([Shift])+[a]: Jump to (artist)/album
