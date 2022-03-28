@@ -29,6 +29,8 @@ Table of Contents
       * [Process: Bootloader](#process-bootloader)
       * [Process: Kernel](#process-kernel)
       * [Process: Init](#process-init)
+   * [Process Utilization](#process-utilization)
+   * [System Logging](#system-logging)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -253,3 +255,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     - New standard for init
     - Goal orientated
     - If there is a goal, it tries to complete the dependencies of the goal to complete the goal
+
+## Process Utilization
+
+## System Logging
