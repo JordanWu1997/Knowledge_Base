@@ -285,6 +285,7 @@ Vim-like navigator in web page
 - [i]: Enter insert mode (disable vimium temporarily)
 - [Ctrl]+[[]: Escape (e.g. escape insert mode)
 - ([Shift])+[v]: Enter visual (line) mode
+- [v]+[c]: Enter caret [mode](mode)
 - [g]+[i]: Go to text input on the page
 - ([Shift])+[f/;]: Open link in (new) tab
 - [Alt]+[f/;]: Open multiple links in new tab
@@ -377,7 +378,10 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [n/p]: Next/Prev track
 - [Shift]+[,/.]: fast backwards/forwards
 - [s]: Save current playback to favorite
-- [Shift]+[s]: Shuffle play
+- [Shift]+[s]: Toggle shuffle play
 - [r]: Recommended songs
 - [Shift]+[r]: Repeat track/all
 - ([Shift])+[a]: Jump to (artist)/album
+- ([Shift])+[c]: Copy current playing url
+- [w]: Follow an artist/playlist, save an album to library
+- [Shift]+[d]: Delete saved album/playlist
