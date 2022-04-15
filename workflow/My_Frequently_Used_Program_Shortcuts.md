@@ -50,6 +50,8 @@ Table of Contents
       * [Website - Youtube](#website---youtube)
       * [Website - Notion](#website---notion)
    * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
+   * [Parellite (Clipboard Manager)](#parellite-clipboard-manager)
+   * [IBUS (Input Utility)](#ibus-input-utility)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -385,3 +387,11 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - ([Shift])+[c]: Copy current playing url
 - [w]: Follow an artist/playlist, save an album to library
 - [Shift]+[d]: Delete saved album/playlist
+
+## Parellite (Clipboard Manager)
+- [Ctrl]+[Alt]+[c]: Open clipboard history
+- [Ctrl]+[Alt]+[p]: Open clipboard preference
+
+## IBUS (Input Utility)
+- [Ctrl]+[Alt]+[Space]: Toggle input method (Chewing/English)
+- [Ctrl]+[0]: Show special character options
