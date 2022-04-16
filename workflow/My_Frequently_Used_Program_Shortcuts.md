@@ -162,13 +162,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### Fn-key shortcuts
 - [F1]: Show help
 - [F2]: Rename directory/file (append)
-- [F3]: Display file
-- [F4]: Edit file
-- \[F5]: Copy
-- \[F6]: Cut
-- \[F7]: Paste
-- [F8]: Make new directory (mkdir)
-- [F9]: Move to trash
+- [F3]: Make new directory (mkdir)
+- [F4]: Display file
+- [F5]: Cyclic line number (absolute/relative/none)
+- \[F6]: Copy
+- \[F7]: Cut
+- \[F8]: Paste
+- [F9]: Move to trash (trash)
 - \[F10]: Delete (rm)
 
 #### Vim-like mark
@@ -178,7 +178,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 #### Miscellaneous
 - \[q]: Quit
-- [i]: Show file
+- [i]: Show/Display file
 - [e]: Edit file
 - [f]: Search and go to directory
 - [\/\]: Search
