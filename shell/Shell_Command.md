@@ -13,6 +13,7 @@ Table of Contents
 * [Context](#context)
    * [Useful commands](#useful-commands)
       * [basename](#basename)
+      * [dirname](#dirname)
       * [comm](#comm)
       * [crontab](#crontab)
       * [cut](#cut)
@@ -45,6 +46,9 @@ Note for some useful shell commands
 
 ### `basename`
 - Strip directory and suffix from filenames
+
+### `dirname`
+- Strip filename and return directory name
 
 ### `comm`
 - Compare two sorted files line by line

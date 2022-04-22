@@ -15,6 +15,7 @@ Table of Contents
    * [I3 (Window Manager)](#i3-window-manager)
    * [Vim/Neovim (Text editor)](#vimneovim-text-editor)
    * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
+   * [Rofi (Application/Window Selector)](#rofi-applicationwindow-selector)
    * [Fish (Shell)](#fish-shell)
       * [Command line input](#command-line-input)
       * [FZF](#fzf)
@@ -50,7 +51,7 @@ Table of Contents
       * [Website - Youtube](#website---youtube)
       * [Website - Notion](#website---notion)
    * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
-   * [Parellite (Clipboard Manager)](#parellite-clipboard-manager)
+   * [Pacrellite (Clipboard Manager)](#parcellite-clipboard-manager)
    * [IBUS (Input Utility)](#ibus-input-utility)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
@@ -96,6 +97,23 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Tmux (Terminal Multiplexer)
 - https://github.com/JordanWu1997/Vim_Tmux_Config
+
+## Rofi (Application/Window Selector)
+- [Ctrl]+[h/j/k/l]: Move left/down/up/right
+- [Ctrl/Alt]+[Space]: Open selected
+- [Alt]+[Tab]: Open selected
+- [Ctrl]+[Tab]: Switch mode (run/drun/window/windowcd)
+- [Ctrl]+[g/[]: Exit
+
+## Kitty (Terminal Emulator)
+- [Ctrl]+[Shift]+[m/p]: Dec/Inc opacity
+- [Alt]+[Shift]+[m/p]: Min/Max opacity
+- [Ctrl/Alt]+[Shift]+[d]: Restore to default opacity
+- [Ctrl]+[Shift]+[-/+]: Dec/Inc font size
+- [Ctrl/Alt]+[Shift]+[0]: Set font size to 1/20
+- [Ctrl]+[Shift]+[Alt]+[0]: Restore to default font size
+- [Ctrl]+[Shift]+[F5]: Reload kitty configuration file
+- [Ctrl]+[Shift]+[F6]: Debug kitty configuration file
 
 ## Fish (Shell)
 
@@ -178,7 +196,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 #### Miscellaneous
 - \[q]: Quit
-- [i]: Show/Display file
+- [i]: Show file
 - [e]: Edit file
 - [f]: Search and go to directory
 - [\/\]: Search
@@ -388,7 +406,7 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [w]: Follow an artist/playlist, save an album to library
 - [Shift]+[d]: Delete saved album/playlist
 
-## Parellite (Clipboard Manager)
+## Parcellite (Clipboard Manager)
 - [Ctrl]+[Alt]+[c]: Open clipboard history
 - [Ctrl]+[Alt]+[p]: Open clipboard preference
 
