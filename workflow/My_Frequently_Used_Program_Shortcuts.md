@@ -30,6 +30,8 @@ Table of Contents
          * [Vim-like mark](#vim-like-mark)
          * [Miscellaneous](#miscellaneous-1)
       * [Console mode](#console-mode)
+   * [Htop (System Monitor)](#htop-system-monitor)
+   * [Feh (Image Viewer)](#feh-image-viewer)
    * [Zathura (PDF Viewer)](#zathura-pdf-viewer)
       * [General mode](#general-mode)
       * [Index mode](#index-mode)
@@ -99,9 +101,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - https://github.com/JordanWu1997/Vim_Tmux_Config
 
 ## Rofi (Application/Window Selector)
-- [Ctrl]+[h/j/k/l]: Move left/down/up/right
+- [Ctrl/Alt]+[h/j/k/l]: Move left/down/up/right
 - [Ctrl/Alt]+[Space]: Open selected
-- [Alt]+[Tab]: Open selected
+- [Alt]+([Shift])+[Tab]: Open selected
 - [Ctrl]+[Tab]: Switch mode (run/drun/window/windowcd)
 - [Ctrl]+[g/[]: Exit
 
@@ -199,15 +201,17 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [i]: Show file
 - [e]: Edit file
 - [f]: Search and go to directory
+- [g]+[f]: Search with fzf and preview with cat
+- [g]+[Shift]+[f]: Search with fzf and preview with tree
 - [\/\]: Search
 - [c]+[d]: Change directory
+- [d]+[c]: Calculate cumulative usage
 - [Space/v]: Select item under cursor
 - [Shift]+[v]: Select all
 - ([Shift])+[a]: Rename file (append)
 - [Shift]+[i]: Rename file (insert)
 - [Shift]+[\/]: Show help
 - [Shift]+[s]: Open shell within ranger
-- [g]+[f]: Use fzf to select file within current directory and copy filename
 - [Shift]+[r]: Refresh current working directory
 - [Ctrl]+[r]: Reset ranger
 - [#]+[g]+[g]: Go to line #
@@ -216,6 +220,27 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Console mode
 - ([Shift])+[q]: Quit (all) tab
 - [Ctrl]+[n/p]: Next/Prev command in console mode
+
+## Htop (System Monitor)
+- [Alt]+[h/j/k/l]: Scroll left/down/up/right
+- [Shift]+[n/p/m/t]: Sort process on PID/CPU%/MEM%/TIME
+- [t]: Tree view
+- [+/-]: Expand/collapse tree
+- [*]: Toggle all tree
+- [k]: Kill process
+- [h]: Show help menu
+- [u]: Display process owned by particular user
+- [p]: Toggle program path
+- [i]: Set IO priority
+- [w]: Wrap process
+
+## Feh (Image Viewer)
+- [Shift]+[,/.]: Rotate image 90 degree (counter)clockwise
+- [Shift]+[-/\]: Flip image (vertically/horizontally)
+- [-/=]: Zoom out/in
+- [Shift]+[=]: Zoom to default
+- [h/j/k/l]: Scroll left/down/up/right
+- [n/p]: Next/Prev image
 
 ## Zathura (PDF Viewer)
 
@@ -237,7 +262,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Shift]+[;]: Enter command
 - [Ctrl]+[m]: Toggle inputbar
 - [Ctrl]+[n]: Toggle statusbar
-- \[F11\]: Fullscreen
+- \[F11\]: Fullscreen mode
 
 ### Index mode
 - [Tab]: Switch to index mode
@@ -396,7 +421,7 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [-]: Decrease volume (-)
 - [=]: Increase volume (+)
 - [n/p]: Next/Prev track
-- [Shift]+[,/.]: fast backwards/forwards
+- [Shift]+[,/.]: Fast backwards/forwards
 - [s]: Save current playback to favorite
 - [Shift]+[s]: Toggle shuffle play
 - [r]: Recommended songs
