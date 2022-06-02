@@ -22,6 +22,7 @@ Table of Contents
       * [env](#env)
       * [host](#host)
       * [join](#join)
+      * [ldd](#ldd)
       * [lshw](#lshw)
       * [printenv](#printenv)
       * [printf](#printf)
@@ -75,6 +76,9 @@ Note for some useful shell commands
 
 ### `join`
 - Join lines of two files on a common field
+
+### `ldd`
+- List package dependency
 
 ### `lshw`
 - List hardware information

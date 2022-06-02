@@ -118,6 +118,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[Shift]+[F6]: Debug kitty configuration file
 
 ## Fish (Shell)
+- Recommended plugins: `bang-bang`, `fzf`
 
 ### Command line input
 - [Ctrl]+[a/e]: Move to the beginning/end of line
@@ -206,8 +207,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [\/\]: Search
 - [c]+[d]: Change directory
 - [d]+[c]: Calculate cumulative usage
-- [Space/v]: Select item under cursor
-- [Shift]+[v]: Select all
+- [Space]: Select item under cursor
+- ([u])+[v]: (Reversed) visual mode
+- (u)+[Shift]+[v]: (De)Select all
 - ([Shift])+[a]: Rename file (append)
 - [Shift]+[i]: Rename file (insert)
 - [Shift]+[\/]: Show help
@@ -260,8 +262,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [=]: Reset zoom scale
 - [/]: Search mode
 - [Shift]+[;]: Enter command
-- [Ctrl]+[m]: Toggle inputbar
-- [Ctrl]+[n]: Toggle statusbar
+- [Ctrl]+[m/i]: Toggle inputbar
+- [Ctrl]+[n/s]: Toggle statusbar
 - \[F11\]: Fullscreen mode
 
 ### Index mode
@@ -314,6 +316,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[d]: Add to bookmark
 - [Ctrl]+[h]: History
 - [Ctrl]+[j]: Downloads
+- [Ctrl]+[e]: Search in Google
 - [Alt]+[Left/Right]: Prev/Next page in history
 
 ### Plugins - Vimium

@@ -62,6 +62,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - bluetoothd: Bluetooth daemon
 - bwrap: container setup utility
 - chronyd: chrony background daemon
+- chrome_crashpad_handler:
 - colord:
 - crond: daemon to execute scheduled commands
 - gdm: The GNOME Display Manager
@@ -76,6 +77,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - rngd: Check and feed random data from hardware device to kernel
 - rtkit-daemon: Security Enhanced Linux Policy for the rtkit_daemon processes
 - sshd: OpenSSH daemon
+- sssd_kcm:
 - switcheroo-control: Launch a command on a specific GPU
 - thermald: start Linux thermal daemon
 - touchegg:

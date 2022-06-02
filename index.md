@@ -29,6 +29,7 @@
 - [coding/Python_Set](coding/Python_Set.md)
 - [coding/Python_Dict](coding/Python_Dict.md)
 - [coding/Python_Numpy_Array](coding/Python_Numpy_Array.md)
+- [coding/Python_Misc](coding/Python_Misc.md)
 - [coding/Regex](coding/Regex)
 
 ## Technique Notes
