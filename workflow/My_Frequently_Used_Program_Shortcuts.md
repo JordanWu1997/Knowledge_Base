@@ -16,6 +16,7 @@ Table of Contents
    * [Vim/Neovim (Text editor)](#vimneovim-text-editor)
    * [Tmux (Terminal Multiplexer)](#tmux-terminal-multiplexer)
    * [Rofi (Application/Window Selector)](#rofi-applicationwindow-selector)
+   * [Kitty (Terminal Emulator)](#kitty-terminal-emulator)
    * [Fish (Shell)](#fish-shell)
       * [Command line input](#command-line-input)
       * [FZF](#fzf)
@@ -36,24 +37,30 @@ Table of Contents
       * [General mode](#general-mode)
       * [Index mode](#index-mode)
       * [Presentation mode](#presentation-mode)
-         * [Reference](#reference-1)
+      * [Reference](#reference-1)
    * [Jupyter-lab (Python notebook)](#jupyter-lab-python-notebook)
       * [Built-in function](#built-in-function)
       * [Reference](#reference-2)
    * [Brave-browser (Chromium-based web-browser)](#brave-browser-chromium-based-web-browser)
       * [Built-in function](#built-in-function-1)
-      * [Plugins - Vimium](#plugins---vimium)
+         * [Tabs and windows](#tabs-and-windows)
+         * [Browser](#browser)
+         * [Address bar](#address-bar)
+         * [Webpage](#webpage)
+      * [Extension - Vimium](#extension---vimium)
          * [Page/History navigation](#pagehistory-navigation)
          * [Tabs manipulation](#tabs-manipulation)
          * [Miscellaneous](#miscellaneous-2)
       * [Extension - Read Aloud (Text to speech)](#extension---read-aloud-text-to-speech)
       * [Extension - Marvellous Suspender](#extension---marvellous-suspender)
       * [Extension - Tab to window / Merge windows](#extension---tab-to-window--merge-windows)
-      * [Extensions - Miscellaneous](#extensions---miscellaneous)
+      * [Extension - Youtube Playback Speed Control](#extension---youtube-playback-speed-control)
+      * [Extension - Miscellaneous](#extension---miscellaneous)
       * [Website - Youtube](#website---youtube)
       * [Website - Notion](#website---notion)
+      * [Reference](#reference-3)
    * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
-   * [Pacrellite (Clipboard Manager)](#parcellite-clipboard-manager)
+   * [Parcellite (Clipboard Manager)](#parcellite-clipboard-manager)
    * [IBUS (Input Utility)](#ibus-input-utility)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
@@ -278,7 +285,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Space]: Next page
 - [Backspace]: Previous page
 
-#### Reference
+### Reference
 - https://defkey.com/zathura-shortcuts?filter=basic
 
 ## Jupyter-lab (Python notebook)
@@ -302,24 +309,40 @@ Brave browser only support either Ctrl or Alt as component of shortcut
 
 ### Built-in function
 Brave built-in shortcut. Most of them used __Ctrl__ as prefix
-- [F5]: Reload current page
-- [F6]: Go to URL insert line
-- \[F11\]: Full screen tab
+
+#### Tabs and windows
+- [Ctrl]+([Shift])+[n]: Open new (private) window
+- [Ctrl]+([Shift])+[t]: Open (last)/new tab
 - [Ctrl/Alt]+[#Number]: Go to tab number #
 - [Ctrl]+([Shift])+[Tab]: Move to (prev)/next tab
-- [Ctrl]+[r]: Reload current tab
-- [Ctrl]+[w]: Kill current tab
-- [Ctrl]+[t]: Open new tab
-- [Ctrl]+[Shift]+[t]: Open last tab
-- [Ctrl]+[n]: Open new window
-- [Ctrl]+[Shift]+[n]: Open new private window
-- [Ctrl]+[d]: Add to bookmark
-- [Ctrl]+[h]: History
-- [Ctrl]+[j]: Downloads
-- [Ctrl]+[e]: Search in Google
+- [Ctrl]+([Shift])+[w]: Kill current (window)/tab
 - [Alt]+[Left/Right]: Prev/Next page in history
 
-### Plugins - Vimium
+#### Browser
+- [Alt]+[e]: Open browser main menu
+- [Ctrl]+[Shift]+[b]: Hide bookmark bar
+- [Ctrl]+[Shift]+[o]: Open bookmark manager
+- [Ctrl]+[h]: History
+- [Ctrl]+[j]: Downloads
+- [Shift]+[Esc]: Open browser task manager
+- [Ctrl]+([Shift])+[g]: Jump to (prev)/next search
+
+#### Address bar
+- [F6]: Go to address bar
+- [Ctrl]+[e/k]: Search in Google
+
+#### Webpage
+- [Ctrl]+[p]: Print current page
+- [Ctrl]+[s]: Save current page
+- [F5]: Reload current page
+- [Ctrl]+[r]: Reload current tab
+- [Ctrl]+[d]: Add to bookmark
+- \[F11\]: Toggle full-screen
+- [Ctrl]+[Shift]+[-/=]: Zoom out/in
+- [Ctrl]+[0]: Zoom default
+- [Ctrl]+[Left/Down/Up/Right]: Move cursor left/down/up/right
+
+### Extension - Vimium
 Vim-like navigator in web page
 
 #### Page/History navigation
@@ -332,8 +355,8 @@ Vim-like navigator in web page
 - [g]+(Shift)+[u]: Go up to (root of) URL hierarchy
 - [i]: Enter insert mode (disable vimium temporarily)
 - [Ctrl]+[[]: Escape (e.g. escape insert mode)
-- ([Shift])+[v]: Enter visual (line) mode
-- [v]+[c]: Enter caret [mode](mode)
+- ([Shift])+[v]: Enter visual (line) mode, press c to change start point
+- [v]+[c]: Enter caret mode
 - [g]+[i]: Go to text input on the page
 - ([Shift])+[f/;]: Open link in (new) tab
 - [Alt]+[f/;]: Open multiple links in new tab
@@ -347,13 +370,15 @@ Vim-like navigator in web page
 - [Shift]+[j/k]: Move to right/left tab
 - [g]+[0/$]: Go to first/last tab
 - [Shift]+[']: Go to previously visited tab
-- [y]+[t]: Copy current tab URL and open in new tab
-- [Alt]+[m]: Toggle mute current tab
+- [y]+[t]: Copy current tab URL and open in new tab (duplicate current tab)
+- [g]+[Shift]+[p]: pin/unpin current tab
+- [Shift]+[m]: Toggle mute current tab
 - ([Shift])+[x]: (Restore)/Kill tab
 - [Ctrl]+([Shift])+[x]: Kill all tabs on the (left)/right
 - [Alt]+[Ctrl]+[Shift]+[x]: Kill all other tabs
 - [Shift]+[w]: Split tab to new window
-- [Alt]+[Shift]+[,/.]: Move tab to left/right
+- [Shift]+[,/.]: Move tab to left/right
+- [Alt]+[Shift]+[,/.]: Move tab to the left/right end
 
 #### Miscellaneous
 - [t]: Search open tabs and move to selected tab
@@ -386,7 +411,7 @@ Vim-like navigator in web page
 - [s]: Increase playspeed (+0.25)
 - [q]: Reset playspeed (1.0)
 
-### Extensions - Miscellaneous
+### Extension - Miscellaneous
 Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to use __Alt__ as prefix.
 - [Alt]+[Shift]+[b]: Activate Bitwarden (Bitwarden - Free Password Manager)
 - [Alt]+[Shift]+[f]: Autofill last used login (Bitwarden - Free Password Manager)
@@ -415,6 +440,9 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 ### Website - Notion
 - https://usethekeyboard.com/notion/
 - https://www.notion.so/Learn-the-shortcuts-66e28cec810548c3a4061513126766b0
+
+### Reference
+- https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-
 
 ## Spotify-TUI (Spotify TUI)
 - \[q\]: Quit/Back
