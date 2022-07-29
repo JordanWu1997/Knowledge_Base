@@ -246,10 +246,10 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Feh (Image Viewer)
 - [Shift]+[,/.]: Rotate image 90 degree (counter)clockwise
 - [Shift]+[-/\]: Flip image (vertically/horizontally)
-- [-/=]: Zoom out/in
-- [Shift]+[=]: Zoom to default
+- [Ctrl]+[0]: Zoom to default (or [Shift]+[=])
+- [Ctrl]+[j/k]: Zoom in/out (or [-/=])
+- [Shift]+[j/k]: Next/Prev image (or [n/p])
 - [h/j/k/l]: Scroll left/down/up/right
-- [n/p]: Next/Prev image
 
 ## Zathura (PDF Viewer)
 
@@ -371,7 +371,7 @@ Vim-like navigator in web page
 - [g]+[0/$]: Go to first/last tab
 - [Shift]+[']: Go to previously visited tab
 - [y]+[t]: Copy current tab URL and open in new tab (duplicate current tab)
-- [g]+[Shift]+[p]: pin/unpin current tab
+- [g]+[Shift]+[p]: Pin/unpin current tab
 - [Shift]+[m]: Toggle mute current tab
 - ([Shift])+[x]: (Restore)/Kill tab
 - [Ctrl]+([Shift])+[x]: Kill all tabs on the (left)/right
@@ -390,7 +390,7 @@ Vim-like navigator in web page
 - [Shift]+[/]: Show Vimium help
 
 ### Extension - Read Aloud (Text to speech)
-- [Alt]+[Shift]+[l]: Activate Read Alout (Read Aloud: A Text to Speech Voice Reader)
+- [Alt]+[Shift]+[l]: Activate Read Aloud (Read Aloud: A Text to Speech Voice Reader)
 - [Alt]+[,/.]: Forward/Backward
 - [Alt]+[Space]: Play/Pause
 - [Alt]+[Shift]+[Space]: Stop
@@ -421,6 +421,10 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
 - [Alt]+[Shift]+[o]: Activate OneTab (OneTab)
 - [Alt]+[o]: Send current tab to OneTab (OneTab)
+- [Alt]+[Shift]+[i]: Activate Visor (Visor)
+- [Alt]+[Shift]+[a]: Activate Overleaf textarea (Overleaf textarea)
+- [Alt]+[Shift]+[r]: Activate Nimbus (Nimbus - Screenshot and screen video recorder)
+- [Ctrl]+[Shift]+[1]: Screenshot (Nimbus)
 
 ### Website - Youtube
 - [f]: Full screen player
@@ -429,7 +433,8 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [1-9]: Move to portion of playing content
 - [Home/End]: Beginning/End of playing content
 - [c]: Open CC caption
-- [o]: Toggle CC caption opacity
+- [o]: Toggle CC caption text opacity
+- [w]: Toggle CC caption background opacity
 - [i]: Open mini player
 - [m]: Mute player
 - [Up/Down]: Inc/Dec play player sound

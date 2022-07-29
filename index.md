@@ -31,6 +31,7 @@
 - [coding/Python_Numpy_Array](coding/Python_Numpy_Array.md)
 - [coding/Python_Misc](coding/Python_Misc.md)
 - [coding/Regex](coding/Regex)
+- [coding Git](coding/Git)
 
 ## Technique Notes
 - [technique/Jargon](technique/Jargon)

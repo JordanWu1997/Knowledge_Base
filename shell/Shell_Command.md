@@ -3,6 +3,7 @@
     - https://www.freecodecamp.org/news/the-linux-commands-handbook/
     - https://crontab-generator.org/
     - https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/
+    - https://overthewire.org/wargames/bandit/bandit10.html
     - Man (Linux system reference manuals)
 
 Table of Contents
@@ -14,6 +15,7 @@ Table of Contents
    * [Useful commands](#useful-commands)
       * [basename](#basename)
       * [dirname](#dirname)
+      * [column](#column)
       * [comm](#comm)
       * [crontab](#crontab)
       * [cut](#cut)
@@ -50,6 +52,9 @@ Note for some useful shell commands
 
 ### `dirname`
 - Strip filename and return directory name
+
+### `column`
+- Columnate lists
 
 ### `comm`
 - Compare two sorted files line by line
@@ -116,6 +121,24 @@ Note for some useful shell commands
 ### `w`
 - List current logged in users
 
+### `wget`
+- Get remote file with new name
+    ```
+    wget -O
+    ```
+- Save file to different directory
+    ```
+    wget -P
+    ```
+- Continue previous downloading
+    ```
+    wget -c
+    ```
+- Download file with input text list
+    ```
+    wget -i
+    ```
+
 ### `whatis`
 - Explain commands
 
@@ -124,3 +147,70 @@ Note for some useful shell commands
 
 ### `whereis`
 - Locate binary, source and manual page for __a command__
+
+### `nice`
+
+### `renice`
+
+### `kill`
+
+kill -1
+kill -2
+kill -15
+kill -9
+
+### `at`
+
+### `set`
+
+### `nmap`
+
+### `exec`
+
+### `eval`
+
+### `trap`
+
+### `wait`
+
+### `type`
+
+### `times`
+
+### `dd`
+
+### `fsck`
+
+### `service`
+
+### `systemctl`
+
+### `iwconfig`
+
+### `iwlist`
+
+### `nmcli`
+
+### `airmon-ng`
+
+### `hciconfig`
+
+### `hcitool`
+
+### `hcitool`
+
+### `sysctl`
+
+### `lsmod`
+
+### `modinfo`
+
+### `modprobe`
+
+### `xxd`
+xxd -r
+
+### `base64`
+
+### `tr`
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
