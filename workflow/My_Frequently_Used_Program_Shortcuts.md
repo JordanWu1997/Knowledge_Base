@@ -62,6 +62,7 @@ Table of Contents
    * [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
    * [Parcellite (Clipboard Manager)](#parcellite-clipboard-manager)
    * [IBUS (Input Utility)](#ibus-input-utility)
+   * [Emailspring (Email Client)](#emailspring-email-client)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -138,6 +139,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Alt]+[d]: Delete next word
 - [Ctrl]+[d]: If there is nothing in command, it will close entire terminal
 - [Ctrl]+[c]: Cancel entire line input
+- [Ctrl]+[j]: Enter newline
 
 ### FZF
 - [Ctrl]+[r]: FZF for history
@@ -145,13 +147,14 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[t]: FZF for file/directory and copy to command line
 - [Ctrl]+[g]: FZF for file and open with xdg-open
 - [Alt]+[c]: FZF for directory and change to that directory
+- [Ctrl/Alt]+[j/k]: Previous/Next FZF option
 
 ### Miscellaneous function
 - [Ctrl]+[l]: Clear screen
 - [Alt]+[e/v]: Open external editor ($EDITOR)
 - [Alt]+[p]: Page output (add &| less in the end of line)
 - [Alt]+[l]: List all directories (ls -D in command line)
-- [Alt]+[w]: Short help on current word
+- [Alt]+[w]: Short help on current word (similar to type)
 
 ### Reference
 - https://devhints.io/fish-shell
@@ -219,6 +222,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - (u)+[Shift]+[v]: (De)Select all
 - ([Shift])+[a]: Rename file (append)
 - [Shift]+[i]: Rename file (insert)
+- [Backspace]: Toggle hidden files
 - [Shift]+[\/]: Show help
 - [Shift]+[s]: Open shell within ranger
 - [Shift]+[r]: Refresh current working directory
@@ -317,6 +321,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+([Shift])+[Tab]: Move to (prev)/next tab
 - [Ctrl]+([Shift])+[w]: Kill current (window)/tab
 - [Alt]+[Left/Right]: Prev/Next page in history
+- [Ctrl]+[Shift]+[a]: List all tabs
 
 #### Browser
 - [Alt]+[e]: Open browser main menu
@@ -474,3 +479,10 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 ## IBUS (Input Utility)
 - [Ctrl]+[Alt]+[Space]: Toggle input method (Chewing/English)
 - [Ctrl]+[0]: Show special character options
+
+## Emailspring (Email Client)
+- [j/k]: Previous/Next mail
+- [PageDown/PageUp]: Scroll down/up mail content
+- [s]: Star current mail
+- [Ctrl]+[1]: Show all account mail
+- [Ctrl]+[n+1]: Show #n user mail
