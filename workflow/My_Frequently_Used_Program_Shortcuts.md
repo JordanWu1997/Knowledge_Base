@@ -116,14 +116,16 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[g/[]: Exit
 
 ## Kitty (Terminal Emulator)
+- [Ctrl]+[Shift]+[u]: Unicode input
 - [Ctrl]+[Shift]+[m/p]: Dec/Inc opacity
 - [Alt]+[Shift]+[m/p]: Min/Max opacity
 - [Ctrl/Alt]+[Shift]+[d]: Restore to default opacity
 - [Ctrl]+[Shift]+[-/+]: Dec/Inc font size
 - [Ctrl/Alt]+[Shift]+[0]: Set font size to 1/20
 - [Ctrl]+[Shift]+[Alt]+[0]: Restore to default font size
-- [Ctrl]+[Shift]+[F5]: Reload kitty configuration file
-- [Ctrl]+[Shift]+[F6]: Debug kitty configuration file
+- [Ctrl]+[Shift]+[Alt]+[F1~F6]: Change kitty colorscheme
+- [Ctrl]+[Shift]+[Alt]+[d]: Debug kitty configuration file
+- [Ctrl]+[Shift]+[Alt]+[r]: Reload kitty configuration file
 
 ## Fish (Shell)
 - Recommended plugins: `bang-bang`, `fzf`
@@ -342,6 +344,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [F5]: Reload current page
 - [Ctrl]+[r]: Reload current tab
 - [Ctrl]+[d]: Add to bookmark
+- [Ctrl]+[Shift]+[d]: Add all open tabs as bookmarks in a new folder
 - \[F11\]: Toggle full-screen
 - [Ctrl]+[Shift]+[-/=]: Zoom out/in
 - [Ctrl]+[0]: Zoom default

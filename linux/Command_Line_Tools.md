@@ -35,3 +35,5 @@ stat
 inode
 ls -il
 df -i
+
+sar

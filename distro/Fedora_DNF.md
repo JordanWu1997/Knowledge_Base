@@ -106,6 +106,8 @@ Repository for DNF, where packages are stored
         - `dnf repoquery packages_name> --requires`
     - List all dependency and packages provides them (detailed) for package:
         - `dnf repoquery <packages_name> --deplist`
+    - List package dependency requirement for package
+        - `dnf repoquery <package_name> --whatrequires`
 
 ### DNF COPR
 Cool Other Package Repo (COPR), repository hosted by other users

@@ -35,8 +35,8 @@ Database Type
 ## MySQL
 
 ### Installation
-
 MySQL Server Installation on Fedora
+
 - Fedora Docs
     - https://docs.fedoraproject.org/en-US/quick-docs/installing-mysql-mariadb/
 - In terminal
@@ -53,6 +53,7 @@ MySQL Server Installation on Fedora
 
 #### Commands in MySQL Server
 SQL command ends with semi-colon `;`
+
 - `show databases;`
     - List all databases
 - `create database NAME;`
@@ -62,6 +63,7 @@ SQL command ends with semi-colon `;`
 
 #### Commands in database
 SQL command ends with semi-colon `;`
+
 - `show tables;`
     - List all tables
 - `create table TABLE (id int, name varchar(255)));`

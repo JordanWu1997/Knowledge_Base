@@ -2,67 +2,113 @@
 - [README](README)
 
 ## Templates
-- [template Markdown_Template](template/Markdown_Template)
-- [template My_Note_Template](template/My_Note_Template)
+- [Markdown_Template](template/Markdown_Template)
+- [My_Note_Template](template/My_Note_Template)
 
 ## Workflow Notes
-- [workflow/My_Frequently_Used_Program_Shortcuts](workflow/My_Frequently_Used_Program_Shortcuts)
-- [workflow/My_Program_List](workflow/My_Program_List)
+- [My_Frequently_Used_Program_Shortcuts](workflow/My_Frequently_Used_Program_Shortcuts)
+- [My_Program_List](workflow/My_Program_List)
 
 ## Lecture Notes
-- [Missing Semester Lectures - MIT](https://missing.csail.mit.edu/)
-    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment)
-    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
-    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
-    - [lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
-- [FREE CCNA 200-301 - NetworkChuck](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
-    - [lecture/NetworkChuck_FREE_CCNA_200-301/Day_00_What_is_a_Network](lecture/NetworkChuck_FREE_CCNA_200-301/Day_00_What_is_a_Network)
-    - [lecture/NetworkChuck_FREE_CCNA_200-301/Day_01_What_is_a_Switch](lecture/NetworkChuck_FREE_CCNA_200-301/Day_01_What_is_a_Switch)
-- [CS50 - Harvard](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+
+### Missing Semester Lectures - MIT
+[Missing Semester Lectures - MIT](https://missing.csail.mit.edu/)
+- [Missing_Semester_Lecture_05_Command-line_Environment](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment)
+- [Missing_Semester_Lecture_06_Version_Control.md](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
+- [Missing_Semester_Lecture_07_Debugging_and_Profiling](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
+- [Missing_Semester_Lecture_08_Metaprogramming](lecture/MIT_Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
+
+### FREE CCNA 200-301 - NetworkChuck
+[FREE CCNA 200-301 - NetworkChuck](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
+- [Day_00_What_is_a_Network](lecture/NetworkChuck_FREE_CCNA_200-301/Day_00_What_is_a_Network)
+- [Day_01_What_is_a_Switch](lecture/NetworkChuck_FREE_CCNA_200-301/Day_01_What_is_a_Switch)
+- [Day_02_What_is_a_Router](lecture/NetworkChuck_FREE_CCNA_200-301/Day_02_What_is_a_Router)
+
+### CS50 - Harvard
+[CS50 - Harvard](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
 
 ## Book Notes
+
+### Linux
 - [book/Classic_Shell_Script-O'Reilly](book/Classic_Shell_Script-O'Reilly)
-- [book/X_Power_Tools-Chris_Tyler](book/X_Power_Tools-Chris_Tyler)
 - [book/How_Linux_Works_What_Every_Superuser_Should_Know Brian_Ward](book/How_Linux_Works_What_Every_Superuser_Should_Know-Brian_Ward)
+- [book/X_Power_Tools-Chris_Tyler](book/X_Power_Tools-Chris_Tyler)
+
+### Network
 - [book/How_Cybersecurity_Really_Works](book/How_Cybersecurity_Really_Works)
 
 ## Coding Notes
 
 ### Python
-- [coding/Python_Set](coding/Python_Set.md)
 - [coding/Python_Dict](coding/Python_Dict.md)
-- [coding/Python_Numpy_Array](coding/Python_Numpy_Array.md)
 - [coding/Python_Misc](coding/Python_Misc.md)
+- [coding/Python_Numpy_Array](coding/Python_Numpy_Array.md)
+- [coding/Python_Set](coding/Python_Set.md)
 
 ### Misc
-- [coding/Regex](coding/Regex)
+- [coding/Design_Pattern](coding/Design_Pattern)
 - [coding/Git](coding/Git)
+- [coding/Regex](coding/Regex)
+- [coding/Thread_and_Process](coding/Thread_and_Process)
 
 ## Linux Notes
-- [linux/Jargon](linux/Jargon)
-- [linux/Fedora_Linux_Background_Applications](linux/Fedora_Linux_Background_Applications)
+
+### Tutorials
 - [linux/Linux_Journey_Grasshopper](linux/Linux_Journey_Grasshopper)
 - [linux/Linux_Journey_Journeyman](linux/Linux_Journey_Journeyman)
-- [linux/Linux_Journey_Networking_Nomad](linux/Linux_Journey_Networking_Nomad)
+- [linux/Linux_Journey_Networking_Nomad](linux/Linux_Journey_Networking_Nomad.md)
+- [linux/Jargon](linux/Jargon)
+
+### CLI Tools
 - [linux/Command_Line_Tools](linux/Command_Line_Tools)
-- [linux/Regex](linux/Regex)
+
+### Virtualization
+- [linux/Docker](linux/docker)
 - [linux/VirtualBox](linux/VirtualBox)
 
+### Shell
+- [linux Shell_Programming](linux/Shell_Programming)
+- [linux/Shell_And_Profile](linux/Shell_And_Profile)
+- [linux/Shell_Command](linux/Shell_Command)
+- [linux/Shell_Shortcut](linux/Shell_Shortcut)
+
+### System
+- [linux proc](linux/proc)
+- [linux/logs](linux/logs)
+- [linux/SELinux](linux/SELinux)
+- [linux/Fedora_Systemd_and_CGroup](linux/Fedora_Systemd_and_CGroup.md)
+- [linux/ACL](linux/ACL.md)
+- [linux crontab](linux/crontab)
+
 ## Network Notes
+
+### Models
+- [network/OSI_Model](network/OSI_Model)
+
+### Tools
 - [network/Network_Tools](network/Network_Tools)
-- [network/FTP](network/FTP)
+- [network/tcpdump](network/tcpdump)
+
+### Protocols
+- [network/Network_Protocols](network/Network_Protocols)
+- [network/ARP](network/ARP)
+
+### Firewall
+- [network/fail2ban](network/fail2ban)
 - [network/firewalld](network/firewalld)
 
+### Services
+- [network/NFS](network/NFS)
+- [network/FTP](network/FTP)
+
 ## Database Notes
+- [database/JSON](database/JSON)
 - [database/MySQL](database/MySQL)
 - [database/YAML](database/YAML)
-- [database/JSON](database/JSON)
 
-## Shell Notes
-- [shell/Shell_And_Profile](shell/Shell_And_Profile)
-- [shell/Shell_Command](shell/Shell_Command)
-- [shell Shell_Programming](shell/Shell_Programming)
-- [shell/Shell_Shortcut](shell/Shell_Shortcut)
+## Hacking Notes
+- [hacking/google hacking](hacking/google-hacking)
+- [hacking/shell_fork_bomb](hacking/shell_fork_bomb)
 
 ## Vim Notes
 - [vim/Ex_Command](vim/Ex_Command)
@@ -71,7 +117,7 @@
 - [distro/Fedora_DNF](distro/Fedora_DNF)
 - [distro/Fedora_flatpak](distro/Fedora_flatpak)
 
-## I3 Window Manager Notes
+## i3 Window Manager Notes
 - [i3wm/Monochrome_Colorscheme](i3wm/Monochrome_Colorscheme)
 
 ## Misc Notes
