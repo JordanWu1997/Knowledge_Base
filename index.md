@@ -46,10 +46,15 @@
 - [coding/Python_Set](coding/Python_Set.md)
 
 ### Misc
+- [coding/Algorithm](coding/Algorithm)
+- [coding/Data_Structure](coding/Data_Structure)
 - [coding/Design_Pattern](coding/Design_Pattern)
 - [coding/Git](coding/Git)
 - [coding/Regex](coding/Regex)
 - [coding/Thread_and_Process](coding/Thread_and_Process)
+
+## FOSS Notes
+- [FOSS/License](FOSS/License)
 
 ## Linux Notes
 
@@ -63,7 +68,7 @@
 - [linux/Command_Line_Tools](linux/Command_Line_Tools)
 
 ### Virtualization
-- [linux/Docker](linux/docker)
+- [linux/Docker](linux/Docker)
 - [linux/VirtualBox](linux/VirtualBox)
 
 ### Shell
@@ -73,12 +78,15 @@
 - [linux/Shell_Shortcut](linux/Shell_Shortcut)
 
 ### System
-- [linux proc](linux/proc)
-- [linux/logs](linux/logs)
-- [linux/SELinux](linux/SELinux)
-- [linux/Fedora_Systemd_and_CGroup](linux/Fedora_Systemd_and_CGroup.md)
-- [linux/ACL](linux/ACL.md)
 - [linux crontab](linux/crontab)
+- [linux proc](linux/proc)
+- [linux/ACL](linux/ACL.md)
+- [linux/D-BUS](linux/D-BUS)
+- [linux/Fedora_Systemd_and_CGroup](linux/Fedora_Systemd_and_CGroup.md)
+- [linux/SELinux](linux/SELinux)
+- [linux/cgroups](linux/cgroups)
+- [linux/logs](linux/logs)
+- [linux systemd](linux/systemd)
 
 ## Network Notes
 
@@ -92,6 +100,7 @@
 ### Protocols
 - [network/Network_Protocols](network/Network_Protocols)
 - [network/ARP](network/ARP)
+- [network/TCP](network/TCP)
 
 ### Firewall
 - [network/fail2ban](network/fail2ban)
@@ -102,6 +111,7 @@
 - [network/FTP](network/FTP)
 
 ## Database Notes
+- [database/database_note](database/database_note)
 - [database/JSON](database/JSON)
 - [database/MySQL](database/MySQL)
 - [database/YAML](database/YAML)
