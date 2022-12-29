@@ -32,6 +32,7 @@ Data representation and encryption
     - Translate data from application layer from human understandable characters to machine understandable binary code
     - Compress data to make data transfer faster
     - Encrypt data to maintain integrity of data during the process
+    - Data format
 - Protocols
     - Secure Socket Layer (SSL)
     - Wired Equivalent Privacy (WEP)
@@ -43,6 +44,10 @@ Start/Terminate connection/sessions with Application Programming Interfaces (API
     - Authentication: Username and password to access the server
     - Authorization: Permission to access the files
     - Session Management: Keep track of data packets
+- Protocols
+    - L2TP
+    - RTCP
+    - H.245
 
 ## Layer 4 - Transportation Layer (segments)
 Service to service
