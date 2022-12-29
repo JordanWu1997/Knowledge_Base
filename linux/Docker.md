@@ -106,6 +106,8 @@ Scripts to automate create container and its setup
         - `-i`: interactive shell (shell must be packed with image)
 - Monitor container resource usage
     - `docker stats`
+- Check logs
+    - `docker logs`
 
 ## Network
 - List container network
