@@ -123,9 +123,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[Shift]+[-/+]: Dec/Inc font size
 - [Ctrl/Alt]+[Shift]+[0]: Set font size to 1/20
 - [Ctrl]+[Shift]+[Alt]+[0]: Restore to default font size
-- [Ctrl]+[Shift]+[Alt]+[F1~F6]: Change kitty colorscheme
 - [Ctrl]+[Shift]+[Alt]+[d]: Debug kitty configuration file
 - [Ctrl]+[Shift]+[Alt]+[r]: Reload kitty configuration file
+- [Ctrl]+[Shift]+[Win]+[1~6]: Change kitty colorscheme
 
 ## Fish (Shell)
 - Recommended plugins: `bang-bang`, `fzf`
