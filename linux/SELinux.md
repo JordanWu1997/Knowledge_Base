@@ -1,7 +1,7 @@
 # SELinux (Secure Enhanced Linux)
 - https://www.youtube.com/watch?v=YcWMoIkpyp0 (Chinese)
-https://www.youtube.com/watch?v=fibllWD1_4s&t=26s
-https://www.youtube.com/watch?v=S0bCoVWqo-o
+- https://www.youtube.com/watch?v=fibllWD1_4s&t=26s
+- https://www.youtube.com/watch?v=S0bCoVWqo-o
 
 ## What is SELinux
 - Linux security strategy developed by NSA
@@ -54,3 +54,7 @@ Some operation will accidentally change context of file and cause problem for fi
 restorecon -R -v /var/www :restore default context of file in directory
 chcon --refence=/etc/named.conf.orig /etc/named.conf: change context of file
 ausearch
+
+getsebool -a
+sestatus -vb
+setsebool

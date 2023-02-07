@@ -48,6 +48,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     - Clean package installation packet and other cache:
         - `dnf clean all`
 - Update RPM package:
+    - Check changelog of RPM package:
+        - `dnf changelog <package_name>`
     - Check update:
         - `dnf check-update --refresh`
     - Update (root authentication is needed):

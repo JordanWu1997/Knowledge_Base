@@ -1,14 +1,23 @@
 # Git
-- https://levelup.gitconnected.com/7-lesser-known-git-commands-and-tricks-9915e9caeb70
-- https://www.reddit.com/r/commandline/comments/uy5quc/7_lesserknown_git_commands_and_tricks/
-- https://www.w3schools.com/git/default.asp
-- https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-- https://www.maxlist.xyz/2020/05/02/git-merge-rebase/
+Note for git learning
+
+- Reference
+    - https://levelup.gitconnected.com/7-lesser-known-git-commands-and-tricks-9915e9caeb70
+    - https://www.reddit.com/r/commandline/comments/uy5quc/7_lesserknown_git_commands_and_tricks/
+    - https://www.w3schools.com/git/default.asp
+    - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
+    - https://www.maxlist.xyz/2020/05/02/git-merge-rebase/
+    - https://www.youtube.com/watch?v=akD-DpolilE
 
 # Context
 
 ## Introduction to Git
 Version Control System (VCS)
+
+## Config
+- `git init`
+- `git clone`
+- `git config --global`
 
 ## Stage (Add)
 - Add file FILE to stage
@@ -19,7 +28,7 @@ Version Control System (VCS)
     - `git restore FILE`
 
 ## Commit
-- Commit files on stage to git
+- Commit files on stage to git (snapshot)
     - `git commit`
 - Modify commit message
     - `git commit --amend`
@@ -29,6 +38,12 @@ Version Control System (VCS)
     - `git reset HEAD^`
 - Show committed content
     - `git show`
+- Save change made without making commit (to clean your stage for other works)
+    - `git stash`
+- List saved changes saved by stash
+    - `git stash list`
+- Apply saved changes saved by stash
+    - `git stash apply`
 
 ## Remote
 - Add remote server
@@ -49,10 +64,14 @@ Version Control System (VCS)
 - Show all changes of commits
     - `git log -p`
 
+- `git status`
+- `git blame`
+- `git tag`
+
 ## Branch
 - Show current branch
     - `git branch`
-- List all branchess
+- List all branches
     - `git branch -a`
 - Show remote branches
     - `git branch -r`
@@ -79,3 +98,5 @@ Version Control System (VCS)
 - `git grep`
 - `git notes add -m "Test note"`
 - `git rev-parse HEAD`
+- `git archive`
+- `git bundle`

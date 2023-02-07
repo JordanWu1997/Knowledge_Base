@@ -167,7 +167,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Normal mode
 
 #### Pane navigation
-- [Shift]+[`]: Toggle view mode (current column only)
+- [Shift]+[Grave]: Toggle view mode (current column only)
 - [j/k]: Move down/up in current directory
 - [h/l]: Move to parent/child directory
 - [Shift]+[h/l]: Move to prev/next directory in history
@@ -207,7 +207,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### Vim-like mark
 - \[m]: mark
 - [u]+[m]: un-mark
-- [`/']: go to mark
+- [Grave/']: go to mark
 
 #### Miscellaneous
 - \[q]: Quit
@@ -252,31 +252,33 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Feh (Image Viewer)
 - [Shift]+[,/.]: Rotate image 90 degree (counter)clockwise
 - [Shift]+[-/\]: Flip image (vertically/horizontally)
-- [Ctrl]+[0]: Zoom to default (or [Shift]+[=])
-- [Ctrl]+[j/k]: Zoom in/out (or [-/=])
+- [Ctrl]+[j/k]: Zoom in/out
+- [Ctrl]+[-/=]: Zoom in/out (or [-/=])
+- [Ctrl]+[0]: Zoom fit (or [Shift]+[=])
 - [Shift]+[j/k]: Next/Prev image (or [n/p])
 - [h/j/k/l]: Scroll left/down/up/right
 
 ## Zathura (PDF Viewer)
 
 ### General mode
-- ([Shift])+[j/k]: Scroll (page)/line down/up
-- ([Shift])+[h/l]: Scroll left/right
+- [h/j/k/l]: Scroll left/down/up/right
+- [Shift]+[j/k]: Scroll page down/up or ([Space])
 - [Ctrl]+[d/u]: PageDown/PageUp
-- [Space]: Scroll page down
-- [a]: Adjust window in best-fit mode
-- [s]: Adjust window in width mode
-- [d]: Adjust window in two-page mode
-- [f]: Open URL in default web-browser (xdg-open)
+- [a/s]: Adjust window in best-fit/width
+- [d]: Toggle two-page/one-page mode
+- [f/;]: Open URL in default web-browser (xdg-open)
+- [Ctrl]+[o/i]: Jump backward/forward in jumplist (just like vim)
 - [Ctrl]+[r]: Recolor (greyscale and invert colors)
 - [Shift]+[r]: Reload document
-- [-]/[Ctrl]+[k]: Zoom out (-)
-- [Shift]+[=]/[Ctrl]+[j]: Zoom in (+)
-- [=]: Reset zoom scale
+- [Ctrl]+[j/k]: Zoom in/out (or [-/=])
+- [Ctrl]+[-/=]: Zoom in/out (or [-/=])
+- [Ctrl]+[0]: Zoom fit (or [Shift]+[=])
 - [/]: Search mode
+- [b]+[l]: List all bookmarks
+- [b]+[m]: Add bookmark
+- [b]+[d]: Delete bookmark
 - [Shift]+[;]: Enter command
-- [Ctrl]+[m/i]: Toggle inputbar
-- [Ctrl]+[n/s]: Toggle statusbar
+- [Ctrl]+[g]: Toggle statusbar
 - \[F11\]: Fullscreen mode
 
 ### Index mode
@@ -371,7 +373,7 @@ Vim-like navigator in web page
 - [g]+[p/n]: Go to prev/next page
 - [g]+([Shift])+[f]: Select (top of) next frame on page
 - [m]: Create mark
-- [`]: Go to mark
+- [Grave]: Go to mark
 - [Shift]+[h/l]: Go back/forward history
 
 #### Tabs manipulation

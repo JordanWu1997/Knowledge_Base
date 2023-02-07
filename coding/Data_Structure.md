@@ -20,6 +20,7 @@
     - Graphs
 
 ## Big O Notation
+Asymptotic notation for quantifying complexity
 
 Efficiency: Number of operation performed in __Worst-case scenario__
 

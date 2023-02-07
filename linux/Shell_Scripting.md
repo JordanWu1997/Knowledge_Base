@@ -7,6 +7,16 @@ grouping {...}
 backticks ``
 - Save result as variables
 
+process substitution <() ()>
+- Use subshell output as standard input/output
+
+redirect standard input/output/error
+<
+1>
+2>
+&>
+
+
 ${var_name:-default_value}
 ${var_name:=default_value}
 ${var_name:?default_value}
@@ -22,3 +32,7 @@ RANDOM
 
 >>
 >
+
+trap
+
+wait

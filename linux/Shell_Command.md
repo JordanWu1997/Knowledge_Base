@@ -45,7 +45,7 @@ env -i
 ### `eval`
 
 ### `read`
-- Read user input
+- Read user input and store it as `REPLY` variable
 
 ### `echo`
 
@@ -356,3 +356,8 @@ Note for some useful shell commands
 fuser
 lsof
 pidof
+
+chage
+sar
+vmstat
+pstree

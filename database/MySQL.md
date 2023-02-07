@@ -8,8 +8,11 @@ Note for MySQL learning and database
     - https://www.youtube.com/watch?v=HXV3zeQKqGY&t=13578s
     - https://www.youtube.com/watch?v=Hl4NZB1XR9c&list=WL&index=61
     - https://www.youtube.com/watch?v=7S_tz1z_5bA
+    - https://www.youtube.com/watch?v=L0INjhh51mA
 - Document:
     - https://www.w3schools.com/sql/sql_ref_keywords.asp
+    - https://www.strongdm.com/blog/mysql-create-user-manage-access-privileges-how-to
+    - https://blog.devart.com/mysql-backup-tutorial.html
 
 # Context
 
@@ -210,6 +213,14 @@ Select data from table
 
 SELECT * FROM new_table AS SELECT * FROM old_table;
 INSERT INTO new_table SELECT * FROM old_table;
+SELECT INTO
+INSERT INTO SELECT
+
+DISTINCT()
+DISTiNCT
+LIMIT
+OFFSET
+TOP
 
 ### ORDER BY
 
@@ -219,14 +230,19 @@ GROUP BY
 HAVING: Same as where but works after group by
 
 ### Aggregate Function
-- `COUNT`: Count number of occurrence
-- `AVG`: Calculate average
-- `SUM`: Calculate sum
-- `MAX`: Find maximal value
-- `MIN`: Find minimal value
+
+| Function | Explanation                |
+| :------: | :------------------------: |
+| `COUNT`  | Count number of occurrence |
+| `AVG`    | Calculate average          |
+| `SUM`    | Calculate sum              |
+| `MAX`    | Find maximal value         |
+| `MIN`    | Find minimal value         |
 
 ### Alias
-SELECT AS
+- Column alias
+- Table alias
+- Query result alias
 
 ### SELECT command + WHERE condition
 Wild cards for LIKE: `%`: zero or multiple characters, `_`: one character
@@ -246,49 +262,138 @@ Wild cards for LIKE: `%`: zero or multiple characters, `_`: one character
     - Select column `column_n` from rows that their column values are "criteria_1" or "criteria_2" in column `column`)
 
 ### Subquery
-()
+Use query result for further query
+- SELECT * FROM `(SELECT STATEMENT)`
 
 ### EXISTS command
+DROP TABLE IF EXIST table;
 
 ### Logical Operator
-- `AND`:
-- `OR`:
-- `NOT`:
-- `LIKE`: Search specific pattern in string
-- `IN`:
-- `BETWEEN`
-- `ANY`
-- `ALL`
-- `SOME`
 
-`REGEXP`
+| Operator  | Explanation                       |
+| :-------: | :-------------------------------: |
+| `AND`     |                                   |
+| `OR`      |                                   |
+| `NOT`     |                                   |
+| `LIKE`    | Search specific pattern in string |
+| `IN`      |                                   |
+| `BETWEEN` |                                   |
+| `ANY`     |                                   |
+| `ALL`     |                                   |
+| `SOME`    |                                   |
+| `REGEXP`  |                                   |
 
-### Set Operator for Rows
-UNION
-UNION ALL
-EXCEPT
-INTERSECT
+### Arithmetic Operator
 
-The attribute type must be the same
+### Set Operator (Manipulate Rows Between Tables)
+Set operation rows of tables.
+Attribute (column) type must be the same.
 
-### Arithmetic  Operator
+- Type of Set Clause
+    - `UNION`: Combine all the rows from both tables but remove duplicate ones (LIKE OUTER SET)
+    - `UNION ALL`: Combine all the rows from both tables including duplicate ones
+    - `EXCEPT`: Combine all the rows except rows that satisfies some criteria
+    - `INTERSECT`: Combine the rows that are common in both tables
 
-### Set Operator for Attributes
+### Join Clause (Manipulate Columns Between Tables)
+Join columns of tables with criteria.
+Value are set to `NULL` if there is no matched result
 
-### Join Operator
-JOIN ON
-JOIN USING
+- Type of `JOIN`
+    - `JOIN`: Natural join, join both tables as much as possible (like OUTER JOIN)
+    - `CROSS JOIN`: Cross product of two tables
+    - `INNER JOIN`: Intersection of both tables
+    - `LEFT JOIN`: Rows of left table and matched rows of right table
+    - `RIGHT JOIN`: Rows of right table and matched rows of left table
+SELF JOIN
 
-INNER JOIN: Intersection
-LEFT JOIN: Rows of left table and matched rows of right table (value is set to NULL if there is no match)
-RIGHT JOIN: Rows of right table and matched rows of left table (value is set to  NULL if there is no match)
-FULL JOIN: Rows of left table and right table (value is set to NULL is there is no match)
-CROSS JOIN
-NATURAL JOIN
-
-SELECT INTO
-INSERT INTO SELECT
+- `table_A JOIN table_B ON table_A.id = table_B.idw`
+    - Join table_A and table_B based on id on both table
+- `table_A JOIN table_B USING id`
+    - Join table_A and table_B based on id on both table
 
 ### Case Statement
+Create a new temporary column for table based on conditions
+
+```sql
+SELECT *,
+    CASE
+        WHEN condition_1 THEN value_1
+        WHEN condition_2 THEN value_2
+        ELSE value_3
+    END AS column
+FROM table
+```
 
 ### View
+Virtual table created based on select results
+
+- `CREATE VIEW view AS SELECT item1, item2 FROM table;`
+    - Create VIEW view from select results
+- `DROP VIEW view;`
+    - Delete VIEW view
+- `SHOW FULL TABLES IN database WHERE TABLE_TYPE LIKE 'view';`
+    - List all VIEW in DATABASE database
+
+### Stuff/Replace
+
+### Procedure and Exec
+
+### Trigger
+
+### Temporary table
+
+### MERGE
+
+NULL
+IS NULL
+COALESCE
+
+## MySQL Order of Execution
+https://sqlbolt.com/lesson/select_queries_order_of_execution
+https://sqlbolt.com/topic/set_operations
+
+1. `FROM` and `JOIN`
+2. `WHERE`
+3. `GROUP BY`
+4. `HAVING`
+5. `SELECT`
+6. `DISTINCT`
+7. `UNION`
+8. `ORDER BY`
+9. `LIMIT` / `OFFSET`
+
+## MySQL User Permission
+
+### Create/Delete User
+- `SELECT * FROM mysql.user;`
+    - List all users
+- `CREATE USER 'user'@'host' IDENTIFIED BY 'password';`
+    - Create USER user at HOST host with PASSWORD password
+        - For local machine, use 'localhost' as host
+        - For remote machine, use IP address as host
+            - e.g. '10.0.%' stands for IP addresses 10.0.XXX.XXX
+- `ALTER USER 'user'@'host' IDENTIFIED BY 'new_password';`
+    - Change a password for USER user
+- `DROP USER 'user'@'host';`
+    - Delete USER user
+
+### Grant/Revoke Permission To/From User
+- `SHOW GRANTS FOR 'user'@'host'`
+    - Show privileges (permission) for USER user
+- `GRANT privilege ON privilege_level TO 'user'@'host';`
+    - Give privilege on privilege_level to USER user
+        - Example for privileges
+            - `ALL PRIVILEGES`
+            - `ALTER`, `CREATE`, `DELETE`, `INSERT`, `SELECT`, `UPDATE`
+        - Examples for privilege_level
+            - `database.*` (i.e. database)
+            - `*.*` (i.e. all databases)
+- `REVOKE privilege ON privilege_level FROM 'user'@'host';`
+    - Remove privileges on privilege_level to USER user
+
+## Backup and Restore Database
+- `mysqldump > backup.sql # In terminal shell`
+    - Dump SQL databasee
+- `mysql < backup.sql # In terminal shell`
+    - Restore SQL database

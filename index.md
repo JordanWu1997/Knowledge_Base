@@ -72,7 +72,7 @@
 - [linux/VirtualBox](linux/VirtualBox)
 
 ### Shell
-- [linux Shell_Programming](linux/Shell_Programming)
+- [linux/Shell_Scripting](linux/Shell_Scripting)
 - [linux/Shell_And_Profile](linux/Shell_And_Profile)
 - [linux/Shell_Command](linux/Shell_Command)
 - [linux/Shell_Shortcut](linux/Shell_Shortcut)
