@@ -74,7 +74,7 @@ Kernel manages all processes on linux system, with information of status, resour
 - `PTS`: Pseudo terminal devices
     - TTY label for PTS: `?`
 
-### requently used command
+### Frequently used command
 - `ps`: Show active processes, contains
     - `PID`: Process ID
     - `TTY`: Terminal
