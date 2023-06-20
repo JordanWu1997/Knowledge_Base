@@ -257,6 +257,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[0]: Zoom fit (or [Shift]+[=])
 - [Shift]+[j/k]: Next/Prev image (or [n/p])
 - [h/j/k/l]: Scroll left/down/up/right
+- [d]: Toggle filename
+- [g]: Toggle fixed geometry
+- [m]: Toggle menu
 
 ## Zathura (PDF Viewer)
 
