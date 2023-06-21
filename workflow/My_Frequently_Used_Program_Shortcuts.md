@@ -241,7 +241,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Shift]+[n/p/m/t]: Sort process on PID/CPU%/MEM%/TIME
 - [t]: Tree view
 - [+/-]: Expand/collapse tree
-- [*]: Toggle all tree
+%%- [\*]: Toggle all tree
 - [k]: Kill process
 - [h]: Show help menu
 - [u]: Display process owned by particular user
@@ -257,6 +257,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[0]: Zoom fit (or [Shift]+[=])
 - [Shift]+[j/k]: Next/Prev image (or [n/p])
 - [h/j/k/l]: Scroll left/down/up/right
+- [d]: Toggle filename
+- [g]: Toggle fixed geometry
+- [m]: Toggle menu
 
 ## Zathura (PDF Viewer)
 
@@ -295,6 +298,63 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ### Reference
 - https://defkey.com/zathura-shortcuts?filter=basic
+
+## Visidata (TUI data viewer)
+
+### Sheet operation
+- [Shift]+[s]: Open sheets sheet
+- [g]+[S]: Go to sheet graveyard (trash can)
+- [Shift]+[c]: Show column attributes
+    - [d]: Delete column
+    - [a]: Add column
+
+### Navigation
+- [h/j/k/l]: Go to left/down/up/right
+- [g]+[h/j/k/l]: Jump to leftmost/bottom/top/rightmost
+- [z]+[r]+[Number]: Jump to row number
+- [z]+[c]+[Number]: Jump to column number
+
+### Row/Column/Cell Operations
+- [Shift]+[u]: Undo
+- [Shift]+[r]: Redo
+- [Shift]+[j/k]: Move current row down/up
+- [Shift]+[h/l]: Move current column left/right
+- [i]: Insert column
+- [s]: Select
+- [g]+[s]: Select all
+- [u]: Unselect
+- [g]+[u]: Unselect all
+- [t]: Toggle current selection
+- [d]: Delete
+- [e]: Edit current cell
+- [^]: Rename current column
+- [[]: Sort ascending
+- []]: Sort descending
+- [q]: Quit current sheet
+
+### Column Type
+- [~]: Set column type to string
+- [#]: Set column type to integer
+- [%]: Set column type to float
+- [$]: Set column type to currency
+- [@]: Set column type to date
+- [z]+[#]: Set column type to vlen
+- [z]+[~]: Set column type to anytype
+
+### Search
+- [/]: Regex search
+- [n/N]: Jump to next/previous matching row
+- [c]: Jump to matching column
+- [|]: Select row matches the current row
+- [\]: Unselect row matches the current row
+
+### Miscellaneous
+- [Shift]+[f]: Show frequency table for current column
+- [Ctrl]+[h]: Show help menu
+- [Ctrl]+[q]: Force-quit
+
+### Reference
+- https://jsvine.github.io/intro-to-visidata/index.html
 
 ## Jupyter-lab (Python notebook)
 
@@ -388,6 +448,7 @@ Vim-like navigator in web page
 - [Alt]+[Ctrl]+[Shift]+[x]: Kill all other tabs
 - [Shift]+[w]: Split tab to new window
 - [Shift]+[,/.]: Move tab to left/right
+- [Shift]+[\[/\]]: Move tab to left/right
 - [Alt]+[Shift]+[,/.]: Move tab to the left/right end
 
 #### Miscellaneous
@@ -428,13 +489,16 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - [Alt]+[Shift]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
 - [Alt]+[Shift]+[t]: Activate Google Translate (Google Translate)
 - [Alt]+[Shift]+[v]: Activate Vimium (Vimium)
-- [Alt]+[d]: Activate/Deactivate dark mode (Dark Reader)
-- [Alt]+[Shift]+[o]: Activate OneTab (OneTab)
-- [Alt]+[o]: Send current tab to OneTab (OneTab)
+- [Alt]+[Shift]+[d]: Activate/Deactivate dark mode (Dark Reader)
+- [Alt]+[Shift]+[o]: Activate OneTab Group (OneTab Group)
+- [Alt]+[o]: Send current tab to OneTab Group (OneTab Group)
+- [Alt]+[Shift]+[r]: Activate Nimbus (Nimbus - Screenshot and screen video recorder)
+- [Alt]+[Shift]+[i]: Activate Mendeley Web Importer
+- [Alt]+[Shifk]+[e]: Activate Invert! (Invert!)
+
+### Extension - Backup (Not Used Anymore)
 - [Alt]+[Shift]+[i]: Activate Visor (Visor)
 - [Alt]+[Shift]+[a]: Activate Overleaf textarea (Overleaf textarea)
-- [Alt]+[Shift]+[r]: Activate Nimbus (Nimbus - Screenshot and screen video recorder)
-- [Ctrl]+[Shift]+[1]: Screenshot (Nimbus)
 
 ### Website - Youtube
 - [f]: Full screen player
