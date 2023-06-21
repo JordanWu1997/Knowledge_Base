@@ -27,6 +27,10 @@
 ### CS50 - Harvard
 [CS50 - Harvard](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
 
+### Machine Learning - Hung-Yi Li
+[[機器學習2021】(中文版)](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)
+- [【機器學習2021】機器學習任務攻略](【機器學習2021】機器學習任務攻略)
+
 ## Book Notes
 
 ### Linux
@@ -52,6 +56,7 @@
 - [coding/Git](coding/Git)
 - [coding/Regex](coding/Regex)
 - [coding/Thread_and_Process](coding/Thread_and_Process)
+- [coding Coding_Documentation_Highlighting_Guide](coding/Coding_Documentation_Highlighting_Guide)
 
 ## FOSS Notes
 - [FOSS/License](FOSS/License)
