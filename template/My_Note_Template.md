@@ -1,9 +1,14 @@
-# Title
-- Reference
-- Description
+Tags:
 
-Table of Contents
-=================
+---
+
+# Title
+- __Description:__
+- __Author:__ Kuan-Hsien Wu
+- __Contact:__ jordan@gmail.com
+- __Date:__
+
+# Table of Contents
 
 # Context
 
@@ -12,3 +17,5 @@ Table of Contents
 
 ### Sub-section
 - Descriptions
+
+# Reference

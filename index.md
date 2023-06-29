@@ -56,7 +56,7 @@
 - [coding/Git](coding/Git)
 - [coding/Regex](coding/Regex)
 - [coding/Thread_and_Process](coding/Thread_and_Process)
-- [coding Coding_Documentation_Highlighting_Guide](coding/Coding_Documentation_Highlighting_Guide)
+- [coding/Coding_Documentation_Highlighting_Guide](coding/Coding_Documentation_Highlighting_Guide)
 
 ## FOSS Notes
 - [FOSS/License](FOSS/License)
@@ -138,3 +138,4 @@
 
 ## Misc Notes
 - [misc/notes](misc/notes)
+- [misc paddle](misc/paddle.md)
