@@ -91,8 +91,8 @@
 - [linux/SELinux](linux/SELinux)
 - [linux/cgroups](linux/cgroups)
 - [linux/logs](linux/logs)
-- [linux systemd](linux/systemd)
-- [linux Backup](linux/Backup)
+- [linux/systemd](linux/systemd)
+- [linux/Backup](linux/Backup)
 
 ## Network Notes
 

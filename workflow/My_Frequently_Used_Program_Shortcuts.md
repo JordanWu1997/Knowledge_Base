@@ -211,6 +211,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 #### Miscellaneous
 - \[q]: Quit
+- [x]: Close tab
+- [Shift]+[x]: Restore closed tab
 - [i]: Show file
 - [e]: Edit file
 - [f]: Search and go to directory
