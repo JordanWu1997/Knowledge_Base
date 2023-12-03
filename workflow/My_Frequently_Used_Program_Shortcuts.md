@@ -211,6 +211,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 #### Miscellaneous
 - \[q]: Quit
+- [x]: Close tab
+- [Shift]+[x]: Restore closed tab
 - [i]: Show file
 - [e]: Edit file
 - [f]: Search and go to directory
@@ -256,8 +258,11 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Ctrl]+[0]: Zoom fit (or [Shift]+[=])
 - [Shift]+[j/k]: Next/Prev image (or [n/p])
 - [h/j/k/l]: Scroll left/down/up/right
+- [a]: Automatic resize window
 - [d]: Toggle filename
+- [i]: Toggle file information
 - [g]: Toggle fixed geometry
+- [v]: Toggle fixed zooming scale
 - [m]: Toggle menu
 
 ## Zathura (PDF Viewer)

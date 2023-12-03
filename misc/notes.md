@@ -4,6 +4,16 @@ https://haydenjames.io/90-linux-commands-frequently-used-by-linux-sysadmins/
 https://haydenjames.io/linux-networking-commands-scripts/
 https://haydenjames.io/50-essential-linux-commands-that-you-should-know/
 
+systemctl show
+
+Requisite
+Conflicts
+Requires
+RequiredBY
+
+Wants
+WantedBy
+
 # PYTHON
 
 ## collection
@@ -37,6 +47,7 @@ JSONDecoder
 ## sys
 getsizeof
 
+<<<<<<< HEAD
 atool
 7zip
 mpv-mpris
@@ -98,3 +109,14 @@ fc-cache -f -v
 
 zathura
 set default-bg rgba(1,1,1,0.7)
+=======
+
+## fuser
+fuser -v -m /dev/sdb1
+fuser -v /dev/jordankhwu/73FF-F83C
+fuser -k /dev/jordankhwu/73FF-F83C
+fuser -v -n tcp 6463
+
+
+strace
+>>>>>>> 04f83087c0fd99f307f2b828ec8b838ab6a425e9

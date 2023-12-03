@@ -94,8 +94,8 @@
 - [linux/SELinux](linux/SELinux)
 - [linux/cgroups](linux/cgroups)
 - [linux/logs](linux/logs)
-- [linux systemd](linux/systemd)
-- [linux Backup](linux/Backup)
+- [linux/systemd](linux/systemd)
+- [linux/Backup](linux/Backup)
 
 ## Network Notes
 
@@ -148,3 +148,4 @@
 - [misc/paddle](misc/paddle.md)
 - [misc/machine_learning](misc/machine_learning)
 - [misc/ocr](misc/ocr)
+- [misc/AOEIIDE](misc/AOEIIDE)
