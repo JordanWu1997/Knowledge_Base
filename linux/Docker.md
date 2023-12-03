@@ -73,7 +73,7 @@ Scripts to automate create container and its setup
     - `docker search -f is-official=true`
         - `-f is-official=true`: f for filter, restricted search to official images
 - Get image from Dockerhub
-- `docker pull IMAGE:TAG`
+    - `docker pull IMAGE:TAG`
 - List local images
     - `docker images`
 - Remove downloaded image IMAGE

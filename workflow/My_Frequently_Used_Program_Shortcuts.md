@@ -229,9 +229,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - [Shift]+[s]: Open shell within ranger
 - [Shift]+[r]: Refresh current working directory
 - [Ctrl]+[r]: Reset ranger
-- [#]+[g]+[g]: Go to line #
-- [#]+[#]+[#]+[=]: Chmod user/group/other to r/w/x (4/2/1)
-
+- [\#]+[g]+[g]: Go to line \#
+- [\#]+[\#]+[\#]+[=]: Chmod user/group/other to r/w/x (4/2/1)
 ### Console mode
 - ([Shift])+[q]: Quit (all) tab
 - [Ctrl]+[n/p]: Next/Prev command in console mode
@@ -334,11 +333,11 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ### Column Type
 - [~]: Set column type to string
-- [#]: Set column type to integer
+- [\#]: Set column type to integer
 - [%]: Set column type to float
 - [$]: Set column type to currency
 - [@]: Set column type to date
-- [z]+[#]: Set column type to vlen
+- [z]+[\#]: Set column type to vlen
 - [z]+[~]: Set column type to anytype
 
 ### Search
@@ -381,7 +380,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 #### Tabs and windows
 - [Ctrl]+([Shift])+[n]: Open new (private) window
 - [Ctrl]+([Shift])+[t]: Open (last)/new tab
-- [Ctrl/Alt]+[#Number]: Go to tab number #
+- [Ctrl/Alt]+[\#Number]: Go to tab number \#
 - [Ctrl]+([Shift])+[Tab]: Move to (prev)/next tab
 - [Ctrl]+([Shift])+[w]: Kill current (window)/tab
 - [Alt]+[Left/Right]: Prev/Next page in history
@@ -407,7 +406,7 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 - [Ctrl]+[r]: Reload current tab
 - [Ctrl]+[d]: Add to bookmark
 - [Ctrl]+[Shift]+[d]: Add all open tabs as bookmarks in a new folder
-- \[F11\]: Toggle full-screen
+- [F11]: Toggle full-screen
 - [Ctrl]+[Shift]+[-/=]: Zoom out/in
 - [Ctrl]+[0]: Zoom default
 - [Ctrl]+[Left/Down/Up/Right]: Move cursor left/down/up/right

@@ -58,6 +58,9 @@
 - [coding/Thread_and_Process](coding/Thread_and_Process)
 - [coding/Coding_Documentation_Highlighting_Guide](coding/Coding_Documentation_Highlighting_Guide)
 
+## Machine Learning Notes
+- [[ML/object_detection](ML/object_detection.md)
+
 ## FOSS Notes
 - [FOSS/License](FOSS/License)
 
@@ -136,6 +139,12 @@
 ## i3 Window Manager Notes
 - [i3wm/Monochrome_Colorscheme](i3wm/Monochrome_Colorscheme)
 
+## C-LINK Notes
+- [clink/eVision](clink/eVision)
+- [clink/UIUX](clink/UIUX)
+
 ## Misc Notes
 - [misc/notes](misc/notes)
-- [misc paddle](misc/paddle.md)
+- [misc/paddle](misc/paddle.md)
+- [misc/machine_learning](misc/machine_learning)
+- [misc/ocr](misc/ocr)
