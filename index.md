@@ -2,12 +2,16 @@
 - [README](README)
 
 ## Templates
-- [Markdown_Template](template/Markdown_Template)
-- [My_Note_Template](template/My_Note_Template)
+- [template/Markdown_Template](template/Markdown_Template)
+- [template/My_Note_Template](template/My_Note_Template)
+- [template/My_Book_Note_Template](template/MY_Book_Note_Tempalte.md)
+- [template/Paper_Review_Template](template/Paper_Review_Template.md)
 
 ## Workflow Notes
 - [My_Frequently_Used_Program_Shortcuts](workflow/My_Frequently_Used_Program_Shortcuts)
 - [My_Program_List](workflow/My_Program_List)
+- [GNOME_Setup](/workflow/GNOME_Setup.md)
+- [Obsidian_Setup](/workflow/Obsidian_Setup.md)
 
 ## Lecture Notes
 
@@ -59,7 +63,10 @@
 - [coding/Coding_Documentation_Highlighting_Guide](coding/Coding_Documentation_Highlighting_Guide)
 
 ## Machine Learning Notes
-- [[ML/object_detection](ML/object_detection.md)
+- [ML/Machine_Learning](misc/Machine_Learning)
+- [[ML/Object_Detection](ML/Object_Detection.md)
+- [ML/Paddle](ML/Paddle.md)
+- [ML/OCR](misc/OCR.md)
 
 ## FOSS Notes
 - [FOSS/License](FOSS/License)
@@ -136,16 +143,10 @@
 - [distro/Fedora_DNF](distro/Fedora_DNF)
 - [distro/Fedora_flatpak](distro/Fedora_flatpak)
 
-## i3 Window Manager Notes
-- [i3wm/Monochrome_Colorscheme](i3wm/Monochrome_Colorscheme)
-
 ## C-LINK Notes
 - [clink/eVision](clink/eVision)
 - [clink/UIUX](clink/UIUX)
 
 ## Misc Notes
 - [misc/notes](misc/notes)
-- [misc/paddle](misc/paddle.md)
-- [misc/machine_learning](misc/machine_learning)
-- [misc/ocr](misc/ocr)
 - [misc/AOEIIDE](misc/AOEIIDE)
