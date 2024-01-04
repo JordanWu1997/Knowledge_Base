@@ -16,9 +16,6 @@
 
 ## Machine Learning
 
-### Tutorial: Machine Learning - Hung-Yi Li
-- [機器學習2021(中文版)](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)
-
 ### Machine Learning
 - [Machine_Learning/Machine_Learning/Machine_Learning](Machine_Learning/Machine_Learning/Machine_Learning.md)
 - [Machine_Learning/Machine_Learning/Gradient_Boost](Machine_Learning/Machine_Learning/Gradient_Boost.md)
@@ -32,6 +29,8 @@
 ### Platform
 - [Machine_Learning/Platform/Paddle](Machine_Learning/Platform/Paddle.md)
 
+### Lecture: Machine Learning - Hung-Yi Li
+- [機器學習2021(中文版)](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)
 
 ## Programming
 
@@ -40,10 +39,10 @@
 
 ### Lecture: Missing Semester Lectures - MIT
 - [Missing Semester Lectures - MIT](https://missing.csail.mit.edu/)
-    - [Missing_Semester_Lecture_05_Command-line_Environment](Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment.md)
-    - [Missing_Semester_Lecture_06_Version_Control.md](./Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
-    - [Missing_Semester_Lecture_07_Debugging_and_Profiling](./Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
-    - [Missing_Semester_Lecture_08_Metaprogramming](./Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
+    - [Missing_Semester_Lecture_05_Command-line_Environment](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment.md)
+    - [Missing_Semester_Lecture_06_Version_Control.md](./Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
+    - [Missing_Semester_Lecture_07_Debugging_and_Profiling](./Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
+    - [Missing_Semester_Lecture_08_Metaprogramming](./Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
 
 ### Algorithm
 - [Programming/Algorithm/Algorithm](Programming/Algorithm/Algorithm.md)
