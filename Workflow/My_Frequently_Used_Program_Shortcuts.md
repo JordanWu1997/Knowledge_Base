@@ -348,7 +348,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ### Search
 - [/]: Regex search
 - [n/N]: Jump to next/previous matching row
-- [c]: Jump to matching column
+- [c]: Search column name
 - [|]: Select row matches the current row
 - [\]: Unselect row matches the current row
 
