@@ -22,6 +22,7 @@
 
 ### Object Detection
 - [[Machine_Learning/Object_Detection](Machine_Learning/Object_Detection/Object_Detection.md)
+- [Machine_Learning/Object_Detection/YOLOX](Machine_Learning/Object_Detection/YOLOX.md)
 
 ### Optical Character Recognition (OCR)
 - [Machine_Learning/OCR/OCR.md](Machine_Learning/OCR/OCR.md)
@@ -31,6 +32,12 @@
 
 ### Lecture: Machine Learning - Hung-Yi Li
 - [機器學習2021(中文版)](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)
+- [Machine_Learning/Lecture/Machine_Learning 01_Introduction](Machine_Learning/Lecture/Machine_Learning/01_Introduction.md)
+
+### Lecture: Generative AI Introduction - Hung-Yi Li
+- [Machine_Learning Lecture/Generative_AI_Introduction/Text2Image_Generative_AI_Models](Machine_Learning/Lecture/Generative_AI_Introduction/Text2Image_Generative_AI_Models.md)
+- [Machine_Learning/Lecture/Generative_AI_Introduction/01_Introduction](Machine_Learning/Lecture/Generative_AI_Introduction/01_Introduction.md)
+- [Machine_Learning/Lecture/Generative_AI_Introduction/02_Prompt_Engineering](Machine_Learning/Lecture/Generative_AI_Introduction/02_Prompt_Engineering.md)
 
 ## Programming
 
@@ -40,9 +47,9 @@
 ### Lecture: Missing Semester Lectures - MIT
 - [Missing Semester Lectures - MIT](https://missing.csail.mit.edu/)
     - [Missing_Semester_Lecture_05_Command-line_Environment](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment.md)
-    - [Missing_Semester_Lecture_06_Version_Control.md](./Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
-    - [Missing_Semester_Lecture_07_Debugging_and_Profiling](./Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
-    - [Missing_Semester_Lecture_08_Metaprogramming](./Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
+    - [Missing_Semester_Lecture_06_Version_Control.md](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
+    - [Missing_Semester_Lecture_07_Debugging_and_Profiling](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
+    - [Missing_Semester_Lecture_08_Metaprogramming](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
 
 ### Algorithm
 - [Programming/Algorithm/Algorithm](Programming/Algorithm/Algorithm.md)
@@ -102,6 +109,7 @@
 
 ### Virtualisation
 - [Linux/Virtualisation/Docker](Linux/Virtualisation/Docker)
+- [Linux/Virtualisation/Setup_X_Forwarding_in_Docker](Linux/Virtualisation/Setup_X_Forwarding_in_Docker.md)
 - [Linux/Virtualisation/VirtualBox](Linux/Virtualisation/VirtualBox)
 
 ### System Administration
@@ -150,10 +158,11 @@
     - [Day_02_What_is_a_Router](Networking/Tutorial/NetworkChuck-FREE_CCNA_200-301/Day_02_What_is_a_Router)
 
 ### Book
-- [How_Cybersecurity_Really_Works](./Networking/Book/How_Cybersecurity_Really_Works)
+- [How_Cybersecurity_Really_Works](Networking/Book/How_Cybersecurity_Really_Works)
 
 ## Miscellaneous
 - [Miscellaneous/notes](Miscellaneous/notes)
+- [Miscellaneous/marp](Miscellaneous/marp.md)
 
 ### FOSS Notes
 - [FOSS/License](Miscellaneous/FOSS/License)
@@ -162,6 +171,7 @@
 ### Hacking Notes
 - [Hacking/google hacking](Miscellaneous/Hacking/google-hacking)
 - [Hacking/shell_fork_bomb](Miscellaneous/Hacking/shell_fork_bomb)
+- [Hacking/60_Hacking_Commands_You_Need_To_Know](Hacking/60_Hacking_Commands_You_Need_To_Know)
 
 ### Vim Notes
 - [Vim/Ex_Command](Miscellaneous/Vim/Ex_Command)
