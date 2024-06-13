@@ -10,13 +10,16 @@ Tags: #yolox #imageAugmentation #mosaic #mixup
 
 ## Image Augmentation
 
-### Data Loader
+### Exp
 `/yolox/exp/default/yolox_base.py`
-- `get_data_loader`
+- Data loader
+    - `get_data_loader`
+- Multiple input_size training
+    - multiscale_range
+    - random_size
 
 ### Data Image Augmentation
 `/yolox/data/datasets/mosaicdetection.py`
-
 - If mosaic is activated (`random.random < self.mosaic_prob`):
     1. mosaic, here uses input_size = (320,320) as example
         1. resize 4 input images to 4 320x320 padded images
