@@ -1,4 +1,5 @@
-kTags: #obisidian #workflow #setup #keyboard #shortcuts 
+Tags: #Obisidian #Workflow #Setup #Keyboard #Shortcuts
+Tags: :Obisidian:Workflow:Setup:Keyboard:Shortcuts:
 
 ---
 

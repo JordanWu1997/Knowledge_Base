@@ -1,4 +1,5 @@
 # FOSS Licenses
+
 - https://www.youtube.com/watch?v=UMIG4KnM8xw&list=WL&index=128
 - https://ithelp.ithome.com.tw/articles/10243402
 - https://zh.wikipedia.org/zh-tw/BSD%E8%AE%B8%E5%8F%AF%E8%AF%81
@@ -7,13 +8,14 @@
 # Context
 
 ## GNU General Public Licenses (GPL)
+
 Created by Richard Stallman for GNU project in 1989, Copyleft License
 
 - Standards
-    1. Free to use applications
-    2. Free to do modification to applications
-    3. Free to redistribute copies
-    4. Free to distribute your modification
+  1. Free to use applications
+  1. Free to do modification to applications
+  1. Free to redistribute copies
+  1. Free to distribute your modification
 - All works using GPL must use GPL as their licenses
 
 ## Lesser General Public License (LGPL)

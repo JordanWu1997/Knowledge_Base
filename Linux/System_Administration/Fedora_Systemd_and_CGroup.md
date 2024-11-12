@@ -1,13 +1,15 @@
 # Fedora Linux Background Applications
+
 - Background applications auto-activated after startup
 - Reference
-    - https://linux.die.net/man/
-    - https://www.freedesktop.org/software/systemd/man/index.html
-    - https://www.mankier.com/
+  - https://linux.die.net/man/
+  - https://www.freedesktop.org/software/systemd/man/index.html
+  - https://www.mankier.com/
 
 # Context
 
 ## Control Group (CGroup)
+
 ```
 /
 ├─init.scope
@@ -35,6 +37,7 @@
 ```
 
 ## CGroup System Slice
+
 ```
 /
 ├─init.scope
@@ -48,6 +51,7 @@
 ### init.scope
 
 ### system.slice
+
 - `ModemManager.service`: Modem Manager
 - `NetworkManager.service`: Network Manager
 - `abrt-journal-core.service`: Create ABRT problems from coredumpctl message
@@ -94,6 +98,7 @@
 - `wpa_supplicant.service`: Wi-Fi Protected Access (WPA) supplicant
 
 ## CGroup User Slice
+
 ```
 └─user.slice
   └─user-1000.slice
@@ -120,6 +125,7 @@
 #### user@1000.service
 
 ##### app.slice
+
 - `at-spi-dbus-bus.service`: Accessibility services bus
 - `dbus-broker.service`: D-Bus Message Bus
 - `gvfs-daemon.service`: Virtual filesystem service
@@ -130,6 +136,7 @@
 - `xdg-document-portal.service`: flatpak document portal service
 
 ##### session.slice
+
 - `flatpak-portal.service`: flatpak portal
 - `flatpak-session-helper.service`: flatpak session helper
 - `xdg-desktop-portal-gnome.service`: Portal service (GNOME implementation)

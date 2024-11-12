@@ -10,9 +10,11 @@ ifdown
 setup #TUI
 
 # Interface config
+
 /etc/sysconfig/network-scripts/
 
 # DNS config
+
 /etc/resolv.conf
 
 host
@@ -40,11 +42,11 @@ wget
 # Debugging
 
 - Network Configuration
-    - IP address
-    - subnet mask
-    - port
-    - DNS
+  - IP address
+  - subnet mask
+  - port
+  - DNS
 - Connection
-    - ping
+  - ping
 - DNS resolve
-    - host DOMAIN_NAME
+  - host DOMAIN_NAME

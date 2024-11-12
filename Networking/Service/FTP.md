@@ -9,24 +9,33 @@
 
 1. Install `vsftpd` as ftp server
     - Very Secure FTP (`vsftpd`)
-    ```
-    sudo dnf install vsftpd
-    ```
+
+        ```
+        sudo dnf install vsftpd
+        ```
+
 2. Modify `vsftpd` setup
+
     ```
     vi /etc/vsftpd/vsftpd.conf
     ```
+
 3. Enable `vsftpd`
+
     ```
     systemctl enable vsftpd
     systemctl start vsftpd
     ```
+
 4. If firewall is running
+
     ```
     firewall-cmd --add-service=ftp --permanent
     firewall-cmd --reload
     ```
+
 5. If SELinux is enabled
+
     ```
     setsebool -P ftpd_full_access on
     ```

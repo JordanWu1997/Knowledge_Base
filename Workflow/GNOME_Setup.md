@@ -1,56 +1,69 @@
-Tags: #gnome #keyboard #mouse #touchpad #system #shortcuts #workflow #setup
+Tags: #Gnome #Keyboard #Mouse #Touchpad #System #Shortcuts #Workflow #Setup
+Vimwiki: :Gnome:Keyboard:Mouse:Touchpad:System:Shortcuts:Workflow:Setup:
 
----
+______________________________________________________________________
 
 # Post-installation Setup for GNOME
 
 ## I. Tweak Window Appearance
+
 - Tweak window appearance to get the best of GNOME
 
 ### Gnome-tweak
 
 #### 1. Installation
+
 - Install gnome-tweaks: `dnf install gnome-tweaks`
 
-#### 2. window titlebar - titlebar action (in gnome-tweaks)
+#### 2. Window titlebar - titlebar action (in gnome-tweaks)
+
 - Secondary-click: set to Menu
 
-#### 3. window titlebar - titlebar buttons:
+#### 3. Window titlebar - titlebar buttons:
+
 - Maximize button: set to on
 - Minimize buttons: set to on
 
 ## II. Change Mouse & Touchpad Actions
-- Change mouse & touchpad action to get natural scrolling, faster moving and etc.
+
+- Change mouse & touchpad action to get natural scrolling, faster moving etc.
 
 ### Mouse & Touchpad (in Gnome Settings)
 
 #### 1. Mouse
+
 - Mouse Speed: set to 75% of the bar
 - Natural Scrolling: set to off
 
 #### 2. Touchpad
+
 - Natural Scrolling: set to on
 - Touchpad Speed: set to 75% of the bar
 - Tap to Click: set to on
 
 ## III. Change Keyboard Shortcut
+
 - Change application shortcut to fit in my keyboard-driven workflow
 
 ### Gnome-terminal
 
 #### 1. File
+
 - New Tab: change to `Ctrl+t`
 
 #### 2. View
+
 - Zoom In: change to `Ctrl+=`
 
 ### Keyboard (in Gnome Settings)
 
 #### 1. Launchers
+
 - Home Folder: change to `Ctrl+Alt+0`
 - Launch web browser: change to `Ctrl+Alt+-`
 
 #### 2. Navigation
+
 - Hide all normal windows: change to `Super+Shift+z`
 - Move to workspace on the left: change to `Super+Shift+grave`
 - Move to workspace on the right: `Super+grave`
@@ -68,6 +81,7 @@ Tags: #gnome #keyboard #mouse #touchpad #system #shortcuts #workflow #setup
 - Switch windows of an application: change to `Alt+q` (for now)
 
 #### 3. System
+
 - Focus the actikve notification: change to `Ctrl+Space`
 - Lock screen: change to `Super+Shift+Esacpe`
 - Log out: change to `Ctrl+Alt+q`
@@ -75,10 +89,12 @@ Tags: #gnome #keyboard #mouse #touchpad #system #shortcuts #workflow #setup
 - Show notification list: change to `Ctrl+Shift+Space`
 
 #### 4. Typing
+
 - Switch to next input source: change to `Ctrl+Alt+Space`
 - Switch to previous input source: change to `Ctrl+Alt+Shift+Space`
 
 #### 5. Windows
+
 - Close window: change to `Super+Shift+q`
 - Hide window: change to `Super+Shift+z`
 - Lower window below other windows: change to `Super+z`
@@ -93,6 +109,7 @@ Tags: #gnome #keyboard #mouse #touchpad #system #shortcuts #workflow #setup
 - View split on right: change to `Super+Shift+l`
 
 #### 6. Custom Shortcuts
+
 - Open terminal (w/ FISH): set to `Super+Return`
 - Open terminal (w/ BASH): set to `Super+Shift+Return`
 - Ranger: set to `Ctrl+Alt+2`
@@ -100,20 +117,26 @@ Tags: #gnome #keyboard #mouse #touchpad #system #shortcuts #workflow #setup
 - Htop: set to `Ctrl+Alt+4`
 
 ## IV. Extensions
+
 - Note `chrome-gnome-shell` must be installed first
 
 ### Add touchpad gesture for x11
+
 - https://github.com/JoseExposito/gnome-shell-extension-x11gestures
-- Note `touchegg` must be installed from github first
+- Note `touchegg` must be installed from GitHub first
 
 ### Add hot edge to bottom of screen
+
 - https://github.com/jdoda/hotedge
 
 ### Vim-style navigation for application switcher
+
 - https://github.com/koko-ng/vim-altTab
 
 ### Window tiling
+
 - https://gitlab.com/lundal/tactile
 
 ### Window focus
+
 - https://github.com/martinhjartmyr/gnome-shell-extension-focus-changer

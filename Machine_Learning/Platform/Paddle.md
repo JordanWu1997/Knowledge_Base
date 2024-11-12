@@ -1,16 +1,17 @@
-Tags: #paddleOCR #OCR
+Tags: #PaddleOCR #OCR
+Vimwiki: :PaddleOCR:OCR:
 
----
+______________________________________________________________________
 
 # TextDetector
 
 ## Prepocess Operators
 
 - `paddleocr/ppocr/data/imaug/operators.py`
-    - Class: `DetResizeForTest`
-        - type0: if `image_shape` is assigned
-        - type1: if `limit_side_len` is assigned
-        - type2:
+  - Class: `DetResizeForTest`
+    - type0: if `image_shape` is assigned
+    - type1: if `limit_side_len` is assigned
+    - type2:
 
 paddleocr/paddleocr.py
 

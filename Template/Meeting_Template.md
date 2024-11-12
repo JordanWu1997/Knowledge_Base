@@ -1,4 +1,5 @@
-Tags:
+Tags: #Meeting
+Vimwiki: :Meeting:
 
 ---
 

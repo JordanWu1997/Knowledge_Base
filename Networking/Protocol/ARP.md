@@ -13,8 +13,9 @@ Routing table
 
 Directly Connected (DC)
 Static Routes
+
 - Maually assign route
-Dynamic Routes
+  Dynamic Routes
 - Router shares their own routing tables
 - Protocols: RIP
 

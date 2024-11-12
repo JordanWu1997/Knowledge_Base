@@ -1,5 +1,4 @@
-Tags: #Template
-Vimwiki: :Template:
+Tags:
 
 ---
 
