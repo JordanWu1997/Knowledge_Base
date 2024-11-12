@@ -15,17 +15,19 @@ Place that stores my knowledge and shares it to everyone else.
     - `2024-01-01.md`
     - ...
   - `resources`
+    - `template`
     - `image`
       - `image_01.jpg`
     - `video`
       - `video_01.mp4`
     - ...
-  - `project 1`
-    - `note_01.md`
-    - `note_02.md`
-    - `idea_03.md`
-  - `project 2`
-  - ...
+  - `notes`
+    - `project 1`
+      - `note_01.md`
+      - `note_02.md`
+      - `idea_03.md`
+    - `project 2`
+    - ...
 
 ## Rules
 
@@ -33,14 +35,15 @@ Place that stores my knowledge and shares it to everyone else.
 
 - Filename should not contain any spaces and dots, use underscore to replace them
 - Wiki-related directory should start with lowercase characters
-  - e.g. `diary`, `resources`
+  - e.g. `diary`, `resources`, `notes` etc.
 - User-created filename/directory should start with uppercase characters
   - e.g. `project 1`, `project 2`
 
 ### Storing
 
+- Notes should be stored under `notes` directory and organized into projects or topics
 - Files that are __NOT__ notes should be stored under `resources` directory
-- The `resources` directory should __NOT__ contains any subdirectories
+- Files inside `resources` should be organized by their properties like image, video etc.
 
 ### Linking
 
