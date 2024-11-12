@@ -2,222 +2,107 @@
 
 - [README](README)
 
-## Templates
+# Generated Links
 
-- [Template/Markdown_Template](Template/Markdown_Template)
-- [Template/My_Note_Template](Template/My_Note_Template)
-- [Template/My_Book_Note_Template](Template/MY_Book_Note_Tempalte.md)
-- [Template/Paper_Review_Template](Template/Paper_Review_Template.md)
-- [Template/Meeting_Template](Template/Meeting_Template.md)
+## Linux
 
-## Workflow
-
-- [My_Frequently_Used_Program_Shortcuts](Workflow/My_Frequently_Used_Program_Shortcuts)
-- [My_Program_List](Workflow/My_Program_List)
-- [GNOME_Setup](Workflow/GNOME_Setup.md)
-- [Obsidian_Setup](Workflow/Obsidian_Setup.md)
+- [Linux/60_Hacking_Commands_You_Need_To_Know](Linux/60_Hacking_Commands_You_Need_To_Know)
+- [Account Management and ACL](Linux/ACL)
+- [Backup](Linux/Backup)
+- [Classic Shell Script - O'Reilly](Linux/Classic_Shell_Script-O'Reilly)
+- [Linux/Command_Line_Tools](Linux/Command_Line_Tools)
+- [D-BUS: Interprocess Communication](Linux/D-BUS)
+- [Linux/Docker](Linux/Docker)
+- [Fedora DNF](Linux/Fedora_DNF)
+- [Fedora Linux Background Applications](Linux/Fedora_Systemd_and_CGroup)
+- [Fedora flatpak](Linux/Fedora_flatpak)
+- [How Linux Works: What Every Superuser Should Know - Brian Ward](Linux/How_Linux_Works_What_Every_Superuser_Should_Know-Brian_Ward)
+- [Technique Jargon](Linux/Jargon)
+- [Linux Journey - Grasshopper](Linux/Linux_Journey_Grasshopper)
+- [Linux Journey - Journeyman](Linux/Linux_Journey_Journeyman)
+- [Linux Journey - Networking Nomad](Linux/Linux_Journey_Networking_Nomad)
+- [SELinux (Secure Enhanced Linux)](Linux/SELinux)
+- [Setup SSH X Forwarding in Docker](Linux/Setup_X_Forwarding_in_Docker)
+- [Shell_And_Profile](Linux/Shell_And_Profile)
+- [Shell Commands](Linux/Shell_Command)
+- [Linux/Shell_Scripting](Linux/Shell_Scripting)
+- [Shell Shortcut](Linux/Shell_Shortcut)
+- [Oracle VirtualBox](Linux/VirtualBox)
+- [X Power Tools - Chris Tyler](Linux/X_Power_Tools-Chris_Tyler)
+- [Control Groups (Cgroup)](Linux/cgroups)
+- [CRON](Linux/crontab)
+- [Linux/google-hacking](Linux/google-hacking)
+- [Linux Kernel](Linux/kernel)
+- [Linux/logs](Linux/logs)
+- [Linux/proc](Linux/proc)
+- [Shell Fork Bomb](Linux/shell_fork_bomb)
+- [SystemD](Linux/systemd)
+- [LINUX](Linux/Note.md)
+- [Substitution](Linux/Ex_Command.md)
 
 ## Machine Learning
 
-### Machine Learning
-
-- [Machine_Learning/Machine_Learning/Machine_Learning](Machine_Learning/Machine_Learning/Machine_Learning.md)
-- [Machine_Learning/Machine_Learning/Gradient_Boost](Machine_Learning/Machine_Learning/Gradient_Boost.md)
-
-### Object Detection
-
-- [Machine_Learning/Object_Detection](Machine_Learning/Object_Detection/Object_Detection.md)
-- [Machine_Learning/Object_Detection/YOLOX](Machine_Learning/Object_Detection/YOLOX.md)
-
-### Optical Character Recognition (OCR)
-
-- [Machine_Learning/OCR/OCR.md](Machine_Learning/OCR/OCR.md)
-
-### Platform
-
-- [Machine_Learning/Platform/Paddle](Machine_Learning/Platform/Paddle.md)
-
-### Lecture: Machine Learning - Hung-Yi Li
-
-- [機器學習2021(中文版)](https://www.youtube.com/playlist?list=PLJV_el3uVTsMhtt7_Y6sgTHGHp1Vb2P2J)
-- [Machine_Learning/Lecture/Machine_Learning 01_Introduction](Machine_Learning/Lecture/Machine_Learning/01_Introduction.md)
-
-### Lecture: Generative AI Introduction - Hung-Yi Li
-
-- [Machine_Learning Lecture/Generative_AI_Introduction/Text2Image_Generative_AI_Models](Machine_Learning/Lecture/Generative_AI_Introduction/Text2Image_Generative_AI_Models.md)
-- [Machine_Learning/Lecture/Generative_AI_Introduction/01_Introduction](Machine_Learning/Lecture/Generative_AI_Introduction/01_Introduction.md)
-- [Machine_Learning/Lecture/Generative_AI_Introduction/02_Prompt_Engineering](Machine_Learning/Lecture/Generative_AI_Introduction/02_Prompt_Engineering.md)
-
-## Programming
-
-### Lecture: CS50 - Harvard
-
-- [CS50 - Harvard](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
-
-### Lecture: Missing Semester Lectures - MIT
-
-- [Missing Semester Lectures - MIT](https://missing.csail.mit.edu/)
-  - [Missing_Semester_Lecture_05_Command-line_Environment](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment.md)
-  - [Missing_Semester_Lecture_06_Version_Control.md](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control.md)
-  - [Missing_Semester_Lecture_07_Debugging_and_Profiling](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling.md)
-  - [Missing_Semester_Lecture_08_Metaprogramming](Programming/Lecture/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming.md)
-
-### Algorithm
-
-- [Programming/Algorithm/Algorithm](Programming/Algorithm/Algorithm.md)
-
-### Data Structure
-
-- [Programming/Data_Structure/Data_Structure](Programming/Data_Structure/Data_Structure.md)
-
-### Design Pattern
-
-- [Programming/Design_Pattern/Design_Pattern](Programming/Design_Pattern/Design_Pattern.md)
-
-### Threading and Processing
-
-- [Programming/Threading_and_Processing/Threading_and_Processing](Programming/Threading_and_Processing/Threading_and_Processing.md)
-
-### Regular Expression (Regex)
-
-- [Programming/Regex/Regex](Programming/Regex/Regex.md)
-
-### Git
-
-- [Programming/Git/Git](Programming/Git/Git.md)
-
-### Python
-
-- [Programming/Python/Dict](Programming/Python/Dict.md)
-- [Programming/Python/Set](Programming/Python/Set.md)
-- [Programming/Python/Numpy_Array](Programming/Python/Numpy_Array.md)
-- [Programming/Python/Debugger](Programming/Python/Debugger.md)
-- [Programming/Python/Vistracer](Programming/Python/Vistracer.md)
-- [Programming/Python/Misc](Programming/Python/Misc.md)
-
-### Miscellaneous
-
-- [Programming/Miscellaneous/Coding_Documentation_Highlighting_Guide](Programming/Miscellaneous/Coding_Documentation_Highlighting_Guide)
-- [Programming/Miscellaneous/Visidata](Programming/Miscellaneous/Visidata.md)
-
-## Database
-
-### Database
-
-- [Database/Database_Note](Database/Database/Database_Note.md)
-
-### Data Format
-
-- [Database/JSON](Database/Data_Format/JSON.md)
-- [Database/YAML](Database/Data_Format/YAML.md)
-
-### MySQL
-
-- [Database/MySQL/MySQL](Database/MySQL/MySQL.md)
-
-## Linux System
-
-### Tutorial
-
-- [Linux/Tutorial/Linux_Journey_Grasshopper](Linux/Tutorial/Linux_Journey_Grasshopper)
-- [Linux/Tutorial/Linux_Journey_Journeyman](Linux/Tutorial/Linux_Journey_Journeyman)
-- [Linux/Tutorial/Linux_Journey_Networking_Nomad](Linux/Tutorial/Linux_Journey_Networking_Nomad.md)
-- [Linux/Tutorial/Jargon](Linux/Tutorial/Jargon)
-
-### Command Line
-
-- [Linux/Command_Line/Command_Line_Tools](Linux/Command_Line/Command_Line_Tools.md)
-- [Linux/Command_Line/Shell_Command](Linux/Command_Line/Shell_Command.md)
-
-### Shell
-
-- [Linux/Shell/Shell_Scripting](Linux/Shell/Shell_Scripting)
-- [Linux/Shell/Shell_And_Profile](Linux/Shell/Shell_And_Profile)
-
-### Virtualisation
-
-- [Linux/Virtualisation/Docker](Linux/Virtualisation/Docker)
-- [Linux/Virtualisation/Setup_X_Forwarding_in_Docker](Linux/Virtualisation/Setup_X_Forwarding_in_Docker.md)
-- [Linux/Virtualisation/VirtualBox](Linux/Virtualisation/VirtualBox)
-
-### System Administration
-
-- [Linux/System_Administration/D-BUS](Linux/System_Administration/D-BUS)
-- [Linux/System_Administration/Fedora_DNF](Linux/System_Administration/Fedora_DNF)
-- [Linux/System_Administration/Fedora_Systemd_and_CGroup](Linux/System_Administration/Fedora_Systemd_and_CGroup.md)
-- [Linux/System_Administration/Fedora_flatpak](Linux/System_Administration/Fedora_flatpak)
-- [Linux/System_Administration/SELinux](Linux/System_Administration/SELinux.md)
-- [Linux/System_Administration/cgroups](Linux/System_Administration/cgroups)
-- [Linux/System_Administration/crontab](Linux/System_Administration/crontab)
-- [Linux/System_Administration/logs](Linux/System_Administration/logs)
-- [Linux/System_Administration/proc](Linux/System_Administration/proc)
-- [Linux/System_Administration/systemd](Linux/System_Administration/systemd)
-
-### Book
-
-- [Linux/Book/Classic_Shell_Script-O'Reilly](Linux/Book/Classic_Shell_Script-O'Reilly)
-- [Linux/Book/How_Linux_Works_What_Every_Superuser_Should_Know Brian_Ward](Linux/Book/How_Linux_Works_What_Every_Superuser_Should_Know-Brian_Ward)
-- [Linux/Book/X_Power_Tools-Chris_Tyler](Linux/Book/X_Power_Tools-Chris_Tyler)
-
-## Networking
-
-### OSI Model
-
-- [Networking/OSI_Model/OSI_Model](Networking/OSI_Model/OSI_Model.md)
-
-### Protocol
-
-- [Networking/Protocol/Network_Protocols](Networking/Protocol/Network_Protocols.md)
-- [Networking/Protocol/ARP](Networking/Protocol/ARP.md)
-- [Networking/Protocol/TCP](Networking/Protocol/TCP.md)
-
-### Security
-
-- [Networking/Securityfail2ban](Networking/Security/fail2ban.md)
-- [Networking/Securityfirewalld](Networking/Security/firewalld.md)
-
-### Service
-
-- [Networking/Service/NFS](Networking/Service/NFS.md)
-- [Networking/Service/FTP](Networking/Service/FTP.md)
-
-### Tool
-
-- [Networking/Tool/Network_Tools](Networking/Tool/Network_Tools.md)
-- [Networking/Tool/tcpdump](Networking/Tool/tcpdump.md)
-- [Networking/Tool/nmap](Networking/Tool/nmap.md)
-
-### Tutorial
-
-- [FREE CCNA 200-301 - NetworkChuck](https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
-  - [Day_00_What_is_a_Network](Networking/Tutorial/NetworkChuck-FREE_CCNA_200-301/Day_00_What_is_a_Network)
-  - [Day_01_What_is_a_Switch](Networking/Tutorial/NetworkChuck-FREE_CCNA_200-301/Day_01_What_is_a_Switch)
-  - [Day_02_What_is_a_Router](Networking/Tutorial/NetworkChuck-FREE_CCNA_200-301/Day_02_What_is_a_Router)
-
-### Book
-
-- [How_Cybersecurity_Really_Works](Networking/Book/How_Cybersecurity_Really_Works)
+- [Machine_Learning/Generative_AI_Introduction/01_Introduction](Machine_Learning/Generative_AI_Introduction/01_Introduction)
+- [Generative AI](Machine_Learning/Generative_AI_Introduction/02_Prompt_Engineering)
+- [Machine_Learning/Generative_AI_Introduction/Text2Image_Generative_AI_Models](Machine_Learning/Generative_AI_Introduction/Text2Image_Generative_AI_Models)
+- [Machine_Learning/Gradient_Boost](Machine_Learning/Gradient_Boost)
+- [Title](Machine_Learning/Machine_Learning)
+- [Introduction](Machine_Learning/Machine_Learning/01_Introduction)
+- [Title](Machine_Learning/OCR)
+- [Machine_Learning/Object_Detection](Machine_Learning/Object_Detection)
+- [Machine_Learning/Paddle](Machine_Learning/Paddle)
+- [Machine_Learning/YOLOX](Machine_Learning/YOLOX)
 
 ## Miscellaneous
 
-- [Miscellaneous/notes](Miscellaneous/notes)
-- [Miscellaneous/marp](Miscellaneous/marp.md)
+- [Miscellaneous/AOEIIDE](Miscellaneous/AOEIIDE)
+- [Miscellaneous/GNOME_Setup](Miscellaneous/GNOME_Setup)
+- [Miscellaneous/Libreoffice](Miscellaneous/Libreoffice)
+- [FOSS Licenses](Miscellaneous/License)
+- [My Frequently Used Program Shortcut](Miscellaneous/My_Frequently_Used_Program_Shortcuts)
+- [My Program List](Miscellaneous/My_Program_List)
+- [Miscellaneous/Obsidian_Setup](Miscellaneous/Obsidian_Setup)
+- [Miscellaneous/marp](Miscellaneous/marp)
+- [Keyboard Control](Miscellaneous/mpv)
 
-### FOSS Notes
+## Networking
 
-- [FOSS/License](Miscellaneous/FOSS/License)
-- [FOSS/Libreoffice](Miscellaneous/FOSS/Libreoffice.md)
+- [Address Resolution Protocol (ARP)](Networking/ARP)
+- [FTP](Networking/FTP)
+- [How Cybersecurity Really Works](Networking/How_Cybersecurity_Really_Works)
+- [Networking/NetworkChuck-FREE_CCNA_200-301/Day_00_What_is_a_Network](Networking/NetworkChuck-FREE_CCNA_200-301/Day_00_What_is_a_Network)
+- [Networking/NetworkChuck-FREE_CCNA_200-301/Day_01_What_is_a_Switch](Networking/NetworkChuck-FREE_CCNA_200-301/Day_01_What_is_a_Switch)
+- [FREE CCNA 200-301 - Day 02 - What is a Route?](Networking/NetworkChuck-FREE_CCNA_200-301/Day_02_What_is_a_Router)
+- [Network Protocols](Networking/Network_Protocols)
+- [Networking/Network_Tools](Networking/Network_Tools)
+- [Open Systems Interconnect (OSI) Model](Networking/OSI_Model)
+- [Transmission Control Protocol (TCP)](Networking/TCP)
+- [Fail2ban](Networking/fail2ban)
+- [firewalld: Dynamic Firewall Manager](Networking/firewalld)
+- [Title](Networking/nmap)
+- [Networking/tcpdump](Networking/tcpdump)
 
-### Hacking Notes
+## Programming
 
-- [Hacking/google hacking](Miscellaneous/Hacking/google-hacking)
-- [Hacking/shell_fork_bomb](Miscellaneous/Hacking/shell_fork_bomb)
-- [Hacking/60_Hacking_Commands_You_Need_To_Know](Hacking/60_Hacking_Commands_You_Need_To_Know)
-
-### Vim Notes
-
-- [Vim/Ex_Command](Miscellaneous/Vim/Ex_Command)
-
-### Gaming
-
-- [Gaming/AOEIIDE](Miscellaneous/Gaming/AOEIIDE.md)
+- [Algorithm](Programming/Algorithm)
+- [Programming/Coding_Documentation_Highlighting_Guide](Programming/Coding_Documentation_Highlighting_Guide)
+- [Data Structures - Computer Science Course for Beginners](Programming/Data_Structure)
+- [Programming/Database_Note](Programming/Database_Note)
+- [Python Debugger](Programming/Debugger)
+- [Design Pattern](Programming/Design_Pattern)
+- [Programming/Dict](Programming/Dict)
+- [Git](Programming/Git)
+- [JSON: JavaScript Object Notation](Programming/JSON)
+- [Missing Semester - Lecture 05 - Command-line Environment](Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_05_Command-line_Environment)
+- [Missing Semester - Lecture 06 - Version Control (git)](Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_06_Version_Control)
+- [Missing Semester - Lecture 07 - Debugging and Profiling](Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_07_Debugging_and_Profiling)
+- [Missing Semester - Lecture 08 - Metaprogramming](Programming/MIT-Missing_Semester_Lecture/Missing_Semester_Lecture_08_Metaprogramming)
+- [Condition](Programming/Misc)
+- [Programming/MySQL](Programming/MySQL)
+- [Array](Programming/Numpy_Array)
+- [Programming/Regex](Programming/Regex)
+- [Programming/Set](Programming/Set)
+- [Programming/Threading_and_Processing](Programming/Threading_and_Processing)
+- [VisiData](Programming/Visidata)
+- [Title](Programming/Vistracer)
+- [YAML: YAML Ain't Markup Language](Programming/YAML)

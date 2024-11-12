@@ -1,4 +1,5 @@
 # FTP
+
 - https://www.fosslinux.com/58783/install-ftp-and-tftp-server-fedora.htm
 - https://www.server-world.info/en/note?os=Fedora_33&p=ftp&f=1
 - https://www.youtube.com/watch?v=imQ3eyljjQw
@@ -8,41 +9,43 @@
 ### Start FTP Server
 
 1. Install `vsftpd` as ftp server
-    - Very Secure FTP (`vsftpd`)
 
-        ```
-        sudo dnf install vsftpd
-        ```
+   - Very Secure FTP (`vsftpd`)
 
-2. Modify `vsftpd` setup
+     ```bash
+     sudo dnf install vsftpd
+     ```
 
-    ```
-    vi /etc/vsftpd/vsftpd.conf
-    ```
+1. Modify `vsftpd` setup
 
-3. Enable `vsftpd`
+   ```bash
+   vi /etc/vsftpd/vsftpd.conf
+   ```
 
-    ```
-    systemctl enable vsftpd
-    systemctl start vsftpd
-    ```
+1. Enable `vsftpd`
 
-4. If firewall is running
+   ```bash
+   systemctl enable vsftpd
+   systemctl start vsftpd
+   ```
 
-    ```
-    firewall-cmd --add-service=ftp --permanent
-    firewall-cmd --reload
-    ```
+1. If firewall is running
 
-5. If SELinux is enabled
+   ```bash
+   firewall-cmd --add-service=ftp --permanent
+   firewall-cmd --reload
+   ```
 
-    ```
-    setsebool -P ftpd_full_access on
-    ```
+1. If SELinux is enabled
+
+   ```bash
+   setsebool -P ftpd_full_access on
+   ```
 
 ## FTP Client
 
 ### FTP Client Command
+
 - `ls`: List all files
 - `cd`: Change directory
 - `put`: Put local file to remote ftp server

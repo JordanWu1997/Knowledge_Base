@@ -1,8 +1,8 @@
-# Knowledge_Base
+# My Knowledge_Base
 
 Place that stores my knowledge and shares it to everyone else.
 
-- This repository is actually a  backup for my [vimwiki](https://github.com/vimwiki/vimwiki) files.
+- This repository is actually a backup for my [vimwiki](https://github.com/vimwiki/vimwiki) files.
   - For the note directory structures, you can check [./index.md](./index.md) (generated and read by vimwiki)
   - My personal favored usage is [neovim](https://github.com/neovim/neovim) + [my_vim_customization](https://github.com/JordanWu1997/Vim_Tmux_Config) + [vimwiki](https://github.com/vimwiki/vimwiki) (vim dominates!)
 - Note that this repository contains lots of __unfinished note draft__ (but still updating)
@@ -15,15 +15,15 @@ Place that stores my knowledge and shares it to everyone else.
     - `2024-01-01.md`
     - ...
   - `resources`
-    - `01.jpg`
-    - `02.mp4`
+    - `image`
+      - `image_01.jpg`
+    - `video`
+      - `video_01.mp4`
     - ...
   - `project 1`
-    - `topic 1`
-      - `note_1.md`
-    - `topic 2`
-      - `note_2.md`
-    - `idea_3.md`
+    - `note_01.md`
+    - `note_02.md`
+    - `idea_03.md`
   - `project 2`
   - ...
 
@@ -31,7 +31,7 @@ Place that stores my knowledge and shares it to everyone else.
 
 ### Naming
 
-- Filename should not contains any spaces and dots, use underscore to replace them
+- Filename should not contain any spaces and dots, use underscore to replace them
 - Wiki-related directory should start with lowercase characters
   - e.g. `diary`, `resources`
 - User-created filename/directory should start with uppercase characters
@@ -50,6 +50,16 @@ Place that stores my knowledge and shares it to everyone else.
   - Same reason as above one
 - When linking other files that are not notes, use __absolute path__ `[file](abs_path_to_file)`
   - Normally, they should all just stays in `resources` directory under wiki root directory
+
+### Formatting
+
+- https://github.com/executablebooks/mdformat
+- https://github.com/sbdchd/neoformat
+
+### Language Checking
+
+- https://languagetool.org/
+- https://github.com/dpelle/vim-LanguageTool/tree/master
 
 ### Publishing
 

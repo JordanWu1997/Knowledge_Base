@@ -1,5 +1,5 @@
-Tags: #Database
-Vimwiki: :Database:
+Tags: #DB
+Vimwiki: :DB:
 
 ______________________________________________________________________
 
