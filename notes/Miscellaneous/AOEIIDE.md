@@ -13,9 +13,9 @@ ______________________________________________________________________
 ## Start Game
 
 1. Make sure that AOEIIDE compatibility option "Force the use of a specific Steam Play compatibility tool" is __unchecked__
-1. Make sure that STEAM SETTINGS compatibility option "Enable Steam Play for all other titles" is turned on
-1. Make sure that STEAM SETTINGS compatibility option "Run other titles with:" is set to __Proton Experimental__
-1. After few updates, it should be able to run AOEIIDE
+2. Make sure that STEAM SETTINGS compatibility option "Enable Steam Play for all other titles" is turned on
+3. Make sure that STEAM SETTINGS compatibility option "Run other titles with:" is set to __Proton Experimental__
+4. After few updates, it should be able to run AOEIIDE
 
 ## Multiple Player
 

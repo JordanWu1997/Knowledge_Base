@@ -185,8 +185,8 @@ Data can flow in/out of any point of LinkedList
 Creating LinkedList
 
 1. Create head node and point to null
-1. Create next node (tail node) and make head node point toward it as the tail node points to null
-1. Create next node as new tail node and make last tail node point toward it as the new tail node points to null
+2. Create next node (tail node) and make head node point toward it as the tail node points to null
+3. Create next node as new tail node and make last tail node point toward it as the new tail node points to null
 
 Add/Remove to/from Head
 Add/Remove to/from Middle

@@ -16,27 +16,27 @@
      sudo dnf install vsftpd
      ```
 
-1. Modify `vsftpd` setup
+2. Modify `vsftpd` setup
 
    ```bash
    vi /etc/vsftpd/vsftpd.conf
    ```
 
-1. Enable `vsftpd`
+3. Enable `vsftpd`
 
    ```bash
    systemctl enable vsftpd
    systemctl start vsftpd
    ```
 
-1. If firewall is running
+4. If firewall is running
 
    ```bash
    firewall-cmd --add-service=ftp --permanent
    firewall-cmd --reload
    ```
 
-1. If SELinux is enabled
+5. If SELinux is enabled
 
    ```bash
    setsebool -P ftpd_full_access on

@@ -16,9 +16,9 @@ Regression
 
 1. Prepare Function with Unknown Parameters
    - e.g. Linear function: Output = Bias (Unknown) + Weight (Unknown) * Features
-1. Define Loss from Training Data
+2. Define Loss from Training Data
    - Function of parameters (e.g. Bias, Weight) determines how good a set of values is
-1. Optimization
+3. Optimization
    - Find the Set of Parameters (e.g. Bias, Weight) Minimize Loss
    - Common method: Gradient Descent
      - Random pick an initial value

@@ -151,15 +151,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 1. `Application Layer`
    - Send email (data) to transport layer
-1. `Transport Layer`
+2. `Transport Layer`
    - Data is encapsulated into TCP/UDP header to form a segment.
      - Attaches destination and source port information
    - Segment then is sent to network layer
-1. `Network Layer`
+3. `Network Layer`
    - TCP segment is encapsulated inside a IP packet
      - Attaches destination and source IP address
    - IP packet then is sent to link layer
-1. `Link Layer`
+4. `Link Layer`
    - IP packet is encapsulated into frame
      - Attaches destination and source MAC address
    - Frame is transmitted to Internet through physical hardware
@@ -170,13 +170,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
    - Receive frame from Internet
    - De-encapsulate frame contents into IP packet
    - Send IP packet to network Layer
-1. `Network Layer`
+2. `Network Layer`
    - De-encapsulate the IP packet into segment
    - Check destination IP, then send segment to transport layer
-1. `Transport Layer`
+3. `Transport Layer`
    - De-encapsulate the segment
    - Check TCP/UDP port number and make a connection to application layer
-1. `Application Layer`
+4. `Application Layer`
    - Receive data from transport layer
 
 ### DHCP Overview
@@ -263,21 +263,21 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### How a packet travels within its local network
 
 1. Local machine compares the destination IP to check if it is in the same subnet
-1. Use ARP to broadcat a request on the local network to find the MAC address of destination host
-1. With source/destination MAC addresses and source/destination IP addresses known, a packet can travel within local network
+2. Use ARP to broadcat a request on the local network to find the MAC address of destination host
+3. With source/destination MAC addresses and source/destination IP addresses known, a packet can travel within local network
 
 #### How a packet travels outside its network
 
 1. Local machine compares the destination IP to check if it is not in the local network
-1. After checking routing table, packet will be sent to gateway (another router).
+2. After checking routing table, packet will be sent to gateway (another router).
    However, the MAC address of gateway is needed to send a packet.
    Therefore, packet send an ARP request to get the MAC address of the default gateway.
-1. If the packet not gets forwarded to the same network, it will continue checking the routing table.
+3. If the packet not gets forwarded to the same network, it will continue checking the routing table.
    - Note: Every time the packet moves,
      - It strips the old source and destination MAC address and updates
        the packet with new source and destination MAC address
      - It does not change the source or destination IP address
-1. Once the packet gets forwarded to the same network, use ARP to find the final destination MAC address
+4. Once the packet gets forwarded to the same network, use ARP to find the final destination MAC address
 
 ### Routing Protocols
 
@@ -357,10 +357,10 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   - First check locally stored ARP cache
   - If a packet destination not in the ARP cache (e.g. after rebooting)
     1. The source host create the Ethernet frame with an ARP request packet
-    1. The source host broadcast this frame to the entire network
-    1. If one of the hosts on the network knows the correct MAC address,
+    2. The source host broadcast this frame to the entire network
+    3. If one of the hosts on the network knows the correct MAC address,
        it will send a reply packet and frame containing the MAC address
-    1. The source host add the IP to the MAC address mapping to the ARP cache
+    4. The source host add the IP to the MAC address mapping to the ARP cache
 - Check ARP cache
   - `arp`
   - `ip neighbour show`
@@ -386,7 +386,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Used to test whether a packet can reach a host
 - How ping works
   1. Send ICMP echo request (Type 8) packet to destination host
-  1. Wait for an ICMP echo reply (Type 0) from target
+  2. Wait for an ICMP echo reply (Type 0) from target
 - `ping`
   - `icmp_seq`: Sequence number of packets sent
   - `ttl`: The ttl (Time To Live) is used as hop counter
@@ -397,12 +397,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Used to see how packets are getting routed
 - How traceroute works
   1. Send packet with increasing TTL values, starting with 1
-  1. When the first router gets packet, it decrements the TTL by 1
+  2. When the first router gets packet, it decrements the TTL by 1
      and then send back a ICMP Time Exceeded message
-  1. Send a new packet with TTL of 2. When the first router get packet,
+  3. Send a new packet with TTL of 2. When the first router get packet,
      TTL decreased by 1 and then goes to the second router. After the seconds
      router get packet, TTL decreased to 0 and then send back a ICMP Time Exceeded message
-  1. Repeat step 1-3 until the final destination is reached
+  4. Repeat step 1-3 until the final destination is reached
 
 ### Netstat
 

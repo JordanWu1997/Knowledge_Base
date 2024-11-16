@@ -150,7 +150,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     - Partition in type of primary (limit to four), extended (limit to one) and logical partitions
     - Add additional partition
       1. Make primary partition into and extended partition
-      1. Inside extended partition, add logical partition (which works like other partitions)
+      2. Inside extended partition, add logical partition (which works like other partitions)
     - Only support disks up to 2 TB
   - `GPT`:
     - New standar partion table
@@ -212,9 +212,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 - Overview of Linux boot process
   1. `BIOS`
-  1. `Bootloader`
-  1. `Kernel`
-  1. `Init`
+  2. `Bootloader`
+  3. `Kernel`
+  4. `Init`
 
 ### Process: BIOS
 

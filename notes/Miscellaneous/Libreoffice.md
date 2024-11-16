@@ -22,7 +22,9 @@ ______________________________________________________________________
 ## Microsoft Core Fonts
 
 - In Ubuntu
+
   - `sudo apt install ttf-mscorefonts-installer`
+
 - Contains
 
   ```
@@ -40,7 +42,9 @@ ______________________________________________________________________
   ```
 
 - But for most of the fonts from it, you can find a FOSS alternatives
+
 - Reference
+
   - https://packages.debian.org/bullseye/ttf-mscorefonts-installer
 
 ## English Fonts FOSS Alternatives
@@ -59,6 +63,7 @@ ______________________________________________________________________
 ## Chinese Font Setting Cross-Libreoffice-and-MicrosoftOffice
 
 - In Ubuntu, `/etc/fonts/conf.avail/30-cjk-aliases.conf` record how Chinese fonts are rendered
+
 - For example:
 
   ```
@@ -74,8 +79,11 @@ ______________________________________________________________________
 
   - `<family>` tag: fonts that shows up in libreoffice
   - `<accept>` tag: fonts that are actually rendered from top to bottom
+
 - You can easily modify this file to make sure that your documents are using the same font across platforms
+
 - Reference
+
   - https://data.gov.tw/dataset/5961
 
 ## How to Change Default Chinese Font in Libreoffice

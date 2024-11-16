@@ -21,9 +21,11 @@ ps
 -aux: all process (including owned by other users)
 
 kill
+
 - use process ID (PID) as argument
 
 killall
+
 - use name of process as argument
 
 Ctrl+c: SIGINT

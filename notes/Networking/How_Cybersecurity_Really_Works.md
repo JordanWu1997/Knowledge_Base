@@ -11,12 +11,12 @@ Cyber Kill Chain (CKC)
 1. Reconnaissance
    - Sniffing
    - Scanning
-1. Weaponization
-1. Delivery
-1. Exploitation
-1. Installation
-1. Control
-1. Action
+2. Weaponization
+3. Delivery
+4. Exploitation
+5. Installation
+6. Control
+7. Action
 
 Operation Security (OPSEC)
 
@@ -81,28 +81,28 @@ Authentication
 
 1. Things you know
    - e.g. Cognitive password
-1. Things you have
+2. Things you have
    - e.g.
      - Common Access Card (CAC)
      - Digital certificate
      - Trusted Platform Module (TPM)
-1. Things represent you
+3. Things represent you
    - e.g. Biology signatures
      - False Rejection Rate (FRR)
      - False Accept Rate (FAR)
      - Cross-over Error Rate (CER)
-1. Things you are doing
+4. Things you are doing
    - e.g. Completely Automated Public Turing test to tell Computers and Human Apart (CAPTHA)
-1. Places you are
+5. Places you are
 
 Authorization
 
 1. Mandatory Access Control (MAC)
-1. Rule-Based Access Control
-1. Role-Based Access Control
+2. Rule-Based Access Control
+3. Role-Based Access Control
    - Least privilege, separation of duties
-1. Attribute-Based Access Control (ABAC)
-1. Discretionary Access Control (DAC)
+4. Attribute-Based Access Control (ABAC)
+5. Discretionary Access Control (DAC)
    e.g. Google Drive
 
 Accounting

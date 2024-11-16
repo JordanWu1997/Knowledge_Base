@@ -45,14 +45,14 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - Sequence of reading shell profile (here use bash as example)
   - Login-shell
     1. /etc/profile
-    1. /etc/profile.d/
-    1. First of the following
+    2. /etc/profile.d/
+    3. First of the following
        1. $HOME/.bash_profile
-       1. $HOME/.bash_login
-       1. $HOME/.profile
-    1. $HOME/.bashrc
-    1. /etc/bashrc
+       2. $HOME/.bash_login
+       3. $HOME/.profile
+    4. $HOME/.bashrc
+    5. /etc/bashrc
   - Non-login-shell
     1. $HOME/.bashrc
-    1. /etc/bashrc
-    1. /etc/profile.d/
+    2. /etc/bashrc
+    3. /etc/profile.d/

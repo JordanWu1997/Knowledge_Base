@@ -72,7 +72,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
     - Split for each window
 - TMUX command
   - In TMUX, use PREFIX + BINDKEY to execute TMUX command
+
   - Default prefix is Ctrl+b (I prefer to map prefix to Ctrl+space for ergonomic)
+
   - Session command
 
     ```bash
@@ -131,6 +133,7 @@ System, shell, application configuration files (file starts with dot .)
   ```
 
 - symlink
+
   - Generate link point to file/directory
 
     ```bash
@@ -139,7 +142,9 @@ System, shell, application configuration files (file starts with dot .)
     ```
 
 - dotfile for bash shell
+
   - alias
+
     - Shortcut for long command
 
     ```bash

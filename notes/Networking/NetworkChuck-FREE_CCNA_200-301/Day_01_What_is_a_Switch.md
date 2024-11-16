@@ -26,14 +26,14 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 - How hub sends message between machines connected to it?
   1. Receive message from the machine sending message
-  1. Send message to all machines connected to it except the sending one
+  2. Send message to all machines connected to it except the sending one
   - In short, hub just repeat the message it received
 
 ## Switch
 
 - How switch sends message between machines connected to it?
   1. Receive message from the machine sending message
-  1. Send message only to the receiver assigned by sender
+  2. Send message only to the receiver assigned by sender
   - In short, switch only send the message to the right receiver
 - How switch knows which one is the right receiver?
   - Switch recognizes connected machine by MAC address (layer 2 address)
@@ -60,7 +60,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
    - \[x\] source MAC address
    - Switch do not know anything about IP address
 
-1. Which of the following addresses will a switch use to make forwarding decisions?
+2. Which of the following addresses will a switch use to make forwarding decisions?
 
    - \[ \] source MAC address
    - \[ \] source IP address

@@ -31,7 +31,7 @@ Network adapter in VM is not unique, you can add as much as 4
    - Protocol: TCP (default: TCP)
    - Host Port: Port for SSH in local machine (Here is set: 2222)
    - Guest Port: Port for SSH in remote machine (default: 22)
-1. In Remote Machine
+2. In Remote Machine
 
 - `systemctl start sshd`
   - Enable SSH server on remote machine

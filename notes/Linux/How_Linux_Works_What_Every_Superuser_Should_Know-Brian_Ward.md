@@ -1,7 +1,6 @@
 # How Linux Works: What Every Superuser Should Know - Brian Ward
 
-Table of Contents
-=================
+# Table of Contents
 
 # Context
 

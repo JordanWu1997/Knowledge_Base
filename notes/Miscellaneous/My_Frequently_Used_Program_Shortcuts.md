@@ -95,7 +95,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ### Miscellaneous
 
-- \[Win\]+[d]: Search in overview mode
+- \[Win\]+\[d\]: Search in overview mode
 - \[Win\]+\[Shift\]+\[Escape\]: Lock screen
 - \[Win\]+\[Shift\]+\[i\]: Enter command prompt
 - \[Win\]+(\[Shift\])+\[Space\]: (Prev)/Next input method
@@ -125,14 +125,14 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Kitty (Terminal Emulator)
 
-- \[Ctrl\]+\[Shift\]+[u]: Unicode input
+- \[Ctrl\]+\[Shift\]+\[u\]: Unicode input
 - \[Ctrl\]+\[Shift\]+\[m/p\]: Dec/Inc opacity
 - \[Alt\]+\[Shift\]+\[m/p\]: Min/Max opacity
-- \[Ctrl/Alt\]+\[Shift\]+[d]: Restore to default opacity
+- \[Ctrl/Alt\]+\[Shift\]+\[d\]: Restore to default opacity
 - \[Ctrl\]+\[Shift\]+\[-/+\]: Dec/Inc font size
 - \[Ctrl/Alt\]+\[Shift\]+\[0\]: Set font size to 1/20
 - \[Ctrl\]+\[Shift\]+\[Alt\]+\[0\]: Restore to default font size
-- \[Ctrl\]+\[Shift\]+\[Alt\]+[d]: Debug kitty configuration file
+- \[Ctrl\]+\[Shift\]+\[Alt\]+\[d\]: Debug kitty configuration file
 - \[Ctrl\]+\[Shift\]+\[Alt\]+\[r\]: Reload kitty configuration file
 - \[Ctrl\]+\[Shift\]+\[Win\]+\[1~6\]: Change kitty colorscheme
 
@@ -149,8 +149,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Ctrl\]+\[u/k\]: Delete to the beginning/end of line
 - \[Ctrl\]+\[d/h\]: Delete next/prev character
 - \[Ctrl\]+\[w\]: Delete previous word
-- \[Alt\]+[d]: Delete next word
-- \[Ctrl\]+[d]: If there is nothing in command, it will close entire terminal
+- \[Alt\]+\[d\]: Delete next word
+- \[Ctrl\]+\[d\]: If there is nothing in command, it will close entire terminal
 - \[Ctrl\]+\[c\]: Cancel entire line input
 - \[Ctrl\]+\[j\]: Enter newline
 
@@ -202,7 +202,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[g\]+\[...\]: Go to ...
 - \[y\]+\[...\]: Yank ...
 - \[p\]+\[...\]: Paste ...
-- [d]+\[...\]: Delete ...
+- \[d\]+\[...\]: Delete ...
 - \[c\]+\[...\]: Search ...
 - \[o\]+\[...\]: Sort ...
 - \[z\]+\[...\]: Setting ...
@@ -225,7 +225,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 #### Vim-like mark
 
 - \[m\]: mark
-- [u]+\[m\]: un-mark
+- \[u\]+\[m\]: un-mark
 - \[Grave/'\]: go to mark
 
 #### Miscellaneous
@@ -239,16 +239,16 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[g\]+\[f\]: Search with fzf and preview with cat
 - \[g\]+\[Shift\]+\[f\]: Search with fzf and preview with tree
 - \[/\]: Search
-- \[c\]+[d]: Change directory
-- [d]+\[c\]: Calculate cumulative usage
+- \[c\]+\[d\]: Change directory
+- \[d\]+\[c\]: Calculate cumulative usage
 - \[Space\]: Select item under cursor
-- ([u])+\[v\]: (Reversed) visual mode
+- (\[u\])+\[v\]: (Reversed) visual mode
 - (u)+\[Shift\]+\[v\]: (De)Select all
 - (\[Shift\])+\[a\]: Rename file (append)
 - \[Shift\]+\[i\]: Rename file (insert)
 - \[Backspace\]: Toggle hidden files
 - \[Shift\]+\[/\]: Show help
-- \[Shift\]+[s]: Open shell within ranger
+- \[Shift\]+\[s\]: Open shell within ranger
 - \[Shift\]+\[r\]: Refresh current working directory
 - \[Ctrl\]+\[r\]: Reset ranger
 - \[#\]+\[g\]+\[g\]: Go to line #
@@ -268,7 +268,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   %%- \[\*\]: Toggle all tree
 - \[k\]: Kill process
 - \[h\]: Show help menu
-- [u]: Display process owned by particular user
+- \[u\]: Display process owned by particular user
 - \[p\]: Toggle program path
 - \[i\]: Set IO priority
 - \[w\]: Wrap process
@@ -283,7 +283,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Shift\]+\[j/k\]: Next/Prev image (or \[n/p\])
 - \[h/j/k/l\]: Scroll left/down/up/right
 - \[a\]: Automatic resize window
-- [d]: Toggle filename
+- \[d\]: Toggle filename
 - \[i\]: Toggle file information
 - \[g\]: Toggle fixed geometry
 - \[v\]: Toggle fixed zooming scale
@@ -297,7 +297,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Shift\]+\[j/k\]: Scroll page down/up or (\[Space\])
 - \[Ctrl\]+\[d/u\]: PageDown/PageUp
 - \[a/s\]: Adjust window in best-fit/width
-- [d]: Toggle two-page/one-page mode
+- \[d\]: Toggle two-page/one-page mode
 - \[f/;\]: Open URL in default web-browser (xdg-open)
 - \[Ctrl\]+\[o/i\]: Jump backward/forward in jumplist (just like vim)
 - \[Ctrl\]+\[r\]: Recolor (greyscale and invert colors)
@@ -308,7 +308,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[/\]: Search mode
 - \[b\]+\[l\]: List all bookmarks
 - \[b\]+\[m\]: Add bookmark
-- \[b\]+[d]: Delete bookmark
+- \[b\]+\[d\]: Delete bookmark
 - \[Shift\]+\[;\]: Enter command
 - \[Ctrl\]+\[g\]: Toggle statusbar
 - \[F11\]: Fullscreen mode
@@ -335,10 +335,10 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ### Sheet operation
 
-- \[Shift\]+[s]: Open sheets sheet
-- \[g\]+[S]: Go to sheet graveyard (trash can)
+- \[Shift\]+\[s\]: Open sheets sheet
+- \[g\]+\[S\]: Go to sheet graveyard (trash can)
 - \[Shift\]+\[c\]: Show column attributes
-  - [d]: Delete column
+  - \[d\]: Delete column
   - \[a\]: Add column
 
 ### Navigation
@@ -350,15 +350,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ### Row/Column/Cell Operations
 
-- \[Shift\]+[u]: Undo
+- \[Shift\]+\[u\]: Undo
 - \[Shift\]+\[r\]: Redo
 - \[Shift\]+\[j/k\]: Move current row down/up
 - \[Shift\]+\[h/l\]: Move current column left/right
 - \[i\]: Insert column
 -
-- \[g\]+[s]: Select all
+- \[g\]+\[s\]: Select all
 -
-- \[g\]+[u]: Unselect all
+- \[g\]+\[u\]: Unselect all
 - \[t\]: Toggle current selection
 -
 - \[e\]: Edit current cell
@@ -449,11 +449,11 @@ Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 #### Webpage
 
 - \[Ctrl\]+\[p\]: Print current page
-- \[Ctrl\]+[s]: Save current page
+- \[Ctrl\]+\[s\]: Save current page
 - \[F5\]: Reload current page
 - \[Ctrl\]+\[r\]: Reload current tab
-- \[Ctrl\]+[d]: Add to bookmark
-- \[Ctrl\]+\[Shift\]+[d]: Add all open tabs as bookmarks in a new folder
+- \[Ctrl\]+\[d\]: Add to bookmark
+- \[Ctrl\]+\[Shift\]+\[d\]: Add all open tabs as bookmarks in a new folder
 - \[F11\]: Toggle full-screen
 - \[Ctrl\]+\[Shift\]+\[-/=\]: Zoom out/in
 - \[Ctrl\]+\[0\]: Zoom default
@@ -471,7 +471,7 @@ Vim-like navigator in web page
 - \[Shift\]+\[r\]: Reload page
 - \[y\]+\[y\]: Copy current tab URL
 - (\[Shift\])+\[p\]: Open copy URL in (new) tab
-- \[g\]+(Shift)+[u]: Go up to (root of) URL hierarchy
+- \[g\]+(Shift)+\[u\]: Go up to (root of) URL hierarchy
 - \[i\]: Enter insert mode (disable vimium temporarily)
 - \[Ctrl\]+\[\[\]: Escape (e.g. escape insert mode)
 - (\[Shift\])+\[v\]: Enter visual (line) mode, press c to change start point
@@ -520,10 +520,10 @@ Vim-like navigator in web page
 
 ### Extension - Marvellous Suspender
 
-- \[Alt\]+[s]: Suspend/Unsuspend active tab
+- \[Alt\]+\[s\]: Suspend/Unsuspend active tab
 - \[Alt\]+\[p\]: Pause/Unpause suspension of active tab
-- \[Alt\]+\[Shift\]+[s]: Suspend all other tabs in active window
-- \[Alt\]+\[Shift\]+[u]: Unsuspend al tabs in active window
+- \[Alt\]+\[Shift\]+\[s\]: Suspend all other tabs in active window
+- \[Alt\]+\[Shift\]+\[u\]: Unsuspend al tabs in active window
 
 ### Extension - Tab to window / Merge windows
 
@@ -534,7 +534,7 @@ Vim-like navigator in web page
 ### Extension - YouTube Playback Speed Control
 
 - \[a\]: Decrease playspeed (-0.25)
-- [s]: Increase playspeed (+0.25)
+- \[s\]: Increase playspeed (+0.25)
 - \[q\]: Reset playspeed (1.0)
 
 ### Extension - Miscellaneous
@@ -543,10 +543,10 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 
 - \[Alt\]+\[Shift\]+\[b\]: Activate Bitwarden (Bitwarden - Free Password Manager)
 - \[Alt\]+\[Shift\]+\[f\]: Autofill last used login (Bitwarden - Free Password Manager)
-- \[Alt\]+\[Shift\]+[d]: Activate Google Dictionary (Google Dictionary (by Google))
+- \[Alt\]+\[Shift\]+\[d\]: Activate Google Dictionary (Google Dictionary (by Google))
 - \[Alt\]+\[Shift\]+\[t\]: Activate Google Translate (Google Translate)
 - \[Alt\]+\[Shift\]+\[v\]: Activate Vimium (Vimium)
-- \[Alt\]+\[Shift\]+[d]: Activate/Deactivate dark mode (Dark Reader)
+- \[Alt\]+\[Shift\]+\[d\]: Activate/Deactivate dark mode (Dark Reader)
 - \[Alt\]+\[Shift\]+\[o\]: Activate OneTab Group (OneTab Group)
 - \[Alt\]+\[o\]: Send current tab to OneTab Group (OneTab Group)
 - \[Alt\]+\[Shift\]+\[r\]: Activate Nimbus (Nimbus - Screenshot and screen video recorder)

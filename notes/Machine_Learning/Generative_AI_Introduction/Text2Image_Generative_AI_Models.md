@@ -16,9 +16,9 @@ ______________________________________________________________________
 
 1. Text Encoder
    - Encode input text to intermediate products for generation
-1. Generation Model
+2. Generation Model
    - Generate image intermediate product from random-sampled image and text intermediate products
-1. Decoder
+3. Decoder
    - Decode generated intermediate products to real-world images
 
 ## 1. Text encoder
@@ -27,16 +27,16 @@ ______________________________________________________________________
 - Model valuation
   - Frechet Inception Distance (FID)
     1. Use pre-trained image classification model to generate representation
-    1. Find the distance between two latent representation groups (assuming Gaussian distribution)
+    2. Find the distance between two latent representation groups (assuming Gaussian distribution)
        1. Real images
-       1. Generated images
-    1. The smaller the better
-    1. Cons: Requires enormous samples
+       2. Generated images
+    3. The smaller the better
+    4. Cons: Requires enormous samples
   - Contrastive Language-Image Pre-Training score (CLIP score)
     1. Put text and image into respective encoder
-    1. Find the distance of two vectors
-    1. If input text and image are in pair: the smaller the better
-    1. If input text and image are NOT in pair: the larger the better
+    2. Find the distance of two vectors
+    3. If input text and image are in pair: the smaller the better
+    4. If input text and image are NOT in pair: the larger the better
 
 ## 2. Generation Model
 
@@ -52,23 +52,23 @@ ______________________________________________________________________
        - Convert image into latent representation
        - Input: Original images
        - Output: Latent representation
-    1. Add noise
+    2. Add noise
        - Add noise to latent representation
        - Input: Latent representation
        - Output: Noise-added latent representation
-    1. Noise predictor
+    3. Noise predictor
        - Predict noise from noise-added latent representation
        - Input
          1. Image noise-added latent representation
-         1. Text latent representation
-         1. Step of noise-addition process
+         2. Text latent representation
+         3. Step of noise-addition process
             - How many times noise are added to latent representation
        - Output: Predicted Noise
 - Inference process
   - Use noise predictor to predict current noises and remove them
   - Input:
     1. Normal distribution sampled latent representation
-    1. Text latent representation
+    2. Text latent representation
   - Output: De-noised latent representation
 
 ## 3. Decoder

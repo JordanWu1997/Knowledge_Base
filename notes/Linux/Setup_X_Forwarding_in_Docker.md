@@ -18,7 +18,7 @@ Vimwiki: :Docker:SSH:Forwarding:GUI:
    xhost +local:docker
    ```
 
-1. Share environment variable and sockets between docker and host when running `docker run`
+2. Share environment variable and sockets between docker and host when running `docker run`
 
    ```
    docker run ... -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix ...
@@ -42,7 +42,7 @@ Vimwiki: :Docker:SSH:Forwarding:GUI:
    apt update; apt -y install openssh-server
    ```
 
-1. If you are using root to login in, you need to
+2. If you are using root to login in, you need to
 
    - Set `PermitRootLogin` in `/etc/ssh/sshd_config` to `yes`
 

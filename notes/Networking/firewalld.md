@@ -67,12 +67,12 @@ Note that `firewall-cmd` command needs root privilege
 To check if `firewalld` is activated, in terminal
 
 1. `systemctl status firewalld`: It should show `active`
-1. `firewall-cmd --state`: It should show `running`
+2. `firewall-cmd --state`: It should show `running`
 
 If `firewalld` is not activated
 
 1. `systemctl start firewalld`
-1. `systemctl enable firewalld`
+2. `systemctl enable firewalld`
 
 ## Manage `firewalld`
 
@@ -127,9 +127,9 @@ Use IP set to manage multiple IPs
 - Create `ipset`
   1. `firewall-cmd --permanent--new-ipset=iplist --type=hash:ip`
      - Generate new ipset with name IPSET (flag `--permanent` is needed)
-  1. `firewall-cmd --reload`
+  2. `firewall-cmd --reload`
      - Reload firewalld to add the new ipset IPSET
-  1. `firewall-cmd --ipset=IPSET --add-entry=IP`
+  3. `firewall-cmd --ipset=IPSET --add-entry=IP`
      - Add IP to the new created IPSET
      - Continuously input
        ```
@@ -138,7 +138,7 @@ Use IP set to manage multiple IPs
        firewall-cmd --ipset=IPSET --add-entry=IP_3
        ...
        ```
-  1. `firewalll-cmd --zone=ZONE --add-source=ipset:IPSET`
+  4. `firewalll-cmd --zone=ZONE --add-source=ipset:IPSET`
      - Add ipset:iplist to zone ZONE
 - Remove existing `ipset`
   1. `firewalld-cmd --permanent --delete-ipset=IPSET`

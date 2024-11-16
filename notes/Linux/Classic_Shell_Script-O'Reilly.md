@@ -7,13 +7,16 @@
 ## Chapter 02 - Basic of shell
 
 - Command and argument
+
   - Shell command type
     - Built-in command (e.g. echo)
     - Shell function (e.g. function in regular programs)
     - External function
       - Executed by forked child shell instead of original parent shell
   - Argument
+
 - Variable
+
 - Print message
 
   ```bash
@@ -24,11 +27,14 @@
   ```
 
 - Standard I/O (input/output) manipulation
+
   - Redirect standard input (\<)
   - Redirect standard output (>)
   - Append standard output to (>>)
   - Pass previous standard output as next standard input (|)
+
 - Special file
+
   - /dev/null
     - Message directed to null would not be stored in system
   - /dev/tty
@@ -55,6 +61,7 @@
 
 - Set variable
   - export
+
     - Create shell variable
 
       ```bash
@@ -66,8 +73,11 @@
       ```
 
   - readonly
+
     - Create shell variable but readonly
+
   - unset
+
     - Remove shell variable
 - Parameter expansion
 - Conditional expression

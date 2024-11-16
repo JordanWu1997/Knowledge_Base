@@ -24,13 +24,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Connection from PC to Internet service
 
 1. PC
-1. Switch
-1. Router
-1. Firewall
-1. Modem
-1. ATT Fiber
-1. Internet (i.e. A lot of routers)
-1. Server (Web service)
+2. Switch
+3. Router
+4. Firewall
+5. Modem
+6. ATT Fiber
+7. Internet (i.e. A lot of routers)
+8. Server (Web service)
 
 ## Terminology
 

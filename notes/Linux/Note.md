@@ -1,4 +1,5 @@
 # LINUX
+
 https://haydenjames.io/mastering-linux-administration-20-powerful-commands-to-know/
 https://haydenjames.io/90-linux-commands-frequently-used-by-linux-sysadmins/
 https://haydenjames.io/linux-networking-commands-scripts/
@@ -17,12 +18,14 @@ WantedBy
 # PYTHON
 
 ## collection
+
 Counter
 namedtuple
 OrderDict #default in python > 3.6
 deque
 
 ## itertools
+
 product
 permutations
 combinations
@@ -35,6 +38,7 @@ cycle
 repeat
 
 ## json
+
 dumps
 loads
 JSONEncoder
@@ -43,6 +47,7 @@ JSONDecoder
 ## functools
 
 ## sys
+
 getsizeof
 
 atool
@@ -50,6 +55,7 @@ atool
 mpv-mpris
 
 # VIM
+
 ctrl+x
 gn move and select
 dot operation only take effects when modifying text
@@ -59,16 +65,20 @@ o/O change visual mode direction
 # Networking
 
 ## Physical Layer
+
 ip link show
 
 ## Datalink Layer
+
 ip neightbor show
 arp
 
 ## Network Layer
+
 ip address show
 
 ## Transportation Layer
+
 ss -tupln
 
 apt-file search
@@ -92,20 +102,21 @@ nmcli connection modify Hotspot 802-11-wireless-security.pmf 1
 https://askubuntu.com/questions/1424633/unable-to-connect-with-the-hotspot-created-on-ubuntu
 
 ## fuser
+
 fuser -v -m /dev/sdb1
 fuser -v /dev/jordankhwu/73FF-F83C
 fuser -k /dev/jordankhwu/73FF-F83C
 fuser -v -n tcp 6463
 
 - DNF/YUM Repository:
-    - `/etc/yum.repos.d/`
+  - `/etc/yum.repos.d/`
 - Flatpak:
-    - `/var/lib/flatpak/app`
-    - `$HOME/.var/app`
+  - `/var/lib/flatpak/app`
+  - `$HOME/.var/app`
 - Xsession:
-    - `/usr/share/xsessions`
+  - `/usr/share/xsessions`
 
-command ls -d /usr/share/themes/* | xargs -L 1 basename
+command ls -d /usr/share/themes/\* | xargs -L 1 basename
 
 ~/.config/gtk-3.0/settings.ini
 gtk-application-prefer-dark-theme=1

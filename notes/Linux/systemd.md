@@ -34,9 +34,9 @@ Vimwiki: :SystemD:
 
 1. `/etc/systemd/system/`: scripts within it starts at startup
    - For administrator customization
-1. `/run/systemd/system/`
+2. `/run/systemd/system/`
    - Unit files generate during runtime
-1. `/usr/lib/systemd/system/`
+3. `/usr/lib/systemd/system/`
    - Default unit files provided by packages
 
 ### TODO: Unit Filetypes

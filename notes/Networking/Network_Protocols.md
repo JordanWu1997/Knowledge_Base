@@ -11,9 +11,9 @@ Set of rules and messages that form an Internet Standard
 Every host need four items for Internet connectivity
 
 1. IP address: Host's identity on the internet
-1. Subnet Mask: Size of host's network
-1. Default Gateway: Router's IP address
-1. DNS Server IP: Translate domain names to IPs
+2. Subnet Mask: Size of host's network
+3. Default Gateway: Router's IP address
+4. DNS Server IP: Translate domain names to IPs
 
 ## Protocols
 

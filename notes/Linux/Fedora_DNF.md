@@ -139,7 +139,7 @@ Upgrade Fedora system with dnf e.g. (F34 -> F35)
 
 1. Install dnf-plugin-system-upgrade (root authentication is needed):
    - `dnf install dnf-plugin-system-upgrade`
-1. Download needed data (root authentication is needed):
+2. Download needed data (root authentication is needed):
    - `dnf install system-upgrade download --releasever=<Fedora_version>`
-1. Reboot and start upgrade system (root authentication is needed):
+3. Reboot and start upgrade system (root authentication is needed):
    - `dnf system-upgrade reboot`
