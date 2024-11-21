@@ -9,15 +9,13 @@
 - [Table of Contents](#table-of-contents)
 - [Context](#context)
   - [Bash Shell](#bash-shell)
-    - [Controls](#controls)
-    - [Move in command line](#move-in-command-line)
-    - [Edit in command line](#edit-in-command-line)
+    - [Process Control](#process-control)
+    - [Move In Command Line](#move-in-command-line)
+    - [Edit In Command Line](#edit-in-command-line)
     - [History](#history)
   - [Fish Shell](#fish-shell)
-    - [Fish-only command](#fish-only-command)
+    - [Fish-only Command](#fish-only-command)
     - [FZF](#fzf)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 # Context
 

@@ -7,7 +7,7 @@
 # Table of Contents
 
 - [Missing Semester - Lecture 07 - Debugging and Profiling](#missing-semester---lecture-07---debugging-and-profiling)
-  - [Table of content](#table-of-content)
+  - [Table of Contents](#table-of-contents)
   - [Context](#context)
     - [Log](#log)
     - [Debugger](#debugger)

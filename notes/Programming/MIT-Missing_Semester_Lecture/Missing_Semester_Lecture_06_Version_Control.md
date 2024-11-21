@@ -7,7 +7,7 @@
 # Table of Contents
 
 - [Missing Semester - Lecture 06 - Version Control (git)](#missing-semester---lecture-06---version-control-git)
-  - [Table of content](#table-of-content)
+  - [Table of Contents](#table-of-contents)
   - [Context](#context)
     - [What is Git](#what-is-git)
     - [Terminology](#terminology)

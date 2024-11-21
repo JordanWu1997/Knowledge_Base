@@ -14,7 +14,7 @@
   - [Permissions](#permissions)
   - [Process](#process)
     - [Terminals in Linux System](#terminals-in-linux-system)
-    - [requently used command](#requently-used-command)
+    - [Frequently used command](#frequently-used-command)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 

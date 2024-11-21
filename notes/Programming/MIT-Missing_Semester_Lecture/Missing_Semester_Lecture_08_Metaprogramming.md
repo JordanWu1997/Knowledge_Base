@@ -7,7 +7,7 @@
 # Table of Contents
 
 - [Missing Semester - Lecture 08 - Metaprogramming](#missing-semester---lecture-08---metaprogramming)
-  - [Table of content](#table-of-content)
+  - [Table of Contents](#table-of-contents)
   - [Context](#context)
     - [Build system](#build-system)
     - [Testing](#testing)

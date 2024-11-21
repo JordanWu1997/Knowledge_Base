@@ -7,7 +7,7 @@
 # Table of Contents
 
 - [Missing Semester - Lecture 05 - Command-line Environment](#missing-semester---lecture-05---command-line-environment)
-  - [Table of content](#table-of-content)
+  - [Table of Contents](#table-of-contents)
   - [Context](#context)
     - [Job Control Command](#job-control-command)
     - [Terminal Multiplexers (TMUX)](#terminal-multiplexers-tmux)

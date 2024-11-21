@@ -11,9 +11,9 @@ ______________________________________________________________________
 # Table of Contents
 
 - [FREE CCNA 200-301 - Day 00 - What is a Network?](#free-ccna-200-301---day-00---what-is-a-network)
-  - [Table of content](#table-of-content)
+  - [Table of Contents](#table-of-contents)
   - [Context](#context)
-    - [Connection from PC to Internet](#connection-from-pc-to-internet)
+    - [Connection from PC to Internet service](#connection-from-pc-to-internet-service)
     - [Terminology](#terminology)
     - [How about wireless](#how-about-wireless)
 

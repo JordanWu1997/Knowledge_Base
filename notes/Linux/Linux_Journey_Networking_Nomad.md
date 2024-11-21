@@ -8,7 +8,7 @@
 
 # Table of Contents
 
-- [Linux Networking Nomad](#linux-networking-nomad)
+- [Linux Journey - Networking Nomad](#linux-journey---networking-nomad)
 - [Table of Contents](#table-of-contents)
 - [Context](#context)
   - [Network Sharing](#network-sharing)

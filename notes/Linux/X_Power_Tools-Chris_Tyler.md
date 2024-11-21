@@ -3,7 +3,7 @@
 # Table of Contents
 
 - [X Power Tools - Chris Tyler](#x-power-tools---chris-tyler)
-  - [Table of content)](#table-of-content)
+  - [Table of Contents)](#table-of-contents)
   - [Context](#context)
     - [1.1 Basics of X window system](#11-basics-of-x-window-system)
     - [1.5 X GUI 7 Layer Structure](#15-x-gui-7-layer-structure)

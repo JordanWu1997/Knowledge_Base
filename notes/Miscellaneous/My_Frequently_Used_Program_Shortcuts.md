@@ -20,8 +20,8 @@
   - [Fish (Shell)](#fish-shell)
     - [Command line input](#command-line-input)
     - [FZF](#fzf)
-    - [Miscellaneous function](#miscellaneous-function)
-    - [Reference](#reference)
+    - [FISH Miscellaneous function](#fish-miscellaneous-function)
+    - [FISH Reference](#fish-reference)
   - [Ranger (File manager)](#ranger-file-manager)
     - [Normal mode](#normal-mode)
       - [Pane navigation](#pane-navigation)
@@ -29,7 +29,7 @@
       - [Combination key action](#combination-key-action)
       - [Fn-key shortcuts](#fn-key-shortcuts)
       - [Vim-like mark](#vim-like-mark)
-      - [Miscellaneous](#miscellaneous-1)
+      - [Ranger Miscellaneous](#ranger-miscellaneous)
     - [Console mode](#console-mode)
   - [Htop (System Monitor)](#htop-system-monitor)
   - [Feh (Image Viewer)](#feh-image-viewer)
@@ -37,12 +37,20 @@
     - [General mode](#general-mode)
     - [Index mode](#index-mode)
     - [Presentation mode](#presentation-mode)
-    - [Reference](#reference-1)
+    - [Zathura Reference](#zathura-reference)
+  - [Visidata (TUI data viewer)](#visidata-tui-data-viewer)
+    - [Sheet operation](#sheet-operation)
+    - [Visidata Navigation](#visidata-navigation)
+    - [Row/Column/Cell Operations](#rowcolumncell-operations)
+    - [Column Type](#column-type)
+    - [Search](#search)
+    - [Visidata Miscellaneous](#visidata-miscellaneous)
+    - [Visidata Reference](#visidata-reference)
   - [Jupyter-lab (Python notebook)](#jupyter-lab-python-notebook)
     - [Built-in function](#built-in-function)
-    - [Reference](#reference-2)
+    - [Jupyter-lab Reference](#jupyter-lab-reference)
   - [Brave-browser (Chromium-based web-browser)](#brave-browser-chromium-based-web-browser)
-    - [Built-in function](#built-in-function-1)
+    - [Brave-browser built-in function](#brave-browser-built-in-function)
       - [Tabs and windows](#tabs-and-windows)
       - [Browser](#browser)
       - [Address bar](#address-bar)
@@ -50,21 +58,20 @@
     - [Extension - Vimium](#extension---vimium)
       - [Page/History navigation](#pagehistory-navigation)
       - [Tabs manipulation](#tabs-manipulation)
-      - [Miscellaneous](#miscellaneous-2)
+      - [Vimium Miscellaneous](#vimium-miscellaneous)
     - [Extension - Read Aloud (Text to speech)](#extension---read-aloud-text-to-speech)
     - [Extension - Marvellous Suspender](#extension---marvellous-suspender)
-    - [Extension - Tab to window / Merge windows](#extension---tab-to-window--merge-windows)
+    - [Extension - Tab to window / Merge windows](#extension---tab-to-window-merge-windows)
     - [Extension - YouTube Playback Speed Control](#extension---youtube-playback-speed-control)
     - [Extension - Miscellaneous](#extension---miscellaneous)
+    - [Extension - Backup (Not Used Anymore)](#extension---backup-not-used-anymore)
     - [Website - YouTube](#website---youtube)
     - [Website - Notion](#website---notion)
-    - [Reference](#reference-3)
+    - [Notion Reference](#notion-reference)
   - [Spotify-TUI (Spotify TUI)](#spotify-tui-spotify-tui)
   - [Parcellite (Clipboard Manager)](#parcellite-clipboard-manager)
   - [IBUS (Input Utility)](#ibus-input-utility)
   - [Emailspring (Email Client)](#emailspring-email-client)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 # Context
 
@@ -163,7 +170,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Alt\]+\[c\]: FZF for directory and change to that directory
 - \[Ctrl/Alt\]+\[j/k\]: Previous/Next FZF option
 
-### Miscellaneous function
+### FISH Miscellaneous function
 
 - \[Ctrl\]+\[l\]: Clear screen
 - \[Alt\]+\[e/v\]: Open external editor ($EDITOR)
@@ -171,7 +178,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Alt\]+\[l\]: List all directories (ls -D in command line)
 - \[Alt\]+\[w\]: Short help on current word (similar to type)
 
-### Reference
+### FISH Reference
 
 - https://devhints.io/fish-shell
 - https://cheatography.com/myounkin/cheat-sheets/fish-shell/
@@ -228,7 +235,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[u\]+\[m\]: un-mark
 - \[Grave/'\]: go to mark
 
-#### Miscellaneous
+#### Ranger Miscellaneous
 
 - \[q\]: Quit
 - \[x\]: Close tab
@@ -327,7 +334,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Space\]: Next page
 - \[Backspace\]: Previous page
 
-### Reference
+### Zathura Reference
 
 - https://defkey.com/zathura-shortcuts?filter=basic
 
@@ -341,7 +348,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   - \[d\]: Delete column
   - \[a\]: Add column
 
-### Navigation
+### Visidata Navigation
 
 - \[h/j/k/l\]: Go to left/down/up/right
 - \[g\]+\[h/j/k/l\]: Jump to leftmost/bottom/top/rightmost
@@ -385,13 +392,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[|\]: Select row matches the current row
 - \[\]: Unselect row matches the current row
 
-### Miscellaneous
+### Visidata Miscellaneous
 
 - \[Shift\]+\[f\]: Show frequency table for current column
 - \[Ctrl\]+\[h\]: Show help menu
 - \[Ctrl\]+\[q\]: Force-quit
 
-### Reference
+### Visidata Reference
 
 - https://jsvine.github.io/intro-to-visidata/index.html
 
@@ -407,7 +414,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - \[Ctrl\]+\[b\]: Toggle left panel
 - \[Ctrl\]+\[p\]: Command palette
 
-### Reference
+### Jupyter-lab Reference
 
 - https://jupyterlab.readthedocs.io/en/stable/user/interface.html
 - https://blog.ja-ke.tech/2019/01/20/jupyterlab-shortcuts.html
@@ -417,7 +424,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 Brave browser only support either Ctrl or Alt as component of shortcut
 
-### Built-in function
+### Brave-browser built-in function
 
 Brave built-in shortcut. Most of them used __Ctrl__ as prefix
 
@@ -501,7 +508,7 @@ Vim-like navigator in web page
 - \[Shift\]+\[\[/\]\]: Move tab to left/right
 - \[Alt\]+\[Shift\]+\[,/.\]: Move tab to the left/right end
 
-#### Miscellaneous
+#### Vimium Miscellaneous
 
 - \[t\]: Search open tabs and move to selected tab
 - (\[Shift\])+\[o\]: Open input URL in (new) tab
@@ -580,7 +587,7 @@ Brave extension shortcut: brave://extensions/shortcuts, to keep it simple try to
 - https://usethekeyboard.com/notion/
 - https://www.notion.so/Learn-the-shortcuts-66e28cec810548c3a4061513126766b0
 
-### Reference
+### Notion Reference
 
 - https://support.brave.com/hc/en-us/articles/360032272171-What-keyboard-shortcuts-can-I-use-in-Brave-
 
