@@ -134,6 +134,12 @@ Vimwiki: :SystemD:
   - Apply changes to services
 - `systemctl isolate <TARGET>`
   - Switch to mode `<TARGET>`
+  - Apply changes to services
+- `systemctl status --failed`
+  - Show services failed to start
+- `systemctl reset-failed`
+  - Restart all failed services
+- `systemd-analyze`
 - `systemd-analyze`
   - Show systemd startup time
   - Add `blame` to show service by service

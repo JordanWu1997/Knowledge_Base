@@ -1,6 +1,7 @@
 # VisiData
 
 ## Reference
+
 - https://blog.jiayu.co/2021/12/analysing-hdb-resale-flat-transactions-with-visidata/
 - https://jsvine.github.io/intro-to-visidata/basics/understanding-columns/
 - https://jsvine.github.io/intro-to-visidata/basics/understanding-rows/
@@ -13,27 +14,34 @@
 # Context
 
 ## Sheet
+
 - `[Shift]`+`[w]`: Create pivot table sheet
 - `[Shift]`+`[m]`: Create a melted sheet
 - `[Shift]`+`[t]`: Create a transposed sheet
 - `[Shift]`+`[f]`: Create a frequency table sheet of current column
+- `[Shift]`+`[i]`: Open statistics sheet
 - `[Shift]`+`[v]`: Open visidata menu sheet
 - `[Shift]`+`[s]`: Open sheets sheet
-    - `[g]`+`[Shift]`+`[s]`: Visit sheet graveyard
+  - `[g]`+`[Shift]`+`[s]`: Visit sheet graveyard
 - `[Shift]`+`[c]`: Open columns sheet
 - `[Shift]`+`[o]`: Open options sheet
+- `[Shift]`+`[d]`: Show  VisiData command log
+- `[v]`: Open visibility sheet
 
 ### Sheet Type
+
 - Sheet types
-    - Source Sheet
-    - Derived Sheet
-    - Metasheet
+  - Source Sheet
+  - Derived Sheet
+  - Meta-sheet
 
 ## Basics
+
 - `[Ctrl]`+`[h]`: Open manual
 - `[Ctrl]`+`[f]`: Page Down
 - `[Ctrl]`+`[b]`: Page Up
 - `[q]`: Quit
+- `[Ctrl]`+`[q]`: Force-quit
 - `[d]`: Delete row
 - `[e]`: Edit current cell
 - `[a]`: Append new row
@@ -44,6 +52,7 @@
 - `[Shift]`+`[r]`: Redo
 
 ## Rows
+
 - `[g]`+`[u]`: unselect all rows
 - `[g]`+`[t]`: toggle all selected/unselected
 - `[g]`+`[/]`: Search forward all columns
@@ -52,6 +61,7 @@
 - `[z]`+`[Shift]`+`[\]`: Select rows where _expr_ evaluates to True
 
 ## Columns
+
 - `[g]`+`[v]`: unhide all columns
 - `[g]`+`[Shift]`+`[-]`: Adjust the width of all columns to fit text
 - `[Shift]`+`[1]`: Mark current column a "key" column
@@ -60,17 +70,19 @@
 ## Sheet Usage
 
 ### Sheet Operation
+
 - `[Shift]`+`[s]`: Open sheets sheet
-    - `[d]`: Send sheet to sheet graveyard
+  - `[d]`: Send sheet to sheet graveyard
 - `[g]`+`[S]`: Go to sheet graveyard (trash can)
-    - `[Enter]`: Revive sheet in graveyard
+  - `[Enter]`: Revive sheet in graveyard
 - `[Shift]`+`[c]`: Show column attributes
-    - `[d]`: Delete column
-    - `[a]`: Add column
+  - `[d]`: Delete column
+  - `[a]`: Add column
 
 ## Table Usage
 
 ### Help/Menu
+
 - `[Ctrl]`+`[h]`: Show help menu
 - `[z]`+`[Ctrl]`+`[h]`: Show sheet commands
 - `[g]`+`[z]`+`[Ctrl]`+`[h]`: Show all commands
@@ -83,11 +95,14 @@
 - `[Alt]`+`[s]`: Menu - System
 
 ### Navigation
+
 - `[h/j/k/l]`: Go to left/down/up/right
 - `[g]`+`[h/j/k/l]`: Go to leftmost/bottom/top/rightmost
 - `[z]`+`[r/c]`+`[NUM]`: Jump to row/column number
+- `[c]`: Move to column
 
 ### Search
+
 - (`[Shift]`)+`[/]`: Regex search (backward)/forward in current column
 - `[g]`+(`[Shift]`)+`[/]`: Regex search (backward)/forward in all columns
 - (`[Shift]`)+`[n]`: Jump to (previous)/next matching result
@@ -95,15 +110,23 @@
 - (`[Shift]`)+`[|]`: Unselect/Select row matches the current row
 
 ### Undo/Redo
+
 - `[Shift]`+`[u]`: Undo
 - `[Shift]`+`[r]`: Redo
+
+### JOIN
+
+- `[&]`: JOIN operation
 
 ## Row
 
 ### Operation
+
 - `[Shift]`+`[j/k]`: Move current row down/up
+- `[{/}]`: Previous/Next selected row
 
 ### Pattern Matching
+
 - (`[Shift]`)+`[\]`: (Select)/Unselect rows that matches current column
 - (`[g]`)+(`[Shift]`)`[\]`: (Select)/Unselect rows that matches current column
 
@@ -112,6 +135,7 @@
 ## Column
 
 ### Column Type
+
 - `[~]`: Set column type to string
 - `[#]`: Set column type to integer
 - `[%]`: Set column type to float
@@ -121,6 +145,7 @@
 - `[z]`+`[~]`: Set column type to anytype
 
 ### Operation
+
 - `[Shift]`+`[h/l]`: Move current column left/right
 - (`[g]`)+`[s]`: Select (all)/current row
 - (`[g]`)+`[u]`: Unselect (all)/current row
@@ -129,49 +154,43 @@
 ## Miscellaneous
 
 ### Row/Column/Cell Operations
-- [i]: Insert column
-- [s]: Select
-- [g]+[s]: Select all
-- [d]: Delete
-- [e]: Edit current cell
-- [^]: Rename current column
-- [[]: Sort ascending
-- []]: Sort descending
-- [q]: Quit current sheet
-- [Shift]+[f]: Show frequency table for current column
-- [Ctrl]+[q]: Force-quit
 
-[c]: Move to column
-[b]: Toggle sidebar
-[!]: Mark column
-[+]
-[z]+[+]
-[Shift]+[i]
-[z]+[i] interval column
-[=]: expr column
-[:]: split column with delimiter
-[;]: capture
-[(]: expand
-[&]: JOIN
-[Shift]+[w]: Pivot table
-[Shift]+[f]: Frequency table
-[Shift]+[m]: Melted table
-[v]: Multiple line mode
+- `[i]`: Insert column
+- `[s]`: Select
+- `[g]`+`[s]`: Select all
+- `[d]`: Delete
+- `[e]`: Edit current cell
+- `[^]`: Rename current column
+- `[[]`: Sort ascending
+- `[]]`: Sort descending
+- `[=]`: Create new column according to expression
+- `[z]`+`[i]`: Create new column with interval (e.g. 1,1,1 or 1,2,3)
+- `[+]`: Aggregate function
 
-z+[h/j/k/l]: Scroll
-z+[Enter]
-Ctrl+o: Open cell with text edior
-Shift+o
-Ctrl+e
-Shift+d command log
+### VisiData 3.0
 
-.github
-</>
-{/}
+- `[b]`: Toggle sidebar
 
-g+z+=
+### Save as markdown table (github-favored style)
 
-pip install vdsql
-sudo yum install python3-devel mysql-devel pkgconfig
-pip install mysqlclient
-https://mariadb.com/kb/en/connect-mysql-table-type-accessing-mysqlmariadb-tables/
+- Change filename from `.csv` to `.github`
+
+### Select column with datetime
+
+- Reference
+  - https://github.com/saulpw/visidata/issues/975
+- Select column newer than 2024-11-22
+  - `<COLUMN_NAME> > datetime.datetime(2024, 11, 22)`
+
+## TODO
+
+### Unorganized Commands
+
+- `[z]`+`[+]`
+- `[:]`: split column with delimiter
+- `[;]`: capture
+- `[(]`: expand
+- `[z]`+`[Enter]`
+- `[Ctrl]`+`[e]`
+- `[</>]`
+- `[g]`+`[z]`+`[=]`
