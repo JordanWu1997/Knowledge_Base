@@ -47,11 +47,12 @@ Place that stores my knowledge and shares it to everyone else.
 
 ### Linking
 
-- Use direct file reference `[note](rel_path_to_note)` instead of markdown note linking `[[note]]`
+- Use direct file reference e.g. \[README\](./README.md) instead of markdown note linking e.g. \[[README]\]
   - Then when you move your notes here and there, you can use vim-wiki to update link for you
 - When linking notes, use __relative path__ for vim-wiki link interconnection adaptivity
   - Same reason as above one
-- When linking other files that are not notes, use __absolute path__ `[file](abs_path_to_file)`
+- When linking other files that are not notes, use __absolute path__ e.g. `[README](//$HOME/Documents/KNOWLEDGE_BASE/README.md)`
+  - Here additional `/`/ must be inserted before absolute file path to prevent confusion with internal link
   - Normally, they should all just stays in `resources` directory under wiki root directory
 
 ### Formatting
