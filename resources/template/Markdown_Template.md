@@ -1,5 +1,5 @@
-Tags: #Template
-Vimwiki: :Template:
+- __Tags__: #Template
+- __Vimwiki__: :Template:
 
 ---
 
@@ -7,9 +7,9 @@ Vimwiki: :Template:
 - __Description:__
 - __Author:__ Kuan-Hsien Wu
 - __Contact:__ jordankhwu@gmail.com
-- __Date:__
+- __Datetime:__ YYYY-mm-DD HH:MM:SS
 
-# Table of Contents
+## Contents
 
 # Context
 

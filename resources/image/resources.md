@@ -1,5 +1,5 @@
-Tags: #Resource #Image
-Vimwiki: :Resource:Image:
+- __Tags__: #Resource #Image
+- __Vimwiki__: :Resource:Image:
 
 ---
 

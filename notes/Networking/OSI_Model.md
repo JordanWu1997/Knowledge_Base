@@ -1,5 +1,5 @@
-Tags: #OSI #Networking
-Vimwiki: :OSI:Networking:
+- __Tags__: #OSI #Networking
+- __Vimwiki__: :OSI:Networking:
 
 # Open Systems Interconnect (OSI) Model
 

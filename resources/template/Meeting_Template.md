@@ -1,25 +1,26 @@
-Tags: #Meeting
-Vimwiki: :Meeting:
+- __Tags__: #Meeting
+- __Vimwiki__: :Meeting:
 
 ---
 
 # Title
-- __Description:__ Meeting at
-    -
-    - C-LINK:
-- __Author:__ Kuan-Hsien Wu
-- __Author:__ Jordan (Kuan-Hsien Wu)
-- __Contact:__ jordan@c-link.com.tw
-- __Date:__
 
-# Table of Contents
+- __Description:__ Con-call/Meeting at
+- __Attendants__:
+  - Organization:
+    - Name (Title)
+- __Minutes:__
+  - Kuan-Hsien Wu (jordan@c-link.com.tw)
+- __Datetime:__ YYYY-mm-DD HH:MM:SS
 
 # Context
 
-## Section
-- Descriptions
+## Agenda
 
-### Sub-section
-- Descriptions
+### Topic
 
-# Reference
+- Description
+- Resolution/Action
+- Action Owner
+
+## Summary

@@ -1,5 +1,5 @@
-Tags: #Concurrency #Synchronous #Asynchronous #Thread #Process #Coroutine
-Vimwiki: :Concurrency:Synchronous:Asynchronous:Thread:Process:Coroutine:
+- __Tags__: #Concurrency #Synchronous #Asynchronous #Thread #Process #Coroutine
+- __Vimwiki__: :Concurrency:Synchronous:Asynchronous:Thread:Process:Coroutine:
 
 ______________________________________________________________________
 

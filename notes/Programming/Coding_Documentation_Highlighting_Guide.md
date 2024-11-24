@@ -1,5 +1,5 @@
-Tags: #ChatGPT #Markdown #Document #Highlighting
-Vimwiki: :ChatGPT:Markdown:Document:Highlighting:
+- __Tags__: #ChatGPT #Markdown #Document #Highlighting
+- __Vimwiki__: :ChatGPT:Markdown:Document:Highlighting:
 
 ______________________________________________________________________
 

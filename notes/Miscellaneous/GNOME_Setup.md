@@ -1,5 +1,5 @@
-Tags: #Gnome #Keyboard #Mouse #Touchpad #System #Shortcuts #Workflow #Setup
-Vimwiki: :Gnome:Keyboard:Mouse:Touchpad:System:Shortcuts:Workflow:Setup:
+- __Tags__: #Gnome #Keyboard #Mouse #Touchpad #System #Shortcuts #Workflow #Setup
+- __Vimwiki__: :Gnome:Keyboard:Mouse:Touchpad:System:Shortcuts:Workflow:Setup:
 
 ______________________________________________________________________
 

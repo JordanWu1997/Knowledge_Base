@@ -1,5 +1,5 @@
-Tags: #Generator #Text2image
-Vimwiki: :Generator:Text2image:
+- __Tags__: #Generator #Text2image
+- __Vimwiki__: :Generator:Text2image:
 
 ______________________________________________________________________
 

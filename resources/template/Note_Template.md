@@ -1,22 +1,30 @@
-Tags: #Note
-Vimwiki: :Note:
+- __Tags__: #Note
+- __Vimwiki__: :Note:
 
 ---
 
 # Title
+
 - __Description:__
 - __Author:__ Kuan-Hsien Wu
 - __Contact:__ jordankhwu@gmail.com
-- __Date:__
+- __Datetime:__ YYYY-mm-DD HH:MM:SS
 
-# Table of Contents
+## Contents
 
 # Context
 
 ## Section
+
 - Descriptions
 
 ### Sub-section
+
 - Descriptions
+
+  ```
+  # Code Block
+
+  ```
 
 ## Reference

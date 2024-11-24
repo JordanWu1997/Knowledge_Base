@@ -1,5 +1,5 @@
-Tags: #YOLOX #ImageAugmentation #Mosaic #Mixup
-Vimwiki: :YOLOX:ImageAugmentation:Mosaic:Mixup:
+- __Tags__: #YOLOX #ImageAugmentation #Mosaic #Mixup
+- __Vimwiki__: :YOLOX:ImageAugmentation:Mosaic:Mixup:
 
 ______________________________________________________________________
 

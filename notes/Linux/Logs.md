@@ -1,3 +1,5 @@
+# Log
+
 https://www.youtube.com/watch?v=6uP_f_z3CbM
 
 boot.log

@@ -1,5 +1,5 @@
-Tags: #Git
-Vimwiki: :Git:
+- __Tags__: #Git
+- __Vimwiki__: :Git:
 
 # Git
 

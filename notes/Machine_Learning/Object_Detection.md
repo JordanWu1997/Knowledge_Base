@@ -1,5 +1,5 @@
-Tags: #YOLO #ObjectDetection
-Vimwiki: :YOLO:ObjectDetection:
+- __Tags__: #YOLO #ObjectDetection
+- __Vimwiki__: :YOLO:ObjectDetection:
 
 ______________________________________________________________________
 

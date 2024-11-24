@@ -1,5 +1,5 @@
-Tags: #FOSS #LibreOffice
-Vimwiki: :FOSS:LibreOffice:
+- __Tags__: #FOSS #LibreOffice
+- __Vimwiki__: :FOSS:LibreOffice:
 
 ______________________________________________________________________
 

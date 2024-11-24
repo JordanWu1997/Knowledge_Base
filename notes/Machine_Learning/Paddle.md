@@ -1,5 +1,5 @@
-Tags: #PaddleOCR #OCR
-Vimwiki: :PaddleOCR:OCR:
+- __Tags__: #PaddleOCR #OCR
+- __Vimwiki__: :PaddleOCR:OCR:
 
 ______________________________________________________________________
 

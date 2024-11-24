@@ -1,3 +1,5 @@
+# Google Hacking
+
 site
 inurl
 allinurl

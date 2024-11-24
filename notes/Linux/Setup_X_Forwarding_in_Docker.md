@@ -1,5 +1,5 @@
-Tags: #Docker #SSH #Forwarding #GUI
-Vimwiki: :Docker:SSH:Forwarding:GUI:
+- __Tags__: #Docker #SSH #Forwarding #GUI
+- __Vimwiki__: :Docker:SSH:Forwarding:GUI:
 
 # Setup SSH X Forwarding in Docker
 

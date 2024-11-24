@@ -1,5 +1,5 @@
-Tags: #AOEIIDE #LinuxGaming
-Vimwiki: :AOEIIDE:LinuxGaming:
+- __Tags__: #AOEIIDE #LinuxGaming
+- __Vimwiki__: :AOEIIDE:LinuxGaming:
 
 ______________________________________________________________________
 
