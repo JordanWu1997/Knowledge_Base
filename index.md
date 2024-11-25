@@ -111,9 +111,11 @@
 ## Resources
 
 ### Index Page
+
 - [resources/image/resources](resources/image/resources.md)
 
 ### Template
+
 - [Book_Note_Tempalte](resources/template/Book_Note_Template.md)
 - [Markdown_Template](resources/template/Markdown_Template.md)
 - [Meeting_Template](resources/template/Meeting_Template.md)

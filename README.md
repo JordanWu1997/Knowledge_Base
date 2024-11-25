@@ -51,9 +51,12 @@ Place that stores my knowledge and shares it to everyone else.
   - Then when you move your notes here and there, you can use vim-wiki to update link for you
 - When linking notes, use __relative path__ for vim-wiki link interconnection adaptivity
   - Same reason as above one
-- When linking other files that are not notes, use __absolute path__ e.g. `[README](//$HOME/Documents/KNOWLEDGE_BASE/README.md)`
-  - Here additional `/`/ must be inserted before absolute file path to prevent confusion with internal link
-  - Normally, they should all just stays in `resources` directory under wiki root directory
+- When linking other files that are not notes, use __relative path__ e.g. `[image](./resources/image/Communication_and_Interfaces_in_the_OSI_model.png)`
+  - Normally, files that are not notes should all just stay in `resources` directory under wiki root directory
+  - Here I don't use absolute path or vimwiki link since they breaks on Github pages or difference host machines
+    - But the links will break on GitHub pages or different host machines
+  - However, if you don't care about GitHub pages or just take note on single local machine
+    - You can still use absolute path, but note that additional `/`/ must be inserted before absolute file path to prevent confusion with internal link
 
 ### Formatting
 

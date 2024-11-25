@@ -15,9 +15,10 @@ Introduced on 1984 by International Organization for Standardization (ISO)
 Sending (encapsulation)
 Receiving (de-encapsulation)
 
-| ![alt text](///home/jordankhwu/Documents/KNOWLEDGE_BASE/resources/image/Communication_and_Interfaces_in_the_OSI_model.png) |
+| ![alt text](../../resources/image/Communication_and_Interfaces_in_the_OSI_model.png)                                      |
 | -------------------------------------------------------------------------------------------------------------------------- |
 | Credit: https://examradar.com/osi-model-2/communication-interfaces-in-the-osi-model/                                       |
+
 
 ## Layer 7 - Application Layer (data)
 

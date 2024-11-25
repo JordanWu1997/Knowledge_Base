@@ -109,4 +109,4 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Summary
 
-![figure - regex_summary](/resources/image/Regex.png)
+![figure - regex_summary](../../resources/image/Regex.png)
