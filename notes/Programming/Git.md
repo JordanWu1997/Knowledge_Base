@@ -3,143 +3,177 @@
 
 # Git
 
-Note for git learning
+A learning note for Git.
 
-- Reference
-  - https://levelup.gitconnected.com/7-lesser-known-git-commands-and-tricks-9915e9caeb70
-  - https://www.reddit.com/r/commandline/comments/uy5quc/7_lesserknown_git_commands_and_tricks/
-  - https://www.w3schools.com/git/default.asp
-  - https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting
-  - https://www.maxlist.xyz/2020/05/02/git-merge-rebase/
-  - https://www.youtube.com/watch?v=akD-DpolilE
+- **References**:
+  - [7 Lesser-Known Git Commands and Tricks - GitConnected](https://levelup.gitconnected.com/7-lesser-known-git-commands-and-tricks-9915e9caeb70)
+  - [Reddit: 7 Lesser-Known Git Commands and Tricks](https://www.reddit.com/r/commandline/comments/uy5quc/7_lesserknown_git_commands_and_tricks/)
+  - [W3Schools Git Tutorial](https://www.w3schools.com/git/default.asp)
+  - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
+  - [Maxlist Git Merge vs. Rebase](https://www.maxlist.xyz/2020/05/02/git-merge-rebase/)
+  - [YouTube Video on Git Concepts](https://www.youtube.com/watch?v=akD-DpolilE)
+
+---
 
 # Context
 
 ## Introduction to Git
 
-Version Control System (VCS)
+Git is a **Version Control System (VCS)** that tracks changes in files and
+coordinates work on those files among multiple people.
 
-## Config
+---
 
-- `git init`
-- `git clone`
-- `git config --global`
+# Git Commands
 
-## Stage (Add)
+## Configuration
 
-- Add file FILE to stage
+- Initialize a new Git repository
+  - `git init`
+- Clone an existing repository
+  - `git clone [repository_url]`
+- Set global Git configuration (e.g., username, email)
+  - `git config --global [key] [value]`
+
+---
+
+## Staging (Add/Restore)
+
+- Add a file to the staging area
   - `git add FILE`
-- Add files to stage interactively
+- Interactively choose chunks of a file to stage
   - `git add -p`
-- Restore file FILE change
+- Discard changes in a file (restore to last committed state)
   - `git restore FILE`
+
+---
 
 ## Commit
 
-- Commit files on stage to git (snapshot)
+- Create a commit with staged changes
   - `git commit`
-- Modify commit message
+- Modify the last commit (e.g., edit commit message)
   - `git commit --amend`
-- Create a new commit to cancel last commit (move HEAD forward)
+- Revert the last commit by creating a new commit that undoes it
   - `git revert HEAD^`
-- Reset to last commit (move HEAD backward)
+- Move HEAD one commit backward, unstaging changes
   - `git reset HEAD^`
-- Show committed content
+- Display changes introduced by a commit
   - `git show`
-- Save change made without making commit (to clean your stage for other works)
+- Save uncommitted changes temporarily (clean workspace)
   - `git stash`
-- List saved changes saved by stash
+- List all stashes
   - `git stash list`
-- Apply saved changes saved by stash
+- Reapply stashed changes
   - `git stash apply`
+- Save changes to a new stash manually
+  - `git stash push`
+- Reapply and remove the most recent stash
+  - `git stash pop`
+- Remove a specific stash
+  - `git stash drop <stash>`
+- Clear all stashes
+  - `git stash clear`
 
-## Remote
+---
 
-- Add remote server
-  - `git remote add [variable_name] [remote_server]`
-  - `git remote add ssh-origin git@`
-- Set URL for existing remote server
-  - `git remote set-url origin git@`
-- Rename remote server
-  - `git remote rename`
+## Branching and Merging
 
-## Log
-
-- Show commit message only
-
-  - `git shortlog`
-
-- Show hash and commit message in one line
-
-  - `git log --online`
-
-- Show log of commits
-
-  - `git log --stat`
-
-- Show all changes of commits
-
-  - `git log -p`
-
-- `git status`
-
-- `git blame`
-
-- `git tag`
-
-## Branch
-
-- Show current branch
+- Show the current branch
   - `git branch`
-- List all branches
+- List all local and remote branches
   - `git branch -a`
-- Show remote branches
+- List remote branches only
   - `git branch -r`
-- Delete branch BRANCH
+- Delete a local branch
   - `git branch -d BRANCH`
-- Change from current branch to BRANCH
+- Switch to another branch
   - `git checkout BRANCH`
-- Push commit on current branch to remote server
-  - `git push`
-- Update commits on remote server to local
-  - `git fetch`
-- Merge current branch with branch BRANCH (RECOMMENDED for public branch)
+- Checkout a specific commit
+  - `git checkout <COMMIT>`
+- Checkout a specific file from a commit
+  - `git checkout <COMMIT> <FILE>`
+- Merge a branch into the current branch (recommended for public branches)
   - `git merge BRANCH`
-- Use branch BRANCH as base of current branch (RECOMMENDED for private branch)
+- Merge a specific commit into current branch
+  - `git merge <COMMIT>`
+- Use a branch as the new base for the current branch (recommended for private branches)
   - `git rebase BRANCH`
-- Combination of `git fetch` and `git merge`
+- Interactive rebase (edit, reorder, squash commits)
+  - `git rebase -i`
+- Revert changes made by a specific commit
+  - `git revert <COMMIT>`
+- Apply changes from specific commits onto your current branch
+  - `git cherry-pick <COMMIT-1> <COMMIT-2> ... <COMMIT-N>`
+
+---
+
+## Remote Repositories
+
+- Add a remote repository
+  - `git remote add [variable_name] [remote_server_url]`
+- Add a remote server via SSH
+  - `git remote add ssh-origin git@[server]:[path]`
+- Change the URL of a remote repository
+  - `git remote set-url origin git@[server]:[path]`
+- Rename a remote repository
+  - `git remote rename [old_name] [new_name]`
+- Push the current branch commits to the remote
+  - `git push`
+- Push specific commit to a branch on the remote
+  - `git push <REMOTE> HEAD:<BRANCH>`
+- Fetch updates from a remote repository
+  - `git fetch`
+- Fetch and merge updates from a remote repository
   - `git pull`
-- Combination of `git fetch` and `git rebase`
+- Fetch and rebase updates from a remote repository
   - `git pull --rebase`
+- Pull a specific branch from a remote
+  - `git pull <REMOTE> <BRANCH>`
 
-## Misc
+---
 
-- `git bisect`
-- `git diff`
-- `git grep`
-- `git notes add -m "Test note"`
-- `git rev-parse HEAD`
-- `git archive`
-- `git bundle`
+## Viewing History
 
-git checkout <COMMIT>
-git reset --hard <COMMIT>
-git merge <COMMIT>
-git push <REMOTE> HEAD:<BRANCH>
-git pull <REMOTE> <BRANCH>
+- Show the commit history
+  - `git log`
+- Show commit history with file changes
+  - `git log --stat`
+- Show all changes introduced by each commit
+  - `git log -p`
+- Show commit history in a summarized, one-line-per-commit format
+  - `git log --oneline`
+- Display commits grouped by author
+  - `git shortlog`
+- Show the working tree status
+  - `git status`
+- Show who last modified each line of a file
+  - `git blame`
+- List, create, or delete tags
+  - `git tag`
 
-git rebase -i
+---
 
-git reset --hard <COMMIT>
-git cherry-pick <COMMIT-1> <COMMIT-2> <COMMIT-3> ...  <COMMIT-N>
+## Inspecting Changes
 
-git checkout <COMMIT> <FILE>
-git revert <COMMIT>
+- Find changes between commits, branches, or working tree
+  - `git diff`
+- Search for text in tracked files
+  - `git grep`
+- Parse and display revision (commit) information
+  - `git rev-parse HEAD`
 
-- Revert the changes of the specified commits
+---
 
-git stash push
-git stash pop
-git stash apply
-git stash clear
-git stash drop <stash>
+## Advanced and Miscellaneous
+
+- Binary search to find the commit that introduced a bug
+  - `git bisect`
+- Add notes to commits
+  - `git notes add -m "Your note"`
+- Create an archive of files from a tree
+  - `git archive --format=tar HEAD > archive.tar`
+- Create a single-file backup (bundle) of repository
+  - `git bundle create myrepo.bundle --all`
+- Hard reset current branch to a specific commit (DANGEROUS: discards changes)
+  - `git reset --hard <COMMIT>`

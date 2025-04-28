@@ -44,7 +44,7 @@
   - Mute sound.
 - \_
   - Cycle through the available video tracks.
-- # 
+- #
   - Cycle through the available audio tracks.
 - E
   - Cycle through the available Editions.

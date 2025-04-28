@@ -104,19 +104,19 @@ MySQL Server Installation on Fedora
 ### MySQL Datatype
 
 1. `INT`: Integer
-1. `DECIMAL(m,n)`: Float (m: total digit number, n: digit number after dot)
-1. `VARSHAR(n)`: String (n: maximal length of string)
-1. `BLOB`: Binary Large Object
-1. `DATE`: Date (YYYY-MM-DD)
-1. `TIMESTAMP`: Timestamp (YYYY-MM-DD HH:MM:SS)
+2. `DECIMAL(m,n)`: Float (m: total digit number, n: digit number after dot)
+3. `VARSHAR(n)`: String (n: maximal length of string)
+4. `BLOB`: Binary Large Object
+5. `DATE`: Date (YYYY-MM-DD)
+6. `TIMESTAMP`: Timestamp (YYYY-MM-DD HH:MM:SS)
 
 ### MySQL Data Component
 
 1. Primary Key: Keys that repents data in current table
    - Primary key should be __UNIQUE__ and __CANNOT BE NULL__
    - Primary key can be composed by multiple keys if one key cannot represent data uniquely
-1. Foreign Key: Keys that represents relations between current table and other tables
-1. Attribute: Properties that owns by data (e.g. columns in tables)
+2. Foreign Key: Keys that represents relations between current table and other tables
+3. Attribute: Properties that owns by data (e.g. columns in tables)
 
 ## MySQL Command - DATABASE
 
@@ -150,8 +150,8 @@ Create table
 
 - `CREATE TABLE table (id INT, name VARCHAR(255)));`
   1. Create a table call `table`
-  1. Assign first column of table with name id and its datatype INT (integer)
-  1. Assign second column of table with name name and its datatype VARCHAR (string) with max length 255
+  2. Assign first column of table with name id and its datatype INT (integer)
+  3. Assign second column of table with name name and its datatype VARCHAR (string) with max length 255
 - `CREATE TABLE table (id INT UNIQUE, name VARCHAR(255) NOT NULL)`
   - Create table `table` with
     - Column ID with datatype INT and must be unique
@@ -395,14 +395,14 @@ https://sqlbolt.com/lesson/select_queries_order_of_execution
 https://sqlbolt.com/topic/set_operations
 
 1. `FROM` and `JOIN`
-1. `WHERE`
-1. `GROUP BY`
-1. `HAVING`
-1. `SELECT`
-1. `DISTINCT`
-1. `UNION`
-1. `ORDER BY`
-1. `LIMIT` / `OFFSET`
+2. `WHERE`
+3. `GROUP BY`
+4. `HAVING`
+5. `SELECT`
+6. `DISTINCT`
+7. `UNION`
+8. `ORDER BY`
+9. `LIMIT` / `OFFSET`
 
 ## MySQL User Permission
 
