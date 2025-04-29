@@ -48,13 +48,12 @@ Place that stores my knowledge and shares it to everyone else.
 ### Linking
 
 - Use direct file reference e.g. \[README\](./README.md) instead of markdown note linking e.g. \[[README]\]
-  - Then when you move your notes here and there, you can use vim-wiki to update link for you
+  - Then when you move your notes here and there or even rename them, you can use vim-wiki to update link for you
 - When linking notes, use __relative path__ for vim-wiki link interconnection adaptivity
   - Same reason as above one
 - When linking other files that are not notes, use __relative path__ e.g. `[image](./resources/image/Communication_and_Interfaces_in_the_OSI_model.png)`
   - Normally, files that are not notes should all just stay in `resources` directory under wiki root directory
-  - Here I don't use absolute path or vimwiki link since they breaks on Github pages or difference host machines
-    - But the links will break on GitHub pages or different host machines
+  - Here I don't use absolute path or vimwiki link since they are broken when displaying on Github pages or difference host machines
   - However, if you don't care about GitHub pages or just take note on single local machine
     - You can still use absolute path, but note that additional `/`/ must be inserted before absolute file path to prevent confusion with internal link
 
