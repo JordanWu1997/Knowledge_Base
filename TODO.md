@@ -1,0 +1,17 @@
+# TODO
+- ViT
+  - DINO
+  - SAM
+- GenAI
+  - Piper
+  - Whisper
+  - Stable Diffusion
+- LLM
+  - LeanRAG
+  - HiRAG
+- Project
+  - Lunch Bot
+- Self-host
+  - Docker iptables
+- Test
+  - Hello world
