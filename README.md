@@ -70,3 +70,10 @@ Place that stores my knowledge and shares it to everyone else.
 ### Publishing
 
 - Use `pandoc` to export markdown note file and embed resources to HTML file
+
+## Sync
+
+### Android Phone
+
+- `Knowledge_Base`: Upload directory to `Google Drive` and sync with `DriveSync`
+- `diary` (github private repo): `Github Journal`
