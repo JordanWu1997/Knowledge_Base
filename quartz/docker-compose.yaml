@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  quartz:
+    build:
+      context: .
+    container_name: vimwiki-quartz
+    restart: unless-stopped
+    ports:
+      - "8088:8088"
+    volumes:
+      - ~/Documents/KNOWLEDGE_BASE:/quartz/content
